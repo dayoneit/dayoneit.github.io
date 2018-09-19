@@ -1,7 +1,46 @@
 :root {
-  --main-color: #F06D06;
+	/*Colors*/
+  --main-color: #373737;
+  --subtitle-color: #828282;
+  --heading-color: #696969;
+  --block-color: #F9F9FF;
+  --line-color: #B8BBC1;
+  --button: #6200EE;
+  
+  /*Font*/
+  --font: ;
+  --heading-size: 36px;
+  --subheading-size: 24px;
+ 
 }
 
-div {
-  color: var(--main-color);
+.block-color {
+  background-color: var(--block-color);
 }
+.block-details{
+	margin-top: 80px;
+  margin-bottom: 100px;
+}
+.block-heading{
+	font-size: var(--heading-size);
+	text-transform: uppercase;
+	color: var(--heading-color);
+}
+.heading-border {
+  display: block;
+  width: 125px;
+  height: 2px;
+  background: var(--line-color);
+  margin: 5px auto 42px;
+}
+.block-image{
+	width: 156px; 
+	height: 150px;
+}
+.block-subheading{
+	font-size: var(--subheading-size);
+}
+.icon-text{
+	margin-top: 23px;
+}
+
