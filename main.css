@@ -1,12 +1,15 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato');*/
+
 :root {
 	/*Colors*/
-  --main-color: #373737;
+  --main-color-text: #373737;
   --subtitle-color: #828282;
   --heading-color: #696969;
   --block-color: #F9F9FF;
   --line-color: #B8BBC1;
-  --button: #6200EE;
+  --main-color: #6200EE;
   --navbar-border-color: #697C9E;
+  --white-color: #ffffff;
   
   /*Font*/
   --font: ;
@@ -14,7 +17,16 @@
   --subheading-size: 24px;
   --slogan-size: 48px;
   --slogan-subtitle-size: 20px;
+  --underline-size: 16px;
+  --smaller-size: 14px;
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --black-bold: 900;
  
+}
+body{
+  font-family: 'Lato', sans-serif;
 }
 /*Navbar*/
 .navbar{
@@ -38,6 +50,11 @@
   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
 }
+.logo{
+  font-size: 28px;
+  font-weight: var(--bold);
+  color: var(--main-color);
+}
 .slogan{
 	font-size: var(--slogan-size);
 }
@@ -60,13 +77,13 @@
 }
 .block-heading{
 	font-size: var(--heading-size);
-	text-transform: uppercase;
 	color: var(--heading-color);
+  font-weight: var(--black-bold);
 }
 .heading-border {
   display: block;
   width: 125px;
-  height: 2px;
+  height: 3px;
   background: var(--line-color);
   margin: 5px auto 42px;
 }
@@ -76,9 +93,54 @@
 }
 .block-subheading{
 	font-size: var(--subheading-size);
+  font-weight: var(--bold);
+  margin-bottom: 5px;
 }
 .icon-text{
 	margin-top: 23px;
+  color: var(--navbar-border-color);
 }
+.image-footer{
+  font-weight: var(--regular);
+  font-size: var(--smaller-size);
+  padding: 5px 15px; 
+  text-align: left;
+}
+.undeline-text{
+  margin-top:75px;
+  font-size: var(--underline-size);
+  color: var(--main-color);
+}
+.icon-text-2{
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--bold);
+  margin-top: 15px;
+}
+.icon-text-sub{
+  font-size: var(--smaller-size);
+  padding: 0 71px;
+  margin-top: 7px;
+}
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-main {
+  font-size: var(--slogan-subtitle-size);
+  text-transform: uppercase;
+  color: var(--white-color);
+  letter-spacing: 1px;
+  /*line-height: 40px;*/
+  /*border: 2px solid rgba(108, 89, 179, 0.75);*/
+  border-radius: 40px;
+  /*background: linear-gradient(to right, var(--main-color) , var(--white-color));*/
+  background: var(--main-color);
+  transition: all 0.3s ease 0s;
+  width: 250px;
+  height: 64px;
+}
+.tabs{
+  font-size: var(--slogan-subtitle-size);
+  color: var(--main-color-text);
 
-
+}
