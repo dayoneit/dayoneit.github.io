@@ -12,13 +12,13 @@
   --white-color: #ffffff;
   
   /*Font*/
-  --font: ;
   --heading-size: 36px;
   --subheading-size: 24px;
   --slogan-size: 48px;
   --slogan-subtitle-size: 20px;
   --underline-size: 16px;
   --smaller-size: 14px;
+  --big-number-size: 88px;
   --light: 300;
   --regular: 400;
   --bold: 700;
@@ -136,11 +136,40 @@ body{
   /*background: linear-gradient(to right, var(--main-color) , var(--white-color));*/
   background: var(--main-color);
   transition: all 0.3s ease 0s;
-  width: 250px;
+  /*width: 250px;*/
   height: 64px;
+  padding: 0 5%;
 }
 .tabs{
   font-size: var(--slogan-subtitle-size);
   color: var(--main-color-text);
 
+}
+.review-details{
+  text-align: left;
+}
+.review-img{
+  width: 450px; 
+  height: 340px;
+}
+.review-text{
+  font-size: var(--underline-size);
+  color: var(--main-color-text);
+  padding-left: 15%;
+  margin-top: 20px;
+}
+.quotes{
+  padding-left: 10%;
+}
+.plus{
+  font-size: 100px;
+}
+.big-numb{
+  font-size: var(--big-number-size); 
+  font-weight: var(--bold);
+  color: var(--heading-color);
+}
+.contact-text{
+  text-align: left;
+  font-size: 28px;
 }
