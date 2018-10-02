@@ -3,16 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Orchards</title>
-    
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+    </script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
     <link rel="stylesheet" type="text/css" href="main.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
   </head>
+ 
   <body>
+    <!-- <div id="header"></div> -->
     <!-- Navigation bar  -->
     <nav class="navbar navbar-default">
       <div class="container-fluid" style="margin-bottom: 10px; margin-top: 8px;">
@@ -198,24 +206,24 @@
               <img src="placehold.jpg" class="review-img" alt="">
             </div>
             <div class="col-md-7 review-details">
-              <div class="row quotes"><img src="img/quote-1.png" class="" alt=""></div>
-              <div class="row review-text">
+              <div class="row quotesR"><img src="img/quote-1.png" class="" alt=""></div>
+              <div class="row review-textR">
                 <div class="" style="padding-right: 14%;">lLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis lacus risus, quis auctor turpis blandit nec. Pellentesque eu elementum urna. Nullam lacinia tellus tincidunt risus maximus, ac vehicula enim accumsan. Integer odio tellus, pharetra ac nisl quis, mattis semper arcu. Integer commodo ipsum sed mollis varius.</div>
               </div>
-              <div class="row review-text">
-                <div class="col-md-10">- Name Here</div>
+              <div class="row review-textR">
+                <div class="col-md-10 name-quote">- Name Here</div>
                 <div class="col-md-2"><img src="img/quote-2.png" class="" alt=""></div>
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="margin-top: 14%;">
             <div class="col-md-7 review-details">
-              <div class="row quotes"><img src="img/quote-1.png" class="" alt=""></div>
-              <div class="row review-text">
-                <div class="" style="padding-right: 14%;">lLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis lacus risus, quis auctor turpis blandit nec. Pellentesque eu elementum urna. Nullam lacinia tellus tincidunt risus maximus, ac vehicula enim accumsan. Integer odio tellus, pharetra ac nisl quis, mattis semper arcu. Integer commodo ipsum sed mollis varius.</div>
+              <div class="row quotesL"><img src="img/quote-1.png" class="" alt=""></div>
+              <div class="row review-textL">
+                <div class="">lLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis lacus risus, quis auctor turpis blandit nec. Pellentesque eu elementum urna. Nullam lacinia tellus tincidunt risus maximus, ac vehicula enim accumsan. Integer odio tellus, pharetra ac nisl quis, mattis semper arcu. Integer commodo ipsum sed mollis varius.</div>
               </div>
-              <div class="row review-text">
-                <div class="col-md-10">- Name Here</div>
+              <div class="row review-textL">
+                <div class="col-md-10 name-quote">- Name Here</div>
                 <div class="col-md-2"><img src="img/quote-2.png" class="" alt=""></div>
               </div>
             </div>
@@ -230,11 +238,17 @@
         <div class="col-md-6 col-md-offset-3 block-details text-center">
           <div class="block-heading">To Get Started</div>
           <div class="heading-border"></div>
-          <div style="font-size:32px">Use our limited low rate offer:</div>
+          <div class="sub-textP" ">Use our limited low rate offer:</div>
           <div class="row">
-            <div class="col-md-5 big-numb">$30</div>
+            <div class="col-md-5">
+              <div class="big-numb">$30</div>
+              <div class="sub-textP">$30 for first 30 min of in-home visit</div>
+            </div>
             <div class="col-md-2 plus">+</div>
-            <div class="col-md-5 big-numb">$10</div>
+            <div class="col-md-5">
+              <div class="big-numb">$10</div>
+              <div class="sub-textP">$10 for each 30 min afterward.</div>
+            </div>
           </div>
           <div class="row">
             <div style="margin-top:40px">
@@ -248,23 +262,70 @@
         <div class="col-md-6 col-md-offset-3 block-details text-center">
           <div class="block-heading">To Learn More</div>
           <div class="heading-border"></div>
-          <div>Get in touch and let us know how we can help.</div>
+          <div class="sub-textC">Get in touch and let us know how we can help.</div>
           <div class="row">
             <div class="col-md-2">
               <img src="img/phone.png" class="" alt="">
             </div>
-            <div class="col-md-10 contact-text">
-              <div class="">Call Us</div>
-              <div>352-328-7099</div>
+            <div class="col-md-10">
+              <div class="contact-text">Call Us</div>
+              <div class="contact-number">352-328-7099</div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row">
+            <div class="col-md-2">
+              <img src="img/email.png" class="" alt="">
+            </div>
+            <div class="col-md-10">
+              <div class="contact-text">Email Us</div>
+              <div class="contact-number">contact@dayoneit.com</div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="col-md-3">
+            <div class="footer-heading">Orchard</div>
+            <div class="footer-links">Link</div>
+            <div class="footer-links">Link</div>
+            <div class="footer-links">Link</div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-heading">About Us</div>
+            <div class="footer-links">Link</div>
+            <div class="footer-links">Link</div>
+            <div class="footer-links">Link</div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-heading">Pricing</div>
+            <div class="footer-links">Link</div>
+            <div class="footer-links">Link</div>
+            <div class="footer-links">Link</div>
+          </div>
+          <div class="col-md-3" style="padding-right: 0px;">
+            <div class="footer-heading">Contact Us</div>
+            <div class="footer-links">Gainesville FL</div>
+            <div class="footer-links">xxx-xxx-xxxx</div>
+            <div class="footer-links">contact@dayoneit.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-divider"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">© 2018 Orchard</div>
       </div>
     </div>
 
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+    <!-- <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script> -->
   </body>
 </html>

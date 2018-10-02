@@ -10,6 +10,7 @@
   --main-color: #6200EE;
   --navbar-border-color: #697C9E;
   --white-color: #ffffff;
+  --footer-color: #2D2D2D;
   
   /*Font*/
   --heading-size: 36px;
@@ -19,10 +20,14 @@
   --underline-size: 16px;
   --smaller-size: 14px;
   --big-number-size: 88px;
+  --size-32: 32px;
+  --size-28: 28px;
+  --size-40: 40px;
   --light: 300;
   --regular: 400;
   --bold: 700;
   --black-bold: 900;
+  --italic: italic;
  
 }
 body{
@@ -152,24 +157,84 @@ body{
   width: 450px; 
   height: 340px;
 }
-.review-text{
+.review-textR{
   font-size: var(--underline-size);
   color: var(--main-color-text);
   padding-left: 15%;
   margin-top: 20px;
 }
-.quotes{
+.review-textL{
+  font-size: var(--underline-size);
+  color: var(--main-color-text);
+  margin-top: 20px;
+  padding-left: 8%;
+  padding-right: 22%;
+}
+.name-quote{
+  font-style: var(--italic);
+}
+.quotesR{
   padding-left: 10%;
+}
+.quotesL{
+  padding-left: 2%;
 }
 .plus{
   font-size: 100px;
+  font-weight: var(--bold);
+  opacity: 0.12;
+}
+.sub-textP{
+  font-size: var(--size-32);
+  color: var(--heading-color);
+  margin-bottom: 15px;
 }
 .big-numb{
   font-size: var(--big-number-size); 
   font-weight: var(--bold);
   color: var(--heading-color);
 }
+.sub-textC{
+  margin-bottom: 40px;
+  font-size: var(--slogan-subtitle-size);
+}
 .contact-text{
   text-align: left;
-  font-size: 28px;
+  font-size: var(--size-28);
+  color: var(--heading-color);
+}
+.contact-number{
+  text-align: left;
+  font-size: var(--size-40);
+  color: var(--heading-color);
+}
+.divider{
+  display: block;
+  width: 66%;
+  height: 1px;
+  background: var(--line-color);
+  margin: 22px auto 22px;  
+}
+.footer{
+  background-color: var(--footer-color);
+  color: var(--white-color);
+  font-size: var(--slogan-subtitle-size);
+  padding-bottom: 65px;
+  padding-top: 65px;
+}
+.footer-heading{
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.footer-links{
+  font-weight: var(--light);
+  line-height: 2.0;
+}
+.footer-divider{
+  display: block;
+  /*width: 66%;*/
+  height: 1px;
+  background: var(--line-color);
+  margin: 3% auto 3%;  
 }
