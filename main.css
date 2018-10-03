@@ -76,6 +76,10 @@ body{
 .block-color {
   background-color: var(--block-color);
 }
+.first-block{
+  margin-top: 80px;
+  margin-bottom: 30px;  
+}
 .block-details{
 	margin-top: 80px;
   margin-bottom: 100px;
@@ -123,7 +127,7 @@ body{
 }
 .icon-text-sub{
   font-size: var(--smaller-size);
-  padding: 0 71px;
+  padding: 0 60px;
   margin-top: 7px;
 }
 .btn {
@@ -149,6 +153,10 @@ body{
   font-size: var(--slogan-subtitle-size);
   color: var(--main-color-text);
 
+}
+.hiw-img{
+  max-width: 245px;
+  max-height: 245px;
 }
 .review-details{
   text-align: left;
