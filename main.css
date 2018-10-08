@@ -86,7 +86,7 @@ body{
   background-color: var(--block-color);
 }
 .first-block{
-  margin-top: 81px;
+  margin-top: 162px;
   margin-bottom: 31px;  
 }
 .block-details{
@@ -140,26 +140,6 @@ body{
   padding: 0 60px;
   margin-top: 7px;
 }
-/*.btn {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.btn-main {
-  font-size: var(--slogan-subtitle-size);
-  text-transform: uppercase;
-  color: var(--white-color);
-  letter-spacing: 1px;
- 
-  border-radius: 40px;
-  background: var(--main-color);
-  transition: all 0.3s ease 0s;
-  height: 64px;
-  padding: 0 5%;
-}
-*/
-/**************************
-  DEFAULT BOOTSTRAP STYLES
-**************************/
 
 .btn {
   display: inline-block;
@@ -204,16 +184,9 @@ body{
   border-color: #285e8e;
 }
 
-/***********************
-  ROUND BUTTONS
-************************/
 .round {
   border-radius: 24px;
 }
-
-/***********************
-  CUSTON BTN VALUES
-************************/
 
 .btn {
     padding: 14px 24px;
@@ -240,11 +213,6 @@ body{
     box-shadow: none;
 
 }
-
-
-
-
-
 
 .tabs{
   font-size: var(--slogan-subtitle-size);
