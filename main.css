@@ -5,7 +5,8 @@
   --main-color-text: #373737;
   --subtitle-color: #828282;
   --heading-color: #696969;
-  --block-color: #F9F9FF;
+  /*--block-color: #F9F9FF;*/
+  --block-color: #F8F8FF;
   --line-color: #B8BBC1;
   --main-color: #6200EE;
   --navbar-border-color: #697C9E;
@@ -87,7 +88,7 @@ body{
 .block-heading{
 	font-size: var(--heading-size);
 	color: var(--heading-color);
-  font-weight: var(--black-bold);
+  font-weight: var(--bold);
 }
 .heading-border {
   display: block;
