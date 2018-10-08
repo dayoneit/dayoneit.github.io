@@ -118,6 +118,7 @@ body{
 	margin-top: 23px;
   color: var(--navbar-border-color);
   font-size: var(--desc-size);
+  font-weight: var(--semi-bold);
 }
 .image-footer{
   font-weight: var(--regular);
