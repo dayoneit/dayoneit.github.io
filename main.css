@@ -26,13 +26,15 @@
   --size-40: 40px;
   --light: 300;
   --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
   --bold: 700;
   --black-bold: 900;
   --italic: italic;
  
 }
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Hind', sans-serif;
 }
 /*Navbar*/
 .navbar{
@@ -158,6 +160,25 @@ body{
 .hiw-img{
   max-width: 245px;
   max-height: 245px;
+}
+.values-subheading{
+  font-size: var(--subheading-size);
+  font-weight: var(--bold);
+  margin-bottom: 9px;
+  color: var(--main-color-text);
+}
+.values-desc{
+  font-size: var(--underline-size);
+  line-height: 28px;
+  font-weight: var(--regular);
+  color: var(--main-color-text);
+}
+.values-divider{
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: var(--line-color);
+  margin: 100px auto 30px;  
 }
 .review-details{
   text-align: left;
