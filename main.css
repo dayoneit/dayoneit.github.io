@@ -73,15 +73,12 @@ body{
 	font-size: var(--slogan-size);
 }
 .slogan-subtitle{
-	font-size: var(--slogan-subtitle-size);
+  font-size: var(--slogan-subtitle-size);
+	padding-right: 0; 
+  padding-left: 0;   
 /*	padding: 0 85px 0 0;
 	margin-top: 15px;*/
 }
-.slogan-subtitle-padding{
-	padding-right: 0; 
-  padding-left: 0; 
-}
-
 .block-color {
   background-color: var(--block-color);
 }
