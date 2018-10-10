@@ -96,7 +96,7 @@ body{
 .block-heading{
 	font-size: var(--heading-size);
 	color: var(--heading-color);
-  font-weight: var(--bold);
+  font-weight: var(--semi-bold);
 }
 .heading-border {
   display: block;
@@ -126,10 +126,15 @@ body{
   padding: 5px 15px; 
   text-align: left;
 }
-.undeline-text{
+.underline-hov{
   margin-top:75px;
   font-size: var(--desc-size);
   color: var(--main-color);
+}
+.underline-hov:focus, .underline-hov:hover {
+    color: var(--main-color);
+    opacity: 0.9;
+    text-decoration: underline;
 }
 .icon-text-2{
   font-size: var(--subheading-size);
