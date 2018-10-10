@@ -351,3 +351,15 @@ body{
   background: var(--line-color);
   margin: 3% auto 3%;  
 }
+.footer-or{
+  width: 25%; 
+  height: 16px; 
+  border-bottom: 1px solid black; 
+  text-align: center;
+  margin: 25px auto 20px;
+}
+.footer-orText{
+  font-size: 25px; 
+  background-color: var(--block-color); 
+  padding: 0 10px;
+}
