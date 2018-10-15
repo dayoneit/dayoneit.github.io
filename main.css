@@ -325,14 +325,18 @@ body{
   font-weight: var(--light);
 }
 .contact-text{
-  text-align: left;
-  font-size: var(--size-28);
+  /* text-align: left; */
+  font-size: var(--slogan-subtitle-size);
   color: var(--heading-color);
+  float: left;
 }
 .contact-number{
   text-align: left;
   font-size: var(--size-40);
   color: var(--heading-color);
+}
+.contact-imgIcon{
+  float: left;
 }
 .divider{
   display: block;
