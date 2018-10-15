@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <title>Orchards</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="main.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
@@ -21,21 +20,18 @@
     <div class="container-fluid">
       <!-- First Block -->
       <div class="row first-block">
-        <div class="col-md-5">
+        <div class="col-md-6" style="margin-top: 84px">
           <div class="col-md-10 col-md-offset-2">
             <div class="slogan">Technology Help</div>
             <div class="slogan">with Smiles</div>
-            <div class="slogan-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
+            <div class="slogan-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
             <div style="margin-top:40px">
               <button type="button" class="btn btn-primary btn-lg round">Contact Us 352-328-7099</button>
-            </div>
-            <div class="text-center">Or</div>
-            <div style="margin-top:40px">
               <button type="button" class="btn btn-secondary btn-lg round">Send Us a Message</button>
             </div>
           </div>
         </div>
-        <div class="col-md-7" style="padding-right:0">
+        <div class="col-md-6" style="padding-right:0">
           <div style="text-align:right"><img src="img/tree_illustration.png" class="" alt=""></div>
         </div>
       </div>
@@ -157,6 +153,37 @@
           <div class="row">
             <div style="margin-top:40px">
               <button type="button" class="btn btn-primary btn-lg round">Contact Us</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Recipient:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
