@@ -118,7 +118,7 @@ body{
 	margin-top: 23px;
   color: var(--navbar-border-color);
   font-size: var(--desc-size);
-  font-weight: var(--semi-bold);
+  font-weight: var(--regular);
 }
 .image-footer{
   font-weight: var(--regular);
@@ -137,12 +137,14 @@ body{
     text-decoration: underline;
 }
 .icon-text-2{
-  font-size: var(--subheading-size);
-  font-weight: var(--bold);
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--regular);
+  text-transform: uppercase;
   margin-top: 15px;
 }
 .icon-text-sub{
   font-size: var(--desc-size);
+  font-weight: var(--regular);
   padding: 0 60px;
   margin-top: 7px;
 }
@@ -253,13 +255,13 @@ body{
 }
 .values-subheading{
   font-size: var(--subheading-size);
-  font-weight: var(--bold);
+  font-weight: var(--regular);
   margin-bottom: 9px;
 }
 .values-desc{
   font-size: var(--desc-size);
-  line-height: 28px;
-  font-weight: var(--regular);
+  line-height: 29px;
+  font-weight: var(--light);
 }
 .values-divider{
   display: block;
@@ -297,22 +299,28 @@ body{
 }
 .plus{
   font-size: 100px;
-  font-weight: var(--bold);
+  font-weight: var(--regular);
   opacity: 0.12;
 }
 .sub-textP{
   font-size: var(--subheading-size);
+  font-weight: var(--light);
   color: var(--heading-color);
   margin-bottom: 15px;
 }
 .big-numb{
   font-size: var(--big-number-size); 
-  font-weight: var(--bold);
+  font-weight: var(--light);
   color: var(--heading-color);
+}
+.big-numb-sub{
+  font-size: 32px;
+  font-weight: var(--light);
 }
 .sub-textC{
   margin-bottom: 40px;
   font-size: var(--subheading-size);
+  font-weight: var(--light);
 }
 .contact-text{
   text-align: left;
