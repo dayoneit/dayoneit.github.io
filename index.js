@@ -9,6 +9,6 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
     let modal = $(this)
-    modal.find('.modal-title').text('Send Us a Note ' + recipient)
-    modal.find('.modal-body input').val(recipient)
+    modal.find('.modal-title').text('Great! Let’s make sure we can contact you! ')
+    // modal.find('.modal-body input').val(recipient)
   });

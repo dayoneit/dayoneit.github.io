@@ -152,33 +152,50 @@
           </div>
           <div class="row">
             <div style="margin-top:60px">
-              <button type="button" class="btn btn-primary btn-lg round">Contact Us</button>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+              <button type="button" class="btn btn-primary btn-lg round" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact Us</button>
 
               <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
+                      <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                      <div class="modal-subTitle">We will let you know once we start our subscription plans!</div>
                     </div>
                     <div class="modal-body">
                       <form>
                         <div class="form-group">
-                          <label for="recipient-name" class="col-form-label">Recipient:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
+                          <input type="text" class="form-control" id="recipient-name" placeholder="Name">
                         </div>
                         <div class="form-group">
-                          <label for="message-text" class="col-form-label">Message:</label>
+                          <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
+                          <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
+                          <input type="text" class="form-control" id="recipient-name" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                          <!-- <label for="message-text" class="col-form-label">Message:</label> -->
                           <textarea class="form-control" id="message-text"></textarea>
                         </div>
+                        <div class="modal-text">How would you like us to reach out?</div>
+                        <label class="radio-inline">
+                          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> By Email
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> By Call
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> By Text
+                        </label>                        
                       </form>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Send message</button>
+                      <button type="submit" class="btn btn-primary btn-lg round">Submit</button>
                     </div>
                   </div>
                 </div>
@@ -299,12 +316,12 @@
           <div class="row">
             <div class="col-md-5">
               <div class="big-numb">$30</div>
-              <div class="sub-textP">for first 30 min of in-home visit</div>
+              <div class="sub-textP">$30 for first 30 min of in-home visit </div>
             </div>
             <div class="col-md-2 plus">+</div>
             <div class="col-md-5">
               <div class="big-numb">$15<span class="big-numb-sub">/30min</span> </div>
-              <div class="sub-textP">for each 30 min afterward.</div>
+              <div class="sub-textP">$15 for each 30 min afterward.</div>
             </div>
           </div>
           <div class="row">

@@ -12,6 +12,7 @@
   --navbar-border-color: #697C9E;
   --white-color: #ffffff;
   --footer-color: #2D2D2D;
+  --popup-field-color: rgba(196,196,196,0.2);
   
   /*Font*/
   --heading-size: 36px;
@@ -374,4 +375,38 @@ body{
   font-size: 25px; 
   background-color: var(--block-color); 
   padding: 0 10px;
+}
+
+/* Popup*/
+.modal-body{
+  padding: 25px 78px;
+  text-align: left;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-title{
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--regular);
+  margin-top: 65px;
+}
+.modal-subTitle{
+  font-size: var(--desc-size);
+  font-weight: var(--light);
+  margin-top: 16px;
+}
+.form-control{
+  background-color: var(--popup-field-color);
+  border: 1px solid #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+}
+.modal-footer{
+  text-align: center;
+  border-top: none;
+  margin-bottom: 65px;
+}
+.modal-text{
+  font-size: var(--desc-size);
+  font-weight: var(--regular);
+  margin-bottom: 17px;
 }
