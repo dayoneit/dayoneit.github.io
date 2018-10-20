@@ -117,7 +117,7 @@ body{
 }
 .icon-text{
 	margin-top: 23px;
-  color: var(--navbar-border-color);
+  color: var(--main-color-text);
   font-size: var(--desc-size);
   font-weight: var(--regular);
 }
