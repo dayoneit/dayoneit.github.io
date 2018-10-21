@@ -276,29 +276,30 @@ body{
   text-align: left;
 }
 .review-img{
-  width: 450px; 
-  height: 340px;
+  width: 350px; 
+  height: 350px;
 }
 .review-textR{
   font-size: var(--desc-size);
   padding-left: 15%;
+  padding-right: 20%; 
   margin-top: 20px;
 }
 .review-textL{
   font-size: var(--desc-size);
+  padding-left: 12%;
+  padding-right: 12%; 
   margin-top: 20px;
-  padding-left: 8%;
-  padding-right: 22%;
 }
 .name-quote{
   font-style: var(--italic);
 }
-.quotesR{
+/* .quotesR{
   padding-left: 10%;
 }
 .quotesL{
   padding-left: 2%;
-}
+} */
 .plus{
   font-size: 100px;
   font-weight: var(--regular);
