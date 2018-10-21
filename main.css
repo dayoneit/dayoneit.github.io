@@ -249,7 +249,7 @@ body{
 
 .tabs{
   font-size: var(--slogan-subtitle-size);
-
+  font-weight: var(--light);
 }
 .hiw-img{
   max-width: 245px;
@@ -325,10 +325,11 @@ body{
   font-weight: var(--light);
 }
 .contact-text{
-  /* text-align: left; */
   font-size: var(--slogan-subtitle-size);
+  /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
+  margin-left: 16px;
 }
 .contact-number{
   text-align: left;
@@ -393,11 +394,13 @@ body{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
   margin-top: 65px;
+  text-align: center;
 }
 .modal-subTitle{
   font-size: var(--desc-size);
   font-weight: var(--light);
   margin-top: 16px;
+  text-align: center;
 }
 .form-control{
   background-color: var(--popup-field-color);
@@ -413,4 +416,30 @@ body{
   font-size: var(--desc-size);
   font-weight: var(--regular);
   margin-bottom: 17px;
+}
+/* Contact Form */
+.form-container{
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 46px 78px; 
+}
+.form-title{
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--regular);
+}
+.form-subTitle{
+  font-size: var(--desc-size);
+  font-weight: var(--light);
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+.form-text{
+  font-size: var(--desc-size);
+  font-weight: var(--regular);
+  margin-bottom: 24px;
+  line-height: 30px;
+  text-align: left;
 }
