@@ -294,12 +294,6 @@ body{
 .name-quote{
   font-style: var(--italic);
 }
-/* .quotesR{
-  padding-left: 10%;
-}
-.quotesL{
-  padding-left: 2%;
-} */
 .plus{
   font-size: 100px;
   font-weight: var(--regular);
@@ -339,6 +333,9 @@ body{
 }
 .contact-imgIcon{
   float: left;
+}
+.bgImg{
+  background-image: url(./img/learnMoreBg.png);
 }
 .divider{
   display: block;
