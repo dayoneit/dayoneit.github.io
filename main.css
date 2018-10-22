@@ -229,7 +229,7 @@ body{
 .btn-secondary {
   border: 2px solid var(--main-color);
   color: var(--main-color);
-  background: #ffffff;  
+  background-color: red;  
   /* filter: drop-shadow(0px 6px 20px rgba(115, 37, 129, 0.32)); */
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-primary {
@@ -243,7 +243,7 @@ body{
 }
 .btn-secondary:active:focus{
   color: #fff;
-  background-color: #5400D8;
+  /* background-color: #5400D8; */
   border-color: #5400D8;
 }
 
