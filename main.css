@@ -39,6 +39,20 @@ body{
   color: var(--main-color-text);
 }
 /*Navbar*/
+.nav-container{
+  margin-bottom: 10px; 
+  margin-top: 8px;
+  margin-left: 6%;
+  margin-right: 80px;
+}
+@media only screen and (max-width: 900px) {
+  .nav-container{
+    margin-bottom: 10px; 
+    margin-top: 8px;
+    margin-left: 6%;
+    margin-right: 0;
+  }
+}
 .navbar{
 	border-top: 0;
 	border-right: 0;
@@ -337,6 +351,8 @@ body{
 }
 .bgImg{
   background-image: url(./img/learnMoreBg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 70%; 
 }
 .divider{
   display: block;
