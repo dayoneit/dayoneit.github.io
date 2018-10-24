@@ -7,18 +7,19 @@
   --heading-color: #696969;
   /*--block-color: #F9F9FF;*/
   --block-color: #F8F8FF;
-  --line-color: #B8BBC1;
+  --line-color: #00B3A6;
   --main-color: #6200EE;
   --navbar-border-color: #697C9E;
   --white-color: #ffffff;
   --footer-color: #2D2D2D;
   --popup-field-color: rgba(196,196,196,0.2);
-  
+
   /*Font*/
   --heading-size: 36px;
   --subheading-size: 24px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 20px;
+  --link-size: 20px;
   --desc-size: 16px;
   /*--smaller-size: 14px;*/
   --big-number-size: 88px;
@@ -32,7 +33,7 @@
   --bold: 700;
   --black-bold: 900;
   --italic: italic;
- 
+
 }
 body{
   font-family: 'Lato', sans-serif;
@@ -70,7 +71,7 @@ body{
 	background-color: #ffffff;
 	border-color: var(--navbar-border-color);
 
-	background-image: -webkit-linear-gradient(top,#fff 0,#ffffff 100%); 
+	background-image: -webkit-linear-gradient(top,#fff 0,#ffffff 100%);
   background-image: -o-linear-gradient(top,#fff 0,#ffffff 100%);
   /* background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#ffffff)); */
   /* background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%); */
@@ -92,8 +93,8 @@ body{
   font-size: var(--subheading-size);
   font-weight: var(--light);
   line-height: 43px;
-	padding-right: 0; 
-  padding-left: 0;   
+	padding-right: 0;
+  padding-left: 0;
 /*	padding: 0 85px 0 0;
 	margin-top: 15px;*/
 }
@@ -102,7 +103,7 @@ body{
 }
 .first-block{
   margin-top: 119px;
-  margin-bottom: 31px;  
+  margin-bottom: 31px;
 }
 .block-details{
 	margin-top: 80px;
@@ -110,18 +111,23 @@ body{
 }
 .block-heading{
 	font-size: var(--heading-size);
-	color: var(--heading-color);
+	color: var(--main-color-text);
   font-weight: var(--light);
 }
-.heading-border {
-  display: block;
-  width: 125px;
-  height: 3px;
-  background: var(--line-color);
-  margin: 5px auto 42px;
+
+.block-link{
+  font-size: 20px;
+  color: var(--main-color);
 }
+
+.block-link:hover {
+  color: var(--main-color);
+  font-weight: var(--semi-bold);
+
+}
+
 .block-image{
-	width: 156px; 
+	width: 156px;
 	height: 150px;
 }
 .block-subheading{
@@ -129,6 +135,21 @@ body{
   font-weight: var(--regular);
   margin-bottom: 5px;
 }
+
+
+.block-paragraph {
+  margin-bottom: 3%;
+  font-size: 15px;
+}
+
+.heading-border {
+  display: block;
+  width: 125px;
+  height: 3px;
+  background: var(--line-color);
+  margin: 5px auto 42px;
+}
+
 .icon-text{
 	margin-top: 23px;
   color: var(--main-color-text);
@@ -138,7 +159,7 @@ body{
 .image-footer{
   font-weight: var(--regular);
   font-size: var(--desc-size);
-  padding: 5px 15px; 
+  padding: 5px 15px;
   text-align: left;
 }
 .underline-hov{
@@ -184,7 +205,7 @@ body{
   border-radius: 4px;
   padding: 10px 16px;
 }
-  
+
 .btn-lg {
   font-size: 16px;
   line-height: 1.33;
@@ -249,7 +270,6 @@ body{
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-primary {
   border: 2px solid var(--main-color);
   opacity: 0.9;
-    
 }
 .btn-secondary:active, .btn-secondary.active {
   border: 2px solid var(--main-color);
@@ -285,7 +305,7 @@ body{
   width: 100%;
   height: 1px;
   background: var(--line-color);
-  margin: 100px auto 30px;  
+  margin: 100px auto 30px;
 }
 .review-details{
   text-align: left;
@@ -321,7 +341,7 @@ body{
   margin-bottom: 15px;
 }
 .big-numb{
-  font-size: var(--big-number-size); 
+  font-size: var(--big-number-size);
   font-weight: var(--light);
   color: var(--heading-color);
 }
@@ -359,7 +379,7 @@ body{
   width: 66%;
   height: 1px;
   background: var(--line-color);
-  margin: 22px auto 22px;  
+  margin: 22px auto 22px;
 }
 .footer{
   background-color: var(--footer-color);
@@ -382,18 +402,18 @@ body{
   /*width: 66%;*/
   height: 1px;
   background: var(--line-color);
-  margin: 3% auto 3%;  
+  margin: 3% auto 3%;
 }
 .footer-or{
-  width: 25%; 
-  height: 16px; 
-  border-bottom: 1px solid black; 
+  width: 25%;
+  height: 16px;
+  border-bottom: 1px solid black;
   text-align: center;
   margin: 25px auto 20px;
 }
 .footer-orText{
-  font-size: 25px; 
-  background-color: var(--block-color); 
+  font-size: 25px;
+  background-color: var(--block-color);
   padding: 0 10px;
 }
 
@@ -432,6 +452,7 @@ body{
   font-weight: var(--regular);
   margin-bottom: 17px;
 }
+
 /* Contact Form */
 .form-container{
   display: block;
