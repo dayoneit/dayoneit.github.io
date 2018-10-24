@@ -10,18 +10,23 @@ $("document").ready(function() {
         // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
         let modal = $(this)
         modal.find('.modal-title').text('Great! Let’s make sure we can contact you! ')
-        // modal.find('.modal-body input').val(recipient)
         $('#contact_form').on('submit', function(e){
             let postData = $(this).serializeArray();
             let formURL = $(this).attr('action');
+            let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
             $.ajax({
-                url: formURL,
-                type: "POST",
+                type: "GET",
+                url: 'modal-form.php',
                 data: postData,
                 success: function(data, textStatus, jqXHR){
-                    $('#exampleModal .modal-header .modal-title').html('Result');
+                    $('#exampleModal .modal-header .modal-title').html('Got it! We will let you know as soon as we have an update.');
+                    $('#exampleModal .modal-header .modal-subTitle').remove();
                     $('#exampleModal .modal-body').html(data);
-                    $('#submit').remove();
+                    $('#exampleModal .modal-body').append( $completeForm );
+                    // $('#submit').remove();
+                    $('#submit').html('Return');
+                    $('#submit').attr('data-dismiss','modal');
+                    $('#submit').attr('aria-label', 'Close');
                 },
                 error: function(jqXHR, status, error){
                     console.log(status + ": " + error);
