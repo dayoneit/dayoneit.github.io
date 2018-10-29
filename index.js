@@ -11,7 +11,6 @@ $("document").ready(function() {
         // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
         let modal = $(this)
         modal.find('.modal-title').text('Great! Let’s make sure we can contact you! ')
-        console.log('Here akjsdhf');
         
         $('#contact_form').on('submit', function(e){
             let postData = $(this).serializeArray();
@@ -53,7 +52,6 @@ $("document").ready(function() {
         modal.find('.modal-subTitle').text('We’ll send someone over to your home to help you out!')
         modal.find('#submit').text('Request')
         
-        console.log('Here');
         $('#contact_form').on('submit', function(e){
             let postData = $(this).serializeArray();
             let formURL = $(this).attr('action');
