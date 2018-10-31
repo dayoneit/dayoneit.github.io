@@ -35,8 +35,9 @@
             <div class="slogan">with Smiles</div>
             <div class="slogan-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
             <div style="margin-top:40px">
-              <button type="button" class="btn btn-primary btn-lg round">Contact Us 352-328-7099</button>
-              <button type="button" class="btn btn-secondary btn-lg round">Send Us a Message</button>
+              <button type="button" class="btn btn-primary btn-lg round">Call Us 352-328-7099</button>
+              <button type="button" class="btn btn-secondary btn-lg round" data-toggle="modal" data-target="#exampleModal">Send Us a Message</button>
+              <div id="#modal1"></div>
             </div>
           </div>
         </div>
@@ -127,7 +128,8 @@
             </div>
           </div>
           <div class="underline-hov">
-            <a class="underline-hov" href="#">Not on this list?</a>
+            <a class="underline-hov" href="#modal1" data-toggle="modal" data-target="#exampleModal">Not on this list?</a>
+            <!-- <div id="modal1"></div> -->
           </div>
         </div>
       </div>
@@ -161,55 +163,8 @@
           </div>
           <div class="row">
             <div style="margin-top:60px">
-              <button type="button" class="btn btn-primary btn-lg round" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact Us</button>
-
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                      <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                      <div class="modal-subTitle">We will let you know once we start our subscription plans!</div>
-                    </div>
-                    <div class="modal-body">
-                      <form>
-                        <div class="form-group">
-                          <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
-                          <input type="text" class="form-control" id="recipient-name" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                          <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
-                          <input type="text" class="form-control" id="recipient-name" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                          <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
-                          <input type="text" class="form-control" id="recipient-name" placeholder="Phone Number">
-                        </div>
-                        <div class="form-group">
-                          <!-- <label for="message-text" class="col-form-label">Message:</label> -->
-                          <textarea class="form-control" id="message-text"></textarea>
-                        </div>
-                        <div class="modal-text">How would you like us to reach out?</div>
-                        <label class="radio-inline">
-                          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> By Email
-                        </label>
-                        <label class="radio-inline">
-                          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> By Call
-                        </label>
-                        <label class="radio-inline">
-                          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> By Text
-                        </label>                        
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="submit" class="btn btn-primary btn-lg round">Submit</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
+              <button type="button" class="btn btn-primary btn-lg round" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+              <div id="modal1"></div>
             </div>
           </div>
         </div>
@@ -362,7 +317,7 @@
       </div>
       <!-- Eighth Block -->
       <div class="row block-color bgImg">
-        <div class="col-md-9 col-md-offset-2 block-details text-center">
+        <div class="col-md-8 col-md-offset-2 block-details text-center">
           <div class="block-heading">To Learn More</div>
           <div class="heading-border"></div>
           <div class="sub-textC">Get in touch with us , in whichever way suits your fancy so we can help you!</div>
@@ -387,19 +342,15 @@
                   <div class="form-subTitle">Feel free to contact us and we will get back to you within 24 hours!</div>
                   <form>
                     <div class="form-group">
-                      <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
                       <input type="text" class="form-control" id="recipient-name" placeholder="Name">
                     </div>
                     <div class="form-group">
-                      <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
                       <input type="text" class="form-control" id="recipient-name" placeholder="Email">
                     </div>
                     <div class="form-group">
-                      <!-- <label for="recipient-name" class="col-form-label">Recipient:</label> -->
                       <input type="text" class="form-control" id="recipient-name" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
-                      <!-- <label for="message-text" class="col-form-label">Message:</label> -->
                       <textarea class="form-control" id="message-text"></textarea>
                     </div>
                     <div class="form-text">
