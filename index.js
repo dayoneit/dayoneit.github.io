@@ -17,7 +17,7 @@ $("document").ready(function() {
             let formURL = $(this).attr('action');
             let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
             $.ajax({
-                type: "GET",
+                type: "POST",
                 url: 'modal-form.php',
                 data: postData,
                 success: function(data, textStatus, jqXHR){
@@ -57,8 +57,8 @@ $("document").ready(function() {
             let formURL = $(this).attr('action');
             let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
             $.ajax({
-                type: "GET",
-                url: 'modal-form.php',
+                type: "POST",
+                url: 'action.php',
                 data: postData,
                 success: function(data, textStatus, jqXHR){
                     $('#exampleModal .modal-header .modal-title').html('Got it! We will let you know as soon as we have an update.');
