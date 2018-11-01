@@ -296,7 +296,7 @@ body{
   margin-bottom: 9px;
 }
 .values-desc{
-  font-size: var(--desc-size);
+  font-size: var(--slogan-subtitle-size);
   line-height: 29px;
   font-weight: var(--light);
 }
