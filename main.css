@@ -498,8 +498,8 @@ body{
   margin-top: 26px;
   margin-bottom: 19px;
 }
-.princing-numb{
-  font-size: var(--heading-size);
+.pricing-numb{
+  font-size: 45px;
   font-weight: var(--light);
 }
 .pricing-subNumb{
@@ -507,7 +507,7 @@ body{
   font-weight: var(--light);
 }
 .pricing-smallTxt{
-  font-size: 10px;
+  font-size: 15px;
   font-weight: var(--light);
 }
 .plus-pricing{
@@ -516,7 +516,7 @@ body{
   opacity: 0.12;
 }
 .card-text{
-  font-size: var(--smaller-size);
+  font-size: var(--desc-size);
   font-weight: var(--light);
   margin-top: 31px;
 }
@@ -525,10 +525,10 @@ body{
   font-weight: var(--light);
   letter-spacing: 5px;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .bullet-text{
-  font-size: var(--smaller-size);
+  font-size: var(--desc-size);
   font-weight: var(--light);
   color: var(--heading-color);
   float: left;
