@@ -534,3 +534,14 @@ body{
   float: left;
   margin-left: 10px;
 }
+
+/* ======== Application Page ======== */
+.app-text{
+  font-size: var(--desc-size);
+  font-weight: var(--regular);
+  margin-bottom: 30px;
+
+}
+.app-heading{
+  margin-bottom: 40px;
+}
