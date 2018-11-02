@@ -418,7 +418,7 @@ body{
 
 /* Popup*/
 .modal-body{
-  padding: 25px 78px;
+  padding: 0px 78px;
   text-align: left;
 }
 .modal-header{
@@ -444,6 +444,7 @@ body{
 .modal-footer{
   text-align: center;
   border-top: none;
+  margin-top: 20px;
   margin-bottom: 65px;
 }
 .modal-text{

@@ -18,9 +18,11 @@ $("document").ready(function() {
             let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
             console.log("asdkjflasdf");
             $.ajax({
-                type: "POST",
-                url: formURL,
+                // type: "POST",
+                url: 'modal-form.php',
                 data: postData,
+                type: "GET",
+
                 success: function(data, textStatus, jqXHR){
                     $('#exampleModal .modal-header .modal-title').html('Got it! We will let you know as soon as we have an update.');
                     $('#exampleModal .modal-header .modal-subTitle').remove();
@@ -30,16 +32,21 @@ $("document").ready(function() {
                     $('#submit').html('Return');
                     $('#submit').attr('data-dismiss','modal');
                     $('#submit').attr('aria-label', 'Close');
+                    $('#exampleModal form :input').val("");
                 },
                 error: function(jqXHR, status, error){
                     console.log(status + ": " + error);
                 }
             });
+            return false;
             e.preventDefault();
         });
         // $('#submit').on('click', function(){
         //     $('#contact_form').submit();
         // });
+    });
+    $('body').on('hidden.bs.modal', '.modal', function () {
+        $('#exampleModal form :input').val("");
     });
 
     // Get Started PopUP
