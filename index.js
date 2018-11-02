@@ -19,9 +19,9 @@ $("document").ready(function() {
             console.log("asdkjflasdf");
             $.ajax({
                 // type: "POST",
+                type: "GET",
                 url: 'modal-form.php',
                 data: postData,
-                type: "GET",
 
                 success: function(data, textStatus, jqXHR){
                     $('#exampleModal .modal-header .modal-title').html('Got it! We will let you know as soon as we have an update.');
@@ -38,7 +38,6 @@ $("document").ready(function() {
                     console.log(status + ": " + error);
                 }
             });
-            return false;
             e.preventDefault();
         });
         // $('#submit').on('click', function(){
