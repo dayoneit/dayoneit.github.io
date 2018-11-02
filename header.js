@@ -17,6 +17,7 @@ $("document").ready(function() {
         //change css
 
         document.getElementById(fileName).style.borderBottom = "solid #6200EE";
+        document.getElementById(fileName).style.padding = "15px 0px 10px 0px";
 
     }
 });
