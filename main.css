@@ -296,7 +296,7 @@ body{
   margin-bottom: 9px;
 }
 .values-desc{
-  font-size: var(--desc-size);
+  font-size: var(--slogan-subtitle-size);
   line-height: 29px;
   font-weight: var(--light);
 }
@@ -316,13 +316,12 @@ body{
 }
 .review-textR{
   font-size: var(--desc-size);
-  padding-left: 15%;
+  padding-left: 8%;
   padding-right: 20%; 
-  margin-top: 20px;
 }
 .review-textL{
   font-size: var(--desc-size);
-  padding-left: 12%;
+  padding-left: 7%;
   padding-right: 12%; 
   margin-top: 20px;
 }
@@ -419,7 +418,7 @@ body{
 
 /* Popup*/
 .modal-body{
-  padding: 25px 78px;
+  padding: 0px 78px;
   text-align: left;
 }
 .modal-header{
@@ -445,6 +444,7 @@ body{
 .modal-footer{
   text-align: center;
   border-top: none;
+  margin-top: 20px;
   margin-bottom: 65px;
 }
 .modal-text{
@@ -499,8 +499,8 @@ body{
   margin-top: 26px;
   margin-bottom: 19px;
 }
-.princing-numb{
-  font-size: var(--heading-size);
+.pricing-numb{
+  font-size: 45px;
   font-weight: var(--light);
 }
 .pricing-subNumb{
@@ -508,7 +508,7 @@ body{
   font-weight: var(--light);
 }
 .pricing-smallTxt{
-  font-size: 10px;
+  font-size: 15px;
   font-weight: var(--light);
 }
 .plus-pricing{
@@ -517,7 +517,7 @@ body{
   opacity: 0.12;
 }
 .card-text{
-  font-size: var(--smaller-size);
+  font-size: var(--desc-size);
   font-weight: var(--light);
   margin-top: 31px;
 }
@@ -526,12 +526,23 @@ body{
   font-weight: var(--light);
   letter-spacing: 5px;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .bullet-text{
-  font-size: var(--smaller-size);
+  font-size: var(--desc-size);
   font-weight: var(--light);
   color: var(--heading-color);
   float: left;
   margin-left: 10px;
+}
+
+/* ======== Application Page ======== */
+.app-text{
+  font-size: var(--desc-size);
+  font-weight: var(--regular);
+  margin-bottom: 30px;
+
+}
+.app-heading{
+  margin-bottom: 40px;
 }
