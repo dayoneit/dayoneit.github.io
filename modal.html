@@ -5,41 +5,130 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                <div class="modal-subTitle">We will let you know once we start our subscription plans!</div>
+                <h5 class="modal-title" id="exampleModalLabel">Great! Let’s make sure we can contact you!</h5>
+                <h5 class="modal-title" id="thankYou" style="display:none">Got it! We will let you know as soon as we have an update.</h5>
+                <div class="modal-subTitle" id="modalSubTitle">We will let you know once we start our subscription plans!</div>
             </div>
             <div class="modal-body">
-                <form id="contact_form" action="https://docs.google.com/forms/d/e/1FAIpQLSeQMy4DpbbSQOucv0XS0vQgYugh1Vog960zWLP1Y_66rmA2Jw/formResponse" target="_self" method="POST">
+                <form id="contact_form" action="https://docs.google.com/forms/d/e/1FAIpQLSe9eBx0yfzNq_Czek_-aa7cGJ337KUYS_6sHgq4NYNqJpPM_w/formResponse" target="_self" method="POST">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-name" name="entry.1788277729" placeholder="Name">
+                        <input type="text" class="form-control" id="recipient-name" name="entry.1286636554" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-email" name="entry.317519064" placeholder="Email">
+                        <input type="text" class="form-control" id="recipient-email" name="entry.1462677588" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-phone" name="entry.1646630525" placeholder="Phone Number">
+                        <input type="text" class="form-control" id="recipient-phone" name="entry.1937714152" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="message-text" name="entry.1059842608"></textarea>
+                        <textarea class="form-control" id="message-text" name="entry.1769716152"></textarea>
                     </div>
                     <div class="modal-text">How would you like us to reach out?</div>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> By Email
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> By Call
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> By Text
-                    </label>    
-                    <!-- <div class="modal-footer"> -->
+                    <div data-input="L9xHkb">
+                        <label class="radio-inline">
+                            <input type="radio" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Email" tabindex="0" data-value="Email" aria-describedby="  i24" role="radio" aria-checked="false" aria-posinset="1" aria-setsize="3"> By Email
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Call" tabindex="-1" data-value="Call" aria-describedby="  i27" role="radio" aria-checked="false" aria-posinset="2" aria-setsize="3"> By Call
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Text" tabindex="0" data-value="Text" aria-describedby="  i30" role="radio" aria-checked="false" aria-posinset="3" aria-setsize="3"> By Text
+                        </label>    
+                        <input type="hidden" name="entry.1248010040" jsname="L9xHkb" disabled="">
+                        <input type="hidden" name="entry.436110837" jsname="L9xHkb" value="What We Do_page - Landing_section - Send Us a Message_button">
+                    </div>    
+                    <div class="btn-submit">
                         <button id="submit" type="submit" class="btn btn-primary btn-lg round">Submit</button>
-                    <!-- </div>                    -->
+                    </div>                   
                 </form>
+                <div class="text-center" id="thankYou1" style="display:none"><img src="img/completeImg.png"/></div>
             </div>
-            <div class="modal-footer">
-                <button id="submit" type="submit" class="btn btn-primary btn-lg round">Submit</button>
+            <div class="modal-footer"  id="return" style="display:none">
+                <button type="submit" class="btn btn-primary btn-lg round" data-dismiss="modal" aria-label="Close" >Return</button>
             </div>
         </div>
     </div>
 </div>
+
+<!-- 
+<div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl isCheckedNext isChecked" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Email" tabindex="0" data-value="Email" aria-describedby="  i24" role="radio" aria-checked="true" aria-posinset="1" aria-setsize="3"><div class="quantumWizTogglePaperradioInk exportInk"></div><div class="quantumWizTogglePaperradioInnerBox"></div><div class="quantumWizTogglePaperradioRadioContainer"><div class="quantumWizTogglePaperradioOffRadio exportOuterCircle"><div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div></div></div></div>
+
+
+<div role="listitem" class="freebirdFormviewerViewItemsItemItem" jsname="ibnC6b" jscontroller="pkFYWb" jsaction="sPvj8e:F0ZU4;" data-other-input="qSV85" data-other-hidden="MfYA1e" data-item-id="2010479420">
+    <div class="freebirdFormviewerViewItemsItemItemHeader">
+        <div class="freebirdFormviewerViewItemsItemItemTitleContainer">
+            <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" id="i20" role="heading" aria-level="2" aria-describedby="i.desc.2010479420">Reach Out Method</div>
+            <div class="freebirdFormviewerViewItemsItemItemHelpText" id="i.desc.2010479420" dir="auto"></div>
+        </div>
+    </div>
+    <div jscontroller="eFy6Rc" jsaction="sPvj8e:Gh295d" jsname="cnAzRb" data-input="L9xHkb">
+        <div jscontroller="wPRNsd" jsshadow="" jsaction="keydown: I481le;JIbuQc:JIbuQc;rcuQ6b:rcuQ6b" jsname="wCJL8" aria-labelledby="i20" aria-describedby="i.desc.2010479420 i.err.2010479420" role="radiogroup" aria-invalid="false">
+            <content role="presentation" jsname="bN97Pc" class="exportContent">
+                <div class="">
+                    <label class="docssharedWizToggleLabeledContainer freebirdFormviewerViewItemsRadioChoice">
+                        <div class="exportLabelWrapper">
+                            <div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl isCheckedNext isChecked" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Email" tabindex="0" data-value="Email" aria-describedby="  i24" role="radio" aria-checked="true" aria-posinset="1" aria-setsize="3">
+                                <div class="quantumWizTogglePaperradioInk exportInk"></div>
+                                <div class="quantumWizTogglePaperradioInnerBox"></div>
+                                <div class="quantumWizTogglePaperradioRadioContainer">
+                                    <div class="quantumWizTogglePaperradioOffRadio exportOuterCircle">
+                                        <div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="docssharedWizToggleLabeledContent">
+                                <div class="docssharedWizToggleLabeledPrimaryText">
+                                    <span dir="auto" class="docssharedWizToggleLabeledLabelText exportLabel freebirdFormviewerViewItemsRadioLabel">Email</span>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <label class="docssharedWizToggleLabeledContainer freebirdFormviewerViewItemsRadioChoice">
+                        <div class="exportLabelWrapper">
+                            <div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl isCheckedNext" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Call" tabindex="-1" data-value="Call" aria-describedby="  i27" role="radio" aria-checked="false" aria-posinset="2" aria-setsize="3">
+                                <div class="quantumWizTogglePaperradioInk exportInk"></div>
+                                <div class="quantumWizTogglePaperradioInnerBox"></div>
+                                <div class="quantumWizTogglePaperradioRadioContainer">
+                                    <div class="quantumWizTogglePaperradioOffRadio exportOuterCircle">
+                                        <div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="docssharedWizToggleLabeledContent">
+                                <div class="docssharedWizToggleLabeledPrimaryText">
+                                    <span dir="auto" class="docssharedWizToggleLabeledLabelText exportLabel freebirdFormviewerViewItemsRadioLabel">Call</span>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <label class="docssharedWizToggleLabeledContainer freebirdFormviewerViewItemsRadioChoice">
+                        <div class="exportLabelWrapper">
+                            <div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl isCheckedNext" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Text" tabindex="-1" data-value="Text" aria-describedby="  i30" role="radio" aria-checked="false" aria-posinset="3" aria-setsize="3">
+                                <div class="quantumWizTogglePaperradioInk exportInk"></div>
+                                <div class="quantumWizTogglePaperradioInnerBox"></div>
+                                <div class="quantumWizTogglePaperradioRadioContainer">
+                                    <div class="quantumWizTogglePaperradioOffRadio exportOuterCircle">
+                                        <div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="docssharedWizToggleLabeledContent">
+                                <div class="docssharedWizToggleLabeledPrimaryText">
+                                    <span dir="auto" class="docssharedWizToggleLabeledLabelText exportLabel freebirdFormviewerViewItemsRadioLabel">Text</span>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </content>
+        </div>
+        <input type="hidden" name="entry.1248010040" jsname="L9xHkb" value="Email"></div>
+        <div class="freebirdFormviewerViewItemsItemGradingGradingBox freebirdFormviewerViewItemsItemGradingFeedbackBox" jsname="R7fTud"></div>
+        <div jsname="XbIQze" class="freebirdFormviewerViewItemsItemErrorMessage" id="i.err.2010479420" role="alert"></div>
+    </div> -->
+
+    <!-- <div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Text" tabindex="0" data-value="Text" aria-describedby="  i30" role="radio" aria-checked="false" aria-posinset="3" aria-setsize="3"><div class="quantumWizTogglePaperradioInk exportInk"></div><div class="quantumWizTogglePaperradioInnerBox"></div><div class="quantumWizTogglePaperradioRadioContainer"><div class="quantumWizTogglePaperradioOffRadio exportOuterCircle"><div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div></div></div></div>
+
+    <div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Call" tabindex="-1" data-value="Call" aria-describedby="  i27" role="radio" aria-checked="false" aria-posinset="2" aria-setsize="3"><div class="quantumWizTogglePaperradioInk exportInk"></div><div class="quantumWizTogglePaperradioInnerBox"></div><div class="quantumWizTogglePaperradioRadioContainer"><div class="quantumWizTogglePaperradioOffRadio exportOuterCircle"><div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div></div></div></div>
+
+    <div class="quantumWizTogglePaperradioEl docssharedWizToggleLabeledControl freebirdThemedRadio freebirdThemedRadioDarkerDisabled freebirdFormviewerViewItemsRadioControl" jscontroller="EcW08c" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventMouseEvents=true|preventDefault=true); touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; keydown:I481le; contextmenu:mg9Pef" jsshadow="" aria-label="Email" tabindex="0" data-value="Email" aria-describedby="  i24" role="radio" aria-checked="false" aria-posinset="1" aria-setsize="3"><div class="quantumWizTogglePaperradioInk exportInk"></div><div class="quantumWizTogglePaperradioInnerBox"></div><div class="quantumWizTogglePaperradioRadioContainer"><div class="quantumWizTogglePaperradioOffRadio exportOuterCircle"><div class="quantumWizTogglePaperradioOnRadio exportInnerCircle"></div></div></div></div> -->
