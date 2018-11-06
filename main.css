@@ -16,7 +16,7 @@
 
   /*Font*/
   --heading-size: 36px;
-  --subheading-size: 22px;
+  --subheading-size: 20px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 20px;
   --link-size: 20px;
@@ -112,7 +112,7 @@ body{
 .block-heading{
 	font-size: var(--heading-size);
 	color: var(--main-color-text);
-  font-weight: var(--regular);
+  font-weight: var(--light);
 }
 
 .block-link{
