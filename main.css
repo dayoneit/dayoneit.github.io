@@ -16,7 +16,7 @@
 
   /*Font*/
   --heading-size: 36px;
-  --subheading-size: 20px;
+  --subheading-size: 24px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 20px;
   --link-size: 20px;
@@ -90,7 +90,7 @@ body{
   font-weight: var(--light);
 }
 .slogan-subtitle{
-  font-size: var(--subheading-size);
+  font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
   line-height: 43px;
 	padding-right: 0;
