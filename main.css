@@ -483,6 +483,12 @@ body{
 .headingPage-margin{
   margin-top: 50px;
 }
+.btn-submit{
+  text-align: center;
+  border-top: none;
+  margin-top: 36px;
+  margin-bottom: 65px;
+}
 
 /* ======== Pricing Page ======== */
 .form-container{
