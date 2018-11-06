@@ -16,7 +16,7 @@
 
   /*Font*/
   --heading-size: 36px;
-  --subheading-size: 24px;
+  --subheading-size: 22px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 20px;
   --link-size: 20px;
@@ -87,7 +87,7 @@ body{
 }
 .slogan{
   font-size: var(--slogan-size);
-  font-weight: var(--regular);
+  font-weight: var(--light);
 }
 .slogan-subtitle{
   font-size: var(--subheading-size);
@@ -358,7 +358,7 @@ body{
   /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
-  margin-left: 16px;
+  margin-left: 16px;  
 }
 .contact-number{
   text-align: left;
