@@ -17,28 +17,28 @@ $("document").ready(function() {
             let formURL = $(this).attr('action');
             // let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
             console.log("asdkjflasdf");
-            $.ajax({
-                type: "POST",
-                // type: "GET",
-                url: formURL,
-                data: postData,
+            // $.ajax({
+            //     type: "POST",
+            //     // type: "GET",
+            //     url: formURL,
+            //     data: postData,
 
-                success: function(data, textStatus, jqXHR){
-                    // $('#exampleModal .modal-header .modal-title').html('Got it! We will let you know as soon as we have an update.');
-                    // $('#exampleModal .modal-header .modal-subTitle').remove();
-                    // $('#exampleModal .modal-body').html(data);
-                    // $('#exampleModal .modal-body').append( $completeForm );
-                    // $('#submit').remove();
-                    // $('#submit').html('Return');
-                    // $('#submit').attr('data-dismiss','modal');
-                    // $('#submit').attr('aria-label', 'Close');
-                    // $('#exampleModal form :input').val("");
-                },
-                error: function(jqXHR, status, error){
-                    console.log(status + ": " + error);
-                }
-            });
-            e.preventDefault();
+            //     success: function(data, textStatus, jqXHR){
+            //         // $('#exampleModal .modal-header .modal-title').html('Got it! We will let you know as soon as we have an update.');
+            //         // $('#exampleModal .modal-header .modal-subTitle').remove();
+            //         // $('#exampleModal .modal-body').html(data);
+            //         // $('#exampleModal .modal-body').append( $completeForm );
+            //         // $('#submit').remove();
+            //         // $('#submit').html('Return');
+            //         // $('#submit').attr('data-dismiss','modal');
+            //         // $('#submit').attr('aria-label', 'Close');
+            //         // $('#exampleModal form :input').val("");
+            //     },
+            //     error: function(jqXHR, status, error){
+            //         console.log(status + ": " + error);
+            //     }
+            // });
+            // e.preventDefault();
         });
         $('#submit').on('click', function(){
             // $('#contact_form').submit();
@@ -48,18 +48,19 @@ $("document").ready(function() {
             $('#contact_form').hide();
             $('#exampleModalLabel').hide();
             $('#modalSubTitle').hide();
-            
         });
     });
     $('body').on('hidden.bs.modal', '.modal', function () {
         $('#exampleModal form :input').val("");
+        $( "#1" ).prop( "checked", false ); 
+        $( "#2" ).prop( "checked", false ); 
+        $( "#3" ).prop( "checked", false );   
         $('#thankYou').hide();
         $('#thankYou1').hide();
         $('#return').hide();
         $('#contact_form').show();
         $('#exampleModalLabel').show();
         $('#modalSubTitle').show();
-
     });
 
     // Get Started PopUP
