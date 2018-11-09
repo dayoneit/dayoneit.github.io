@@ -1,0 +1,51 @@
+<!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='';}"></iframe> -->
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+<div class="modal fade" id="modalGetStarted" tabindex="-1" role="dialog" aria-labelledby="modalGetStartedLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title" id="modalGetStartedLabel">Request an appointment</h5>
+                <h5 class="modal-title" id="thankYou2" style="display:none">Got it! We will let you know as soon as we have an update.</h5>
+                <div class="modal-subTitle" id="modalSubTitle1">We’ll send someone over to your home to help you out!</div>
+            </div>
+            <div class="modal-body">
+                <form id="contact_form1" action="https://docs.google.com/forms/d/e/1FAIpQLSe9eBx0yfzNq_Czek_-aa7cGJ337KUYS_6sHgq4NYNqJpPM_w/formResponse" method="POST" target="hidden_iframe" 
+                onsubmit="submitted=true;">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="recipient-name" name="entry.1286636554" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="recipient-email" name="entry.1462677588" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="recipient-phone" name="entry.1937714152" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message-text" name="entry.1769716152"></textarea>
+                    </div>
+                    <div class="modal-text">How would you like us to reach out?</div>
+                    <label class="radio-inline">
+                        <input type="radio" name="entry.1248010040" value="Email" id="11"> By Email
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="entry.1248010040" value="Call" id="22"> By Call
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="entry.1248010040" value="Text" id="33"> By Text
+                    </label>    
+                    <input type="hidden" name="entry.436110837" value="Pricing page - Get Started button">
+                    <div class="btn-submit">
+                        <button id="submit1" type="submit" class="btn btn-primary btn-lg round">Submit</button>
+                    </div>                   
+                </form>
+                <div class="text-center" id="thankYou22" style="display:none"><img src="img/completeImg.png"/></div>
+            </div>
+            <div class="modal-footer"  id="return1" style="display:none">
+                <button type="submit" class="btn btn-primary btn-lg round" data-dismiss="modal" aria-label="Close" >Return</button>
+            </div>
+        </div>
+    </div>
+</div>
