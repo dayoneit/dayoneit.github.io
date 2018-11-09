@@ -69,16 +69,14 @@ body{
 }
 .navbar-default{
 	background-color: #ffffff;
-	border-color: var(--navbar-border-color);
-
+	/* border-color: var(--navbar-border-color); */
 	background-image: -webkit-linear-gradient(top,#fff 0,#ffffff 100%);
   background-image: -o-linear-gradient(top,#fff 0,#ffffff 100%);
-  /* background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#ffffff)); */
-  /* background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%); */
   background-repeat: repeat-x;
   border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+  /* box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075); */
+  box-shadow: 0 2px 4px 0 rgba(46,62,72,.12), 0 0 2px 0 rgba(46,62,72,.12);
 }
 .logo{
   font-size: 28px;
@@ -90,8 +88,8 @@ body{
   font-weight: var(--light);
 }
 .slogan-subtitle{
-  font-size: var(--subheading-size);
-  font-weight: var(--light);
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--regular);
   line-height: 43px;
 	padding-right: 0;
   padding-left: 0;
@@ -284,7 +282,7 @@ body{
 
 .tabs{
   font-size: var(--slogan-subtitle-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
 }
 .hiw-img{
   max-width: 245px;
@@ -298,7 +296,7 @@ body{
 .values-desc{
   font-size: var(--slogan-subtitle-size);
   line-height: 29px;
-  font-weight: var(--light);
+  font-weight: var(--regular);
 }
 .values-divider{
   display: block;
@@ -335,30 +333,30 @@ body{
 }
 .sub-textP{
   font-size: var(--subheading-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   color: var(--heading-color);
   margin-bottom: 15px;
 }
 .big-numb{
   font-size: var(--big-number-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   color: var(--heading-color);
 }
 .big-numb-sub{
   font-size: 32px;
-  font-weight: var(--light);
+  font-weight: var(--regular);
 }
 .sub-textC{
   margin-bottom: 40px;
   font-size: var(--subheading-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
 }
 .contact-text{
   font-size: var(--slogan-subtitle-size);
   /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
-  margin-left: 16px;
+  margin-left: 16px;  
 }
 .contact-number{
   text-align: left;
@@ -432,7 +430,7 @@ body{
 }
 .modal-subTitle{
   font-size: var(--desc-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   margin-top: 16px;
   text-align: center;
 }
@@ -468,7 +466,7 @@ body{
 }
 .form-subTitle{
   font-size: var(--desc-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   margin-top: 16px;
   margin-bottom: 15px;
 }
@@ -482,6 +480,12 @@ body{
 
 .headingPage-margin{
   margin-top: 50px;
+}
+.btn-submit{
+  text-align: center;
+  border-top: none;
+  margin-top: 36px;
+  margin-bottom: 65px;
 }
 
 /* ======== Pricing Page ======== */
@@ -501,15 +505,15 @@ body{
 }
 .pricing-numb{
   font-size: 45px;
-  font-weight: var(--light);
+  font-weight: var(--regular);
 }
 .pricing-subNumb{
   font-size: var(--desc-size);
-  font-weight: var(--light);
+  font-weight: var(--regualr);
 }
 .pricing-smallTxt{
   font-size: 15px;
-  font-weight: var(--light);
+  font-weight: var(--regular);
 }
 .plus-pricing{
   font-size: 36px;
@@ -518,19 +522,19 @@ body{
 }
 .card-text{
   font-size: var(--desc-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   margin-top: 31px;
 }
 .coming-soon{
   font-size: var(--smaller-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
 .bullet-text{
   font-size: var(--desc-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   color: var(--heading-color);
   float: left;
   margin-left: 10px;
