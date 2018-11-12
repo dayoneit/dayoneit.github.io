@@ -13,7 +13,7 @@ $("document").ready(function() {
 
 
     //Do only if page is not index
-    if ( fileName != "index") {
+    if ( fileName) {
 
         if ( fileName == "apply") {
           document.getElementById('techie').style.borderBottom = "solid #6200EE";
@@ -24,5 +24,10 @@ $("document").ready(function() {
         document.getElementById(fileName).style.borderBottom = "solid #6200EE";
         document.getElementById(fileName).style.padding = "15px 0px 10px 0px";
 
+    }
+
+    else {
+      document.getElementById('index').style.borderBottom = "solid #6200EE";
+      document.getElementById('index').style.padding = "15px 0px 10px 0px";
     }
 });
