@@ -435,6 +435,12 @@ body{
   margin-top: 65px;
   text-align: center;
 }
+.modal-thankYouTitle{
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--regular);
+  margin-top: 65px;
+  text-align: center;
+}
 .modal-subTitle{
   font-size: var(--desc-size);
   font-weight: var(--regular);
