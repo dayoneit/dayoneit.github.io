@@ -9,15 +9,25 @@ $("document").ready(function() {
 
     //Reduce string to file name
     var fileName = page.split(".").shift();
+    console.log(fileName);
 
 
     //Do only if page is not index
-    if ( fileName != "index") {
+    if ( fileName) {
 
+        if ( fileName == "apply") {
+          document.getElementById('techie').style.borderBottom = "solid #6200EE";
+          document.getElementById('techie').style.padding = "15px 0px 10px 0px";
+        }
         //change css
 
         document.getElementById(fileName).style.borderBottom = "solid #6200EE";
         document.getElementById(fileName).style.padding = "15px 0px 10px 0px";
 
+    }
+
+    else {
+      document.getElementById('index').style.borderBottom = "solid #6200EE";
+      document.getElementById('index').style.padding = "15px 0px 10px 0px";
     }
 });
