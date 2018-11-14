@@ -6,11 +6,17 @@ $("document").ready(function() {
 
     $('#modal1').on('show.bs.modal', function (event) {
         let button = $(event.relatedTarget) // Button that triggered the modal
-        let recipient = button.data('whatever') // Extract info from data-* attributes
-        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-        let modal = $(this)
-        // modal.find('.modal-title').text('Great! Let’s make sure we can contact you! ')
+        let titleVal = button.data('title') // Extract info from data-* attributes
+        let subTitleVal = button.data('subtitle')
+        let tesval = button.data('val')
+        let nameBtn = button.data('namebtn')
         
+        let modal = $(this)
+        modal.find('#exampleModal .modal-title').text(titleVal)
+        modal.find('#exampleModal .modal-subTitle').text(subTitleVal)
+        modal.find('#test').attr('value', tesval )
+        modal.find('#submit').text(nameBtn)
+
         $('#contact_form').on('submit', function(e){
             let postData = $(this).serializeArray();
             let formURL = $(this).attr('action');
@@ -18,7 +24,6 @@ $("document").ready(function() {
             console.log("asdkjflasdf");
             // $.ajax({
             //     type: "POST",
-            //     // type: "GET",
             //     url: formURL,
             //     data: postData,
 
@@ -42,7 +47,7 @@ $("document").ready(function() {
         $('#submit').on('click', function(){
             // $('#contact_form').submit();
             $('#thankYou').show();
-            $('#thankYou1').show();
+            $('#thankYouImg').show();
             $('#return').show();
             $('#contact_form').hide();
             $('#exampleModalLabel').hide();
@@ -55,7 +60,7 @@ $("document").ready(function() {
         $( "#2" ).prop( "checked", false ); 
         $( "#3" ).prop( "checked", false );   
         $('#thankYou').hide();
-        $('#thankYou1').hide();
+        $('#thankYouImg').hide();
         $('#return').hide();
         $('#contact_form').show();
         $('#exampleModalLabel').show();
@@ -73,7 +78,7 @@ $("document").ready(function() {
         // modal.find('.modal-subTitle').text('We’ll send someone over to your home to help you out!')
         // modal.find('#submit1').text('Request')
         
-        $('#contact_form').on('submit', function(e){
+        $('#contact_form1').on('submit', function(e){
             let postData = $(this).serializeArray();
             let formURL = $(this).attr('action');
             let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
