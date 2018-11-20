@@ -45,7 +45,6 @@ $("document").ready(function() {
             // e.preventDefault();
         });
         $('#submit').on('click', function(){
-            // $('#contact_form').submit();
             $('#thankYou').show();
             $('#thankYouImg').show();
             $('#return').show();

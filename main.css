@@ -278,7 +278,14 @@ body{
   /* background-color: #5400D8; */
   border-color: #5400D8;
 }
+button, a{
+  color: #ffffff;
+}
 
+button a:focus, a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .tabs{
   font-size: var(--slogan-subtitle-size);
