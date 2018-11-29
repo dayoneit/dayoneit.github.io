@@ -20,7 +20,6 @@ $("document").ready(function() {
         $('#contact_form').on('submit', function(e){
             let postData = $(this).serializeArray();
             let formURL = $(this).attr('action');
-            // let $completeForm = $newdiv1 = $( "<div class='text-center'><img src='img/completeImg.png' /></div>" );
             console.log("asdkjflasdf");
             // $.ajax({
             //     type: "POST",
@@ -45,7 +44,6 @@ $("document").ready(function() {
             // e.preventDefault();
         });
         $('#submit').on('click', function(){
-            // $('#contact_form').submit();
             $('#thankYou').show();
             $('#thankYouImg').show();
             $('#return').show();
@@ -67,6 +65,14 @@ $("document").ready(function() {
         $('#modalSubTitle').show();
     });
     
+    $('#submit1').on('click', function(){
+        $('#thankYou').show();
+        $('#thankYouImg1').show();
+        $('#return1').show();
+        $('#contact_form1').hide();
+        $('#exampleModalLabel').hide();
+        $('#modalSubTitle').hide();
+    });
 
     // Get Started PopUP
     $('#modal-GetStarted').on('show.bs.modal', function (event) {
