@@ -69,7 +69,7 @@ $("document").ready(function() {
         $('#thankYou').show();
         $('#thankYouImg1').show();
         $('#return1').show();
-        $('#contact_form').hide();
+        $('#contact_form1').hide();
         $('#exampleModalLabel').hide();
         $('#modalSubTitle').hide();
     });

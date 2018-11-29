@@ -90,7 +90,7 @@ body{
 .slogan-subtitle{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
-  line-height: 43px;
+  line-height: 40px;
 	padding-right: 0;
   padding-left: 0;
 /*	padding: 0 85px 0 0;
@@ -110,7 +110,7 @@ body{
 .block-heading{
 	font-size: var(--heading-size);
 	color: var(--main-color-text);
-  font-weight: var(--light);
+  font-weight: var(--bold);
 }
 
 .block-link{
@@ -130,7 +130,7 @@ body{
 }
 .block-subheading{
 	font-size: var(--subheading-size);
-  font-weight: var(--regular);
+  font-weight: var(--light);
   margin-bottom: 5px;
 }
 
@@ -149,10 +149,10 @@ body{
 }
 
 .icon-text{
-	margin-top: 23px;
+	margin-top: 8px;
   color: var(--main-color-text);
-  font-size: var(--desc-size);
-  font-weight: var(--regular);
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--light);
 }
 .image-footer{
   font-weight: var(--regular);
@@ -171,14 +171,14 @@ body{
     text-decoration: underline;
 }
 .icon-text-2{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--subheading-size);
   font-weight: var(--regular);
   text-transform: uppercase;
   margin-top: 15px;
 }
 .icon-text-sub{
-  font-size: var(--desc-size);
-  font-weight: var(--regular);
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
 }
@@ -303,7 +303,7 @@ button a:focus, a:hover{
 .values-desc{
   font-size: var(--slogan-subtitle-size);
   line-height: 29px;
-  font-weight: var(--regular);
+  font-weight: var(--light);
 }
 .values-firstdivider{
   display: block;
@@ -348,7 +348,13 @@ button a:focus, a:hover{
 .sub-textP{
   font-size: var(--subheading-size);
   font-weight: var(--regular);
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  margin-bottom: 15px;
+}
+.sub-textP2{
+  font-size: var(--subheading-size);
+  font-weight: var(--light);
+  /* color: var(--heading-color); */
   margin-bottom: 15px;
 }
 .big-numb{
@@ -507,6 +513,12 @@ button a:focus, a:hover{
   margin-top: 36px;
   margin-bottom: 65px;
 }
+textarea.form-control {
+  max-height: 115px;
+  min-height: 115px;
+  max-width: 100%;
+  min-width: 100%;
+}
 
 /* ======== Pricing Page ======== */
 .form-container{
@@ -559,7 +571,24 @@ button a:focus, a:hover{
   float: left;
   margin-left: 10px;
 }
-
+.box-size{
+  height: 590px;
+}
+@media only screen and (min-width: 900px) {
+  .box-size{
+    width: 503.33px;
+  }
+}
+.btn-bottom{
+  bottom: -30px;
+  position: relative;
+  /* margin-top:35px; */
+}
+.btn-bottom2{
+  bottom: -55px;
+  position: relative;
+  /* margin-top:35px; */
+}
 /* ======== Application Page ======== */
 .app-text{
   font-size: var(--desc-size);
