@@ -109,7 +109,7 @@ body{
 }
 .block-heading{
 	font-size: var(--heading-size);
-	color: var(--main-color-text);
+	color: var(--heading-color);
   font-weight: var(--bold);
 }
 
