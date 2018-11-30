@@ -1,7 +1,7 @@
 
 label {
   margin-top: 15px;
-  margin-bottom: 15px;
+  font-weight: 400;
 }
 
 
@@ -12,19 +12,19 @@ label {
 }
 
 .app-title {
-  font-size: 50px;
+  font-size: 27px;
   font-weight: 400;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .heading-details{
-	margin-top: 130px;
+	margin-top: 150px;
 
 }
 
 .heading{
-	font-size: 57px;
+	font-size: 27px;
   font-weight: 400;
   margin-bottom: 5px;
 
