@@ -494,7 +494,7 @@ button a:focus, a:hover{
   font-size: var(--desc-size);
   font-weight: var(--regular);
   margin-top: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .form-text{
   font-size: var(--desc-size);
