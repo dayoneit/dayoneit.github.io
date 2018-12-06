@@ -5,9 +5,9 @@
   --main-color-text: #373737;
   --subtitle-color: #828282;
   --heading-color: #696969;
-  /*--block-color: #F9F9FF;*/
+  /* --block-color: #F9F9FF; */
   --block-color: #F8F8FF;
-  --line-color: #00B3A6;
+  --line-color: #C4C4C4;
   --main-color: #6200EE;
   --navbar-border-color: #697C9E;
   --white-color: #ffffff;
@@ -16,7 +16,7 @@
 
   /*Font*/
   --heading-size: 36px;
-  --subheading-size: 27px;
+  --subheading-size: 25px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 22px;
   --link-size: 20px;
@@ -97,7 +97,7 @@ body{
 	margin-top: 15px;*/
 }
 .block-color {
-  /* background-color: var(--block-color); */
+  background-color: var(--block-color);
 }
 .first-block{
   margin-top: 119px;
@@ -404,7 +404,6 @@ button a:focus, a:hover{
   font-size: var(--slogan-subtitle-size);
   padding-bottom: 65px;
   padding-top: 65px;
-  margin-top: 100px;
 }
 .footer-heading{
   font-weight: var(--bold);
@@ -454,6 +453,7 @@ button a:focus, a:hover{
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
+  margin-bottom: 25px;
 }
 .modal-subTitle{
   font-size: var(--desc-size);
@@ -486,6 +486,7 @@ button a:focus, a:hover{
   text-align: center;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   padding: 46px 78px;
+  height: 700px;
 }
 .form-title{
   font-size: var(--slogan-subtitle-size);
