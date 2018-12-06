@@ -66,12 +66,28 @@ $("document").ready(function() {
     });
     
     $('#submit1').on('click', function(){
-        $('#thankYou').show();
+        $('#thankYou1').show();
         $('#thankYouImg1').show();
-        $('#return1').show();
-        $('#contact_form').hide();
-        $('#exampleModalLabel').hide();
-        $('#modalSubTitle').hide();
+        $('#return2').show();
+        $('#formTitle').hide();
+        $('.form-subTitle').hide();
+        $('#contact_form1').hide();
+    });
+    $('#return2').on('click', function(){
+        // $('#example form :input').val("");
+        $('#recipient-name1').val("");
+        $('#recipient-name2').val("");
+        $('#recipient-name3').val("");
+        $('#message-text4').val("");
+        $( "#11" ).prop( "checked", false ); 
+        $( "#22" ).prop( "checked", false ); 
+        $( "#33" ).prop( "checked", false );   
+        $('#thankYou1').hide();
+        $('#thankYouImg1').hide();
+        $('#return2').hide();
+        $('#formTitle').show();
+        $('.form-subTitle').show();
+        $('#contact_form1').show();
     });
 
     // Get Started PopUP

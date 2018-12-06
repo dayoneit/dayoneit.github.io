@@ -5,9 +5,9 @@
   --main-color-text: #373737;
   --subtitle-color: #828282;
   --heading-color: #696969;
-  /*--block-color: #F9F9FF;*/
+  /* --block-color: #F9F9FF; */
   --block-color: #F8F8FF;
-  --line-color: #00B3A6;
+  --line-color: #C4C4C4;
   --main-color: #6200EE;
   --navbar-border-color: #697C9E;
   --white-color: #ffffff;
@@ -16,7 +16,7 @@
 
   /*Font*/
   --heading-size: 36px;
-  --subheading-size: 27px;
+  --subheading-size: 25px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 22px;
   --link-size: 20px;
@@ -41,14 +41,14 @@ body{
 }
 /*Navbar*/
 .nav-container{
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   margin-top: 8px;
   margin-left: 6%;
   margin-right: 80px;
 }
 @media only screen and (max-width: 900px) {
   .nav-container{
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     margin-top: 8px;
     margin-left: 6%;
     margin-right: 0;
@@ -90,14 +90,14 @@ body{
 .slogan-subtitle{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
-  line-height: 43px;
+  line-height: 40px;
 	padding-right: 0;
   padding-left: 0;
 /*	padding: 0 85px 0 0;
 	margin-top: 15px;*/
 }
 .block-color {
-  /* background-color: var(--block-color); */
+  background-color: var(--block-color);
 }
 .first-block{
   margin-top: 119px;
@@ -109,8 +109,8 @@ body{
 }
 .block-heading{
 	font-size: var(--heading-size);
-	color: var(--main-color-text);
-  font-weight: var(--light);
+	color: var(--heading-color);
+  font-weight: var(--bold);
 }
 
 .block-link{
@@ -130,7 +130,7 @@ body{
 }
 .block-subheading{
 	font-size: var(--subheading-size);
-  font-weight: var(--regular);
+  font-weight: var(--light);
   margin-bottom: 5px;
 }
 
@@ -149,10 +149,10 @@ body{
 }
 
 .icon-text{
-	margin-top: 23px;
+	margin-top: 8px;
   color: var(--main-color-text);
-  font-size: var(--desc-size);
-  font-weight: var(--regular);
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--light);
 }
 .image-footer{
   font-weight: var(--regular);
@@ -171,14 +171,14 @@ body{
     text-decoration: underline;
 }
 .icon-text-2{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--subheading-size);
   font-weight: var(--regular);
   text-transform: uppercase;
   margin-top: 15px;
 }
 .icon-text-sub{
-  font-size: var(--desc-size);
-  font-weight: var(--regular);
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
 }
@@ -205,7 +205,7 @@ body{
 }
 
 .btn-lg {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.33;
   border-radius: 6px;
 }
@@ -227,7 +227,7 @@ body{
 }
 
 .round {
-  border-radius: 24px;
+  border-radius: 27px;
 }
 .btn {
     padding: 14px 24px;
@@ -262,7 +262,7 @@ body{
 .btn-secondary {
   border: 2px solid var(--main-color);
   color: var(--main-color);
-  background-color: var(--white-color);  
+  background-color: var(--white-color);
   /* filter: drop-shadow(0px 6px 20px rgba(115, 37, 129, 0.32)); */
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-primary {
@@ -303,7 +303,7 @@ button a:focus, a:hover{
 .values-desc{
   font-size: var(--slogan-subtitle-size);
   line-height: 29px;
-  font-weight: var(--regular);
+  font-weight: var(--light);
 }
 .values-firstdivider{
   display: block;
@@ -323,18 +323,18 @@ button a:focus, a:hover{
   text-align: left;
 }
 .review-img{
-  width: 350px; 
+  width: 350px;
   height: 350px;
 }
 .review-textR{
   font-size: var(--desc-size);
   padding-left: 8%;
-  padding-right: 20%; 
+  padding-right: 20%;
 }
 .review-textL{
   font-size: var(--desc-size);
   padding-left: 7%;
-  padding-right: 12%; 
+  padding-right: 12%;
   margin-top: 20px;
 }
 .name-quote{
@@ -348,7 +348,13 @@ button a:focus, a:hover{
 .sub-textP{
   font-size: var(--subheading-size);
   font-weight: var(--regular);
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  margin-bottom: 15px;
+}
+.sub-textP2{
+  font-size: var(--subheading-size);
+  font-weight: var(--light);
+  /* color: var(--heading-color); */
   margin-bottom: 15px;
 }
 .big-numb{
@@ -370,7 +376,7 @@ button a:focus, a:hover{
   /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
-  margin-left: 16px;  
+  margin-left: 16px;
 }
 .contact-number{
   text-align: left;
@@ -383,7 +389,7 @@ button a:focus, a:hover{
 .bgImg{
   background-image: url(./img/learnMoreBg.png);
   background-repeat: no-repeat;
-  background-position: 50% 70%; 
+  background-position: 50% 70%;
 }
 .divider{
   display: block;
@@ -447,6 +453,7 @@ button a:focus, a:hover{
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
+  margin-bottom: 25px;
 }
 .modal-subTitle{
   font-size: var(--desc-size);
@@ -478,7 +485,8 @@ button a:focus, a:hover{
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
   text-align: center;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  padding: 46px 78px; 
+  padding: 46px 78px;
+  height: 700px;
 }
 .form-title{
   font-size: var(--slogan-subtitle-size);
@@ -488,7 +496,7 @@ button a:focus, a:hover{
   font-size: var(--desc-size);
   font-weight: var(--regular);
   margin-top: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .form-text{
   font-size: var(--desc-size);
@@ -507,6 +515,12 @@ button a:focus, a:hover{
   margin-top: 36px;
   margin-bottom: 65px;
 }
+textarea.form-control {
+  max-height: 115px;
+  min-height: 115px;
+  max-width: 100%;
+  min-width: 100%;
+}
 
 /* ======== Pricing Page ======== */
 .form-container{
@@ -514,7 +528,7 @@ button a:focus, a:hover{
   background-color: #ffffff;
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
   text-align: center;
-  padding: 46px 78px; 
+  padding: 46px 78px;
 }
 .card-heading{
   font-size: var(--subheading-size);
@@ -559,7 +573,24 @@ button a:focus, a:hover{
   float: left;
   margin-left: 10px;
 }
-
+.box-size{
+  height: 605px;
+}
+@media only screen and (min-width: 900px) {
+  .box-size{
+    width: 503.33px;
+  }
+}
+.btn-bottom{
+  bottom: -30px;
+  position: relative;
+  /* margin-top:35px; */
+}
+.btn-bottom2{
+  bottom: -55px;
+  position: relative;
+  /* margin-top:35px; */
+}
 /* ======== Application Page ======== */
 .app-text{
   font-size: var(--desc-size);
@@ -569,4 +600,36 @@ button a:focus, a:hover{
 }
 .app-heading{
   margin-bottom: 40px;
+}
+
+/* ======== Contact Page ======== */
+
+.contact-heading {
+  margin-top: 130px;
+
+}
+
+.sub-heading {
+  font-size: var(--subheading-size);
+  font-weight: var(--regular);
+  margin-top: 40px;
+}
+
+.form-title {
+  padding-bottom: 40px;
+
+}
+
+.contact-content {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 46px 78px;
+
+}
+
+.contact-image {
+  width: 70%;
+  height: 70%;
 }
