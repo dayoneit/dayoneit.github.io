@@ -5,7 +5,7 @@
   --main-color-text: #373737;
   --subtitle-color: #828282;
   --heading-color: #696969;
-  /*--block-color: #F9F9FF;*/
+  /* --block-color: #F9F9FF; */
   --block-color: #F8F8FF;
   --line-color: #C4C4C4;
   --main-color: #6200EE;
@@ -97,7 +97,7 @@ body{
 	margin-top: 15px;*/
 }
 .block-color {
-  /* background-color: var(--block-color); */
+  background-color: var(--block-color);
 }
 .first-block{
   margin-top: 119px;
@@ -404,7 +404,6 @@ button a:focus, a:hover{
   font-size: var(--slogan-subtitle-size);
   padding-bottom: 65px;
   padding-top: 65px;
-  margin-top: 100px;
 }
 .footer-heading{
   font-weight: var(--bold);
