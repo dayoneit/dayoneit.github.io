@@ -72,8 +72,6 @@ $("document").ready(function() {
         $('#formTitle').hide();
         $('.form-subTitle').hide();
         $('#contact_form1').hide();
-        $('#exampleModalLabel').hide();
-        $('#modalSubTitle').hide();
     });
     $('#return2').on('click', function(){
         // $('#example form :input').val("");
@@ -90,8 +88,6 @@ $("document").ready(function() {
         $('#formTitle').show();
         $('.form-subTitle').show();
         $('#contact_form1').show();
-        $('#exampleModalLabel').show();
-        $('#modalSubTitle').show();
     });
 
     // Get Started PopUP
