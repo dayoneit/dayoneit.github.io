@@ -6,11 +6,6 @@
   margin-top: 100px;
 }
 
-.applynow-btn{
-  padding: 15px 60px;
-  background-image: linear-gradient(90deg, #3700B3, #6200EE);
-}
-
 
 
 .block-title {
@@ -42,7 +37,7 @@
 }
 
 .wantmore-row {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 150px;
 
 }
