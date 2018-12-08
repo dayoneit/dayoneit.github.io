@@ -322,10 +322,21 @@ button a:focus, a:hover{
 .review-details{
   text-align: left;
 }
-.review-img{
+.review-img-Christopher{
+  width: 350px;
+  height: 466px;
+}
+
+.review-img-EJ{
   width: 350px;
   height: 350px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
+
 .review-textR{
   font-size: var(--desc-size);
   padding-left: 8%;
@@ -507,7 +518,7 @@ button a:focus, a:hover{
 }
 
 .headingPage-margin{
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .btn-submit{
   text-align: center;
@@ -693,7 +704,7 @@ textarea.form-control {
   }
 
   .left-box {
-    margin-left: 40px;
+    margin-left: 50px;
   }
 
   .right-box {
@@ -701,6 +712,46 @@ textarea.form-control {
   }
 
 }
+
+@media (min-width: 1500px) {
+
+  .pricing-container {
+    margin-left: 150px;
+  }
+  .pricing-title {
+    margin-left: 0px;
+  }
+
+  .left-box {
+    margin-left: 140px;
+  }
+
+  .right-box {
+    margin-left: 80px;
+  }
+
+}
+
+@media (min-width: 1800px) {
+
+  .pricing-container {
+
+    margin-left: 150px;
+
+  }
+
+  .left-box {
+    margin-left: 250px;
+  }
+
+  .right-box {
+    margin-left: 0px;
+  }
+
+
+}
+
+
 
 @media (min-width: 1920px) {
 
@@ -789,6 +840,13 @@ textarea.form-control {
 .row-color {
     background-color: var(--block-color);
     padding-bottom: 0px;
+
+
+}
+
+.author {
+    margin-bottom: 50px;
+    font-weight: var(--bold);
 
 }
 
