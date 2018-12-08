@@ -113,15 +113,16 @@ body{
   font-weight: var(--bold);
 }
 
-.block-link{
-  font-size: 20px;
+
+.paragraph-link{
+  font-size: 15px;
   color: var(--main-color);
 }
 
-.block-link:hover {
+.paragraph-link:hover{
   color: var(--main-color);
-  font-weight: var(--semi-bold);
-
+  opacity: 0.9;
+  text-decoration: underline;
 }
 
 .block-image{
@@ -414,6 +415,7 @@ button a:focus, a:hover{
   font-weight: var(--light);
   line-height: 2.0;
 }
+
 .footer-divider{
   display: block;
   /*width: 66%;*/
