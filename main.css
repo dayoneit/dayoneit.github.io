@@ -124,6 +124,18 @@ body{
 
 }
 
+.paragraph-link{
+  font-size: 15px;
+  color: var(--main-color);
+}
+
+.paragraph-link:hover{
+  color: var(--main-color);
+  opacity: 0.9;
+  text-decoration: underline;
+  
+}
+
 .block-image{
 	width: 156px;
 	height: 150px;
