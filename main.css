@@ -113,15 +113,16 @@ body{
   font-weight: var(--bold);
 }
 
-.block-link{
-  font-size: 20px;
+
+.paragraph-link{
+  font-size: 15px;
   color: var(--main-color);
 }
 
-.block-link:hover {
+.paragraph-link:hover{
   color: var(--main-color);
-  font-weight: var(--semi-bold);
-
+  opacity: 0.9;
+  text-decoration: underline;
 }
 
 .block-image{
@@ -158,7 +159,7 @@ body{
   font-weight: var(--regular);
   font-size: var(--desc-size);
   padding: 5px 15px;
-  text-align: left;
+  text-align: center;
 }
 .underline-hov{
   margin-top:75px;
@@ -322,19 +323,17 @@ button a:focus, a:hover{
 .review-details{
   text-align: left;
 }
+
 .review-img-Christopher{
   width: 350px;
   height: 466px;
+  margin-left: 130px;
 }
 
 .review-img-EJ{
   width: 350px;
-  height: 350px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+  height: 466px;
+  margin-left: 130px;
 }
 
 .review-textR{
@@ -425,6 +424,7 @@ button a:focus, a:hover{
   font-weight: var(--light);
   line-height: 2.0;
 }
+
 .footer-divider{
   display: block;
   /*width: 66%;*/
@@ -502,6 +502,7 @@ button a:focus, a:hover{
 .form-title{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
+  text-align: center;
 }
 .form-subTitle{
   font-size: var(--desc-size);
