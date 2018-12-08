@@ -9,18 +9,14 @@
 
 
 .block-title {
+  margin-top: 70px;
+  margin-bottom: 30px;
 
-}
 
-.block-content {
-  margin-top: 20px;
 }
 
 .block-paragraph {
-
   line-height: 30px;
-
-
 }
 
 .block-name {
@@ -38,6 +34,7 @@
 
 .wantmore-row {
   margin-top: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+
 
 }
