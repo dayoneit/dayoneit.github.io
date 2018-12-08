@@ -113,6 +113,7 @@ body{
   font-weight: var(--bold);
 }
 
+
 .paragraph-link{
   font-size: 15px;
   color: var(--main-color);
@@ -122,7 +123,6 @@ body{
   color: var(--main-color);
   opacity: 0.9;
   text-decoration: underline;
-  
 }
 
 .block-image{
@@ -575,23 +575,13 @@ textarea.form-control {
   float: left;
   margin-left: 10px;
 }
-.pricing-container{
 
-
-
-}
 
 .box-size{
   height: 605px;
 
 }
-.left-box{
 
-}
-
-.right-box{
-
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -800,7 +790,7 @@ textarea.form-control {
 /* ======== Techie Page ======== */
 .row-color {
     background-color: var(--block-color);
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 
 }
 
