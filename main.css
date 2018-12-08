@@ -573,14 +573,171 @@ textarea.form-control {
   float: left;
   margin-left: 10px;
 }
+.pricing-container{
+
+
+
+}
+
 .box-size{
   height: 605px;
+
 }
+.left-box{
+
+}
+
+.right-box{
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+  }
+
+  .box-size{
+    height: 900px;
+
+  }
+
+  .left-box{
+
+  }
+  .right-box {
+    margin-top: 100px;
+  }
+
+
+}
+
+
+@media (min-width: 600px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+
+  }
+
+  .box-size{
+    height: 805px;
+
+  }
+
+  .right-box {
+
+  }
+
+
+ }
+
+
+@media (min-width: 769px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+
+
+
+  }
+
+  .box-size{
+    height: 805px;
+
+  }
+
+  .right-box {
+
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+  .pricing-container {
+
+
+
+    margin-left: 0px;
+
+
+
+  }
+
+  .pricing-title {
+    margin-left: 150px;
+  }
+
+
+
+  .box-size{
+    height: 605px;
+
+
+  }
+
+  .right-box {
+    margin-left: 200px;
+
+  }
+
+
+ }
+
+
+@media (min-width: 1200px) {
+
+  .pricing-container {
+    margin-left: 125px;
+
+
+
+  }
+  .pricing-title {
+    margin-left: 0px;
+  }
+
+  .left-box {
+    margin-left: 40px;
+  }
+
+  .right-box {
+    margin-left: 150px;
+  }
+
+}
+
+@media (min-width: 1920px) {
+
+  .pricing-container {
+
+    margin-left: 150px;
+
+  }
+
+  .left-box {
+    margin-left: 250px;
+  }
+
+  .right-box {
+    margin-left: 0px;
+  }
+
+
+}
+
+
 @media only screen and (min-width: 900px) {
   .box-size{
     width: 503.33px;
   }
 }
+
 .btn-bottom{
   bottom: -30px;
   position: relative;
@@ -632,4 +789,29 @@ textarea.form-control {
 .contact-image {
   width: 70%;
   height: 70%;
+}
+
+.contact-container {
+  margin-bottom: 100px;
+}
+
+/* ======== Techie Page ======== */
+.row-color {
+    background-color: var(--block-color);
+    padding-bottom: 100px;
+
+}
+
+.applynow-btn{
+  padding: 15px 60px;
+  background-image: linear-gradient(90deg, #3700B3, #6200EE);
+  font-size: var(--desc-size);
+}
+
+/* ======= Apply Page ========== */
+
+.app-title {
+  font-size: var(--subheading-size);
+  font-weight: var(--light);
+  margin-bottom: 20px;
 }
