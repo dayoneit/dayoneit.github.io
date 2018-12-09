@@ -113,15 +113,16 @@ body{
   font-weight: var(--bold);
 }
 
-.block-link{
-  font-size: 20px;
+
+.paragraph-link{
+  font-size: 15px;
   color: var(--main-color);
 }
 
-.block-link:hover {
+.paragraph-link:hover{
   color: var(--main-color);
-  font-weight: var(--semi-bold);
-
+  opacity: 0.9;
+  text-decoration: underline;
 }
 
 .block-image{
@@ -160,7 +161,7 @@ body{
   font-weight: var(--regular);
   font-size: var(--desc-size);
   padding: 5px 15px;
-  text-align: left;
+  text-align: center;
 }
 .underline-hov{
   margin-top:75px;
@@ -324,10 +325,19 @@ button a:focus, a:hover{
 .review-details{
   text-align: left;
 }
-.review-img{
+
+.review-img-Christopher{
   width: 350px;
-  height: 350px;
+  height: 466px;
+  margin-left: 130px;
 }
+
+.review-img-EJ{
+  width: 350px;
+  height: 466px;
+  margin-left: 130px;
+}
+
 .review-textR{
   font-size: var(--desc-size);
   padding-left: 8%;
@@ -416,6 +426,7 @@ button a:focus, a:hover{
   font-weight: var(--light);
   line-height: 2.0;
 }
+
 .footer-divider{
   display: block;
   /*width: 66%;*/
@@ -493,6 +504,7 @@ button a:focus, a:hover{
 .form-title{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
+  text-align: center;
 }
 .form-subTitle{
   font-size: var(--desc-size);
@@ -509,7 +521,7 @@ button a:focus, a:hover{
 }
 
 .headingPage-margin{
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .btn-submit{
   text-align: center;
@@ -575,14 +587,201 @@ textarea.form-control {
   float: left;
   margin-left: 10px;
 }
+
+
 .box-size{
   height: 605px;
+
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+  }
+
+  .box-size{
+    height: 900px;
+
+  }
+
+  .left-box{
+
+  }
+  .right-box {
+    margin-top: 100px;
+  }
+
+
+}
+
+
+@media (min-width: 600px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+
+  }
+
+  .box-size{
+    height: 805px;
+
+  }
+
+  .right-box {
+
+  }
+
+
+ }
+
+
+@media (min-width: 769px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+
+
+
+  }
+
+  .box-size{
+    height: 805px;
+
+  }
+
+  .right-box {
+
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+  .pricing-container {
+
+
+
+    margin-left: 0px;
+
+
+
+  }
+
+  .pricing-title {
+    margin-left: 150px;
+  }
+
+
+
+  .box-size{
+    height: 605px;
+
+
+  }
+
+  .right-box {
+    margin-left: 200px;
+
+  }
+
+
+ }
+
+
+@media (min-width: 1200px) {
+
+  .pricing-container {
+    margin-left: 125px;
+
+
+
+  }
+  .pricing-title {
+    margin-left: 0px;
+  }
+
+  .left-box {
+    margin-left: 50px;
+  }
+
+  .right-box {
+    margin-left: 150px;
+  }
+
+}
+
+@media (min-width: 1500px) {
+
+  .pricing-container {
+    margin-left: 150px;
+  }
+  .pricing-title {
+    margin-left: 0px;
+  }
+
+  .left-box {
+    margin-left: 140px;
+  }
+
+  .right-box {
+    margin-left: 80px;
+  }
+
+}
+
+@media (min-width: 1800px) {
+
+  .pricing-container {
+
+    margin-left: 150px;
+
+  }
+
+  .left-box {
+    margin-left: 250px;
+  }
+
+  .right-box {
+    margin-left: 0px;
+  }
+
+
+}
+
+
+
+@media (min-width: 1920px) {
+
+  .pricing-container {
+
+    margin-left: 150px;
+
+  }
+
+  .left-box {
+    margin-left: 250px;
+  }
+
+  .right-box {
+    margin-left: 0px;
+  }
+
+
+}
+
+
 @media only screen and (min-width: 900px) {
   .box-size{
     width: 503.33px;
   }
 }
+
 .btn-bottom{
   bottom: -30px;
   position: relative;
@@ -634,4 +833,36 @@ textarea.form-control {
 .contact-image {
   width: 70%;
   height: 70%;
+}
+
+.contact-container {
+  margin-bottom: 100px;
+}
+
+/* ======== Techie Page ======== */
+.row-color {
+    background-color: var(--block-color);
+    padding-bottom: 0px;
+
+
+}
+
+.author {
+    margin-bottom: 50px;
+    font-weight: var(--bold);
+
+}
+
+.applynow-btn{
+  padding: 15px 60px;
+  background-image: linear-gradient(90deg, #3700B3, #6200EE);
+  font-size: var(--desc-size);
+}
+
+/* ======= Apply Page ========== */
+
+.app-title {
+  font-size: var(--subheading-size);
+  font-weight: var(--light);
+  margin-bottom: 20px;
 }
