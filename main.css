@@ -586,11 +586,11 @@ textarea.form-control {
 
 
 .box-size{
-  height: 605px;
+  height: 60vh;
 
 }
 
-
+/*
 @media only screen and (max-width: 600px) {
 
   .pricing-container {
@@ -770,9 +770,9 @@ textarea.form-control {
 
 
 }
+*/
 
-
-@media only screen and (min-width: 900px) {
+/*@media only screen and (min-width: 900px) {
   .box-size{
     width: 503.33px;
   }
