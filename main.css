@@ -125,8 +125,10 @@ body{
 }
 
 .block-image{
-	width: 156px;
-	height: 150px;
+	width: 130px;
+  height: 130px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .block-subheading{
 	font-size: var(--subheading-size);
