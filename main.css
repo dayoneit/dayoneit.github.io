@@ -586,7 +586,7 @@ textarea.form-control {
 
 
 .box-size{
-  height: 60vh;
+  height: 605px; 
 
 }
 
@@ -777,7 +777,7 @@ textarea.form-control {
     width: 503.33px;
   }
 }
-
+*/
 .btn-bottom{
   bottom: -30px;
   position: relative;
