@@ -113,16 +113,15 @@ body{
   font-weight: var(--bold);
 }
 
-
-.paragraph-link{
-  font-size: 15px;
+.block-link{
+  font-size: 20px;
   color: var(--main-color);
 }
 
-.paragraph-link:hover{
+.block-link:hover {
   color: var(--main-color);
-  opacity: 0.9;
-  text-decoration: underline;
+  font-weight: var(--semi-bold);
+
 }
 
 .block-image{
@@ -161,7 +160,7 @@ body{
   font-weight: var(--regular);
   font-size: var(--desc-size);
   padding: 5px 15px;
-  text-align: center;
+  text-align: left;
 }
 .underline-hov{
   margin-top:75px;
@@ -325,7 +324,6 @@ button a:focus, a:hover{
 .review-details{
   text-align: left;
 }
-
 .review-img-Christopher{
   width: 350px;
   height: 466px;
@@ -426,7 +424,6 @@ button a:focus, a:hover{
   font-weight: var(--light);
   line-height: 2.0;
 }
-
 .footer-divider{
   display: block;
   /*width: 66%;*/
@@ -504,7 +501,6 @@ button a:focus, a:hover{
 .form-title{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
-  text-align: center;
 }
 .form-subTitle{
   font-size: var(--desc-size);
@@ -590,11 +586,11 @@ textarea.form-control {
 
 
 .box-size{
-  height: 605px;
+  height: 605px; 
 
 }
 
-
+/*
 @media only screen and (max-width: 600px) {
 
   .pricing-container {
@@ -774,14 +770,14 @@ textarea.form-control {
 
 
 }
+*/
 
-
-@media only screen and (min-width: 900px) {
+/*@media only screen and (min-width: 900px) {
   .box-size{
     width: 503.33px;
   }
 }
-
+*/
 .btn-bottom{
   bottom: -30px;
   position: relative;
