@@ -501,6 +501,7 @@ button a:focus, a:hover{
 .form-title{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
+  text-align: center;
 }
 .form-subTitle{
   font-size: var(--desc-size);
