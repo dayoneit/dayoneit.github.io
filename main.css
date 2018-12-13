@@ -327,13 +327,32 @@ button a:focus, a:hover{
 .review-img-Christopher{
   width: 350px;
   height: 466px;
-  margin-left: 130px;
+  margin-left: 100px;
+
 }
 
 .review-img-EJ{
   width: 350px;
   height: 466px;
-  margin-left: 130px;
+  margin-left: 100px;
+
+}
+
+@media only screen and (max-width: 1025px) {
+
+  .review-img-Christopher{
+    width: 300px;
+    height: 466px;
+    margin-left: 0px;
+
+  }
+
+  .review-img-EJ{
+    width: 300px;
+    height: 466px;
+    margin-left: 0px;
+  }
+
 }
 
 .review-textR{
@@ -587,7 +606,7 @@ textarea.form-control {
 
 
 .box-size{
-  height: 605px; 
+  height: 605px;
 
 }
 
@@ -773,12 +792,13 @@ textarea.form-control {
 }
 */
 
-/*@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
   .box-size{
     width: 503.33px;
+
   }
 }
-*/
+
 .btn-bottom{
   bottom: -30px;
   position: relative;
