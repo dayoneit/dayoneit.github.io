@@ -34,7 +34,11 @@
 
 .wantmore-row {
   margin-top: 25px;
-  margin-bottom: 140px;
+  margin-bottom: 76px;
 
 
+}
+
+.auto-scroll-margin {
+  margin-bottom: 64px;
 }
