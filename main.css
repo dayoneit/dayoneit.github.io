@@ -121,7 +121,16 @@ body{
 .block-link:hover {
   color: var(--main-color);
   font-weight: var(--semi-bold);
+}
 
+.paragraph-link{
+  color: var(--main-color);
+}
+
+.paragraph-link:hover{
+  color: var(--main-color);
+  opacity: 0.9;
+  text-decoration: underline;
 }
 
 .block-image{
@@ -622,7 +631,7 @@ textarea.form-control {
 
 .box-size{
   height: 605px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 
 }
 
@@ -876,7 +885,7 @@ textarea.form-control {
 }
 
 .contact-container {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 /* ======== Techie Page ======== */
