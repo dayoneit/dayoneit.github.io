@@ -689,151 +689,117 @@ textarea.form-control {
 
   .pricing-container {
     margin-left:15px;
-
-
-
-
   }
 
   .box-size{
-    height: 805px;
-
+    height: 655px;
   }
-
-  .right-box {
-
-  }
-
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
-  .pricing-container {
+  .box-size {
 
-
-
-    margin-left: 0px;
-
-
-
-  }
-
-  .pricing-title {
-    margin-left: 150px;
-  }
-
-
-
-  .box-size{
-    height: 605px;
-    width: 100px;
-
-
-
-  }
-
-  .left-box {
-
-    margin-left: -120px;
+    width: 473.33px;
 
   }
 
   .right-box {
-    margin-left: 260px;
-
+    margin-left: 17%;
   }
 
 
  }
 
+ @media (min-width: 1280px) {
 
-@media (min-width: 1200px) {
 
-  .pricing-container {
-    margin-left: 125px;
+   .box-size {
 
+     width: 503.33px;
+
+   }
+
+   .left-box {
+     margin-left: 8%;
+   }
+
+   .right-box {
+     margin-left: 9%;
+   }
+
+  }
+
+ @media (min-width: 1366px) {
+
+   .left-box {
+     margin-left: 10.7%;
+   }
+
+   .right-box {
+     margin-left: 7%;
+   }
 
 
   }
-  .pricing-title {
-    margin-left: 0px;
-  }
+
+@media (min-width: 1400px) {
 
   .left-box {
-    margin-left: 50px;
+    margin-left: 12.7%;
   }
 
   .right-box {
-    margin-left: 150px;
+    margin-left: 4%;
+  }
+
+ }
+
+
+@media (min-width: 1440px) {
+
+  .left-box {
+    margin-left: 12.7%;
+  }
+
+  .right-box {
+    margin-left: 4%;
   }
 
 }
 
-@media (min-width: 1500px) {
-
-  .pricing-container {
-    margin-left: 150px;
-  }
-  .pricing-title {
-    margin-left: 0px;
-  }
+@media (min-width: 1600px) {
 
   .left-box {
-    margin-left: 150px;
+    margin-left: 16.7%;
   }
 
   .right-box {
-    margin-left: 80px;
+    margin-left: 0%;
   }
-
 }
 
-@media (min-width: 1800px) {
-
-  .pricing-container {
-
-    margin-left: 150px;
-
-  }
+@media (min-width: 1680px) {
 
   .left-box {
-    margin-left: 250px;
+    margin-left: 18.7%;
   }
 
   .right-box {
-    margin-left: 0px;
+    margin-left: -2%;
   }
-
-
 }
 
 
 
 @media (min-width: 1920px) {
 
-  .pricing-container {
-
-    margin-left: 150px;
-
-  }
-
   .left-box {
-    margin-left: 260px;
+    margin-left: 21.7%;
   }
-
   .right-box {
-    margin-left: 0px;
-  }
-
-
-}
-
-
-@media only screen and (min-width: 992px) {
-  .box-size{
-    width: 503.33px;
-
+    margin-left: -5%;
   }
 }
 
@@ -861,13 +827,14 @@ textarea.form-control {
 /* ======== Contact Page ======== */
 
 .contact-heading {
-  margin-top: 130px;
+  margin-top: 150px;
 
 }
 
 .sub-heading {
   font-size: var(--subheading-size);
   font-weight: var(--regular);
+  margin-bottom: 20px;
 }
 
 .form-title {
