@@ -10,12 +10,13 @@ $("document").ready(function() {
         let subTitleVal = button.data('subtitle')
         let tesval = button.data('val')
         let nameBtn = button.data('namebtn')
-        
+        let ty = button.data('thankyou')
         let modal = $(this)
         modal.find('#exampleModal .modal-title').text(titleVal)
         modal.find('#exampleModal .modal-subTitle').text(subTitleVal)
         modal.find('#test').attr('value', tesval )
         modal.find('#submit').text(nameBtn)
+        modal.find('#thankYou').text(ty)
 
         $('#contact_form').on('submit', function(e){
             let postData = $(this).serializeArray();

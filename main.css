@@ -485,6 +485,7 @@ button a:focus, a:hover{
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
+  padding: 0 100px;
 }
 .modal-thankYouTitle{
   font-size: var(--slogan-subtitle-size);
@@ -492,6 +493,10 @@ button a:focus, a:hover{
   margin-top: 65px;
   text-align: center;
   margin-bottom: 25px;
+  padding: 0 100px;
+}
+#thankYou1{
+  padding: 0 0px;
 }
 .modal-subTitle{
   font-size: var(--desc-size);
