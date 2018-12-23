@@ -822,13 +822,14 @@ textarea.form-control {
 /* ======== Contact Page ======== */
 
 .contact-heading {
-  margin-top: 130px;
+  margin-top: 150px;
 
 }
 
 .sub-heading {
   font-size: var(--subheading-size);
   font-weight: var(--regular);
+  margin-bottom: 20px;
 }
 
 .form-title {
