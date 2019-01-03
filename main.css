@@ -133,6 +133,18 @@ body{
   text-decoration: underline;
 }
 
+.people-image{
+  width: 230px;
+  height: 230px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ming-block{
+  float: right;
+  text-align: center;
+}
+
 .block-image{
 	width: 130px;
   height: 130px;
@@ -871,7 +883,7 @@ textarea.form-control {
 .author {
     margin-bottom: 50px;
     font-weight: var(--bold);
-
+    padding: 0px;
 }
 
 .applynow-btn{
