@@ -548,15 +548,14 @@ button a:focus, a:hover{
   height: 640px;
 }
 .form-title{
-  font-size: var(--slogan-subtitle-size);
-  font-weight: var(--regular);
-  text-align: center;
+  margin-top: 15px;
+  font-weight: 400;
 }
-.form-subTitle{
-  font-size: var(--desc-size);
+.form-subtitle{
+  font-size: var(--smaller-size);
   font-weight: var(--regular);
-  margin-top: 16px;
-  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .form-text{
   font-size: var(--desc-size);
