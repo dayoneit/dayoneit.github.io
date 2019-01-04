@@ -145,6 +145,10 @@ body{
   text-align: center;
 }
 
+.device-image{
+  height: 90px;
+}
+
 .block-image{
 	width: 130px;
   height: 130px;
