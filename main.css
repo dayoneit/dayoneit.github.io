@@ -547,16 +547,26 @@ button a:focus, a:hover{
   padding: 46px 78px;
   height: 640px;
 }
+
 .form-title{
-  margin-top: 15px;
-  font-weight: 400;
+  font-size: var(--slogan-subtitle-size);
+  font-weight: var(--regular);
+  text-align: center;
 }
-.form-subtitle{
+.form-subTitle{
+  font-size: var(--desc-size);
+  font-weight: var(--regular);
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+.app-ques-subtitle{
   font-size: var(--smaller-size);
   font-weight: var(--regular);
   margin-top: 5px;
   margin-bottom: 10px;
 }
+
 .form-text{
   font-size: var(--desc-size);
   font-weight: var(--regular);
