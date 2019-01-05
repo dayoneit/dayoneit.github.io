@@ -133,6 +133,22 @@ body{
   text-decoration: underline;
 }
 
+.people-image{
+  width: 230px;
+  height: 230px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ming-block{
+  float: right;
+  text-align: center;
+}
+
+.device-image{
+  height: 90px;
+}
+
 .block-image{
 	width: 130px;
   height: 130px;
@@ -531,6 +547,7 @@ button a:focus, a:hover{
   padding: 46px 78px;
   height: 640px;
 }
+
 .form-title{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
@@ -542,6 +559,14 @@ button a:focus, a:hover{
   margin-top: 16px;
   margin-bottom: 25px;
 }
+
+.app-ques-subtitle{
+  font-size: var(--smaller-size);
+  font-weight: var(--regular);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .form-text{
   font-size: var(--desc-size);
   font-weight: var(--regular);
@@ -871,7 +896,7 @@ textarea.form-control {
 .author {
     margin-bottom: 50px;
     font-weight: var(--bold);
-
+    padding: 0px;
 }
 
 .applynow-btn{
