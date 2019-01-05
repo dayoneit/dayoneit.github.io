@@ -70,10 +70,13 @@
         </div>
       </div>
   </div>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='confirmationPage.html';}"></iframe>
+
       <div class="row">
         <div class="col-md-6 col-md-offset-3 app-text">
             <div class="app-title">Application</div>
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSf9Sj7N7p60Umv75j0sYDxUmoHMmzR-uKCDiyZq9CQF7J5hCg/formResponse" target="_self" method="POST">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSf9Sj7N7p60Umv75j0sYDxUmoHMmzR-uKCDiyZq9CQF7J5hCg/formResponse" method="POST" target="hidden_iframe" 
+            onsubmit="submitted=true;">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
