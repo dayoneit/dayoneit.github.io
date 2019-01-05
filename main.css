@@ -912,3 +912,21 @@ textarea.form-control {
   font-weight: var(--light);
   margin-bottom: 20px;
 }
+
+.heading-confirmation{
+  font-size: var(--heading-size);
+  font-weight: var(--light);
+  margin-bottom: 43px;
+  margin-top: 75px;
+}
+.text-confirmation{
+  font-size: 24px;
+  font-weight: var(--regular);
+  margin-bottom: 40px
+
+}
+.pop-confirmation{
+  font-size: 16px;
+  font-weight: var(--semi-bold);
+  margin-bottom: 100px;
+}
