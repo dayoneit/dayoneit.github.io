@@ -912,3 +912,8 @@ textarea.form-control {
   font-weight: var(--light);
   margin-bottom: 20px;
 }
+
+.pop-confirmation{
+  font-size: 16px;
+  margin-bottom: 200px;
+}
