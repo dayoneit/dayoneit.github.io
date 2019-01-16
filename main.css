@@ -45,7 +45,7 @@ body{
 @media only screen and (max-width: 600px) {
   .send{
     margin-top: 10px;
-    margin-left: 14px;
+
   }
   .phone{
     padding-left: 20px;
@@ -55,7 +55,7 @@ body{
     padding-bottom: 20px;
   }
   .learnMore_phoneNumber{
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .learnMore_email{
     margin-left: 40px;
@@ -66,9 +66,12 @@ body{
     padding: 0px 0px;
     background-color: black;
   }
+
 }
 
 @media only screen and (min-width: 600px) {
+
+
   .send{
     margin-top: 10px;
     margin-left: 10px;
@@ -261,6 +264,14 @@ body{
   font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.icon-text-sub {
+  margin-top: 20px
+}
+
 }
 
 .btn {
