@@ -39,62 +39,6 @@ body{
   font-family: 'Lato', sans-serif;
   color: var(--main-color-text);
 }
-
-
-/*======= Index Page========*/
-@media only screen and (max-width: 600px) {
-  .send{
-    margin-top: 10px;
-
-  }
-  .phone{
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-  .computer{
-    padding-bottom: 20px;
-  }
-  .learnMore_phoneNumber{
-    margin-left: 40px;
-  }
-  .learnMore_email{
-    margin-left: 40px;
-    margin-bottom: 100px;
-  }
-
-  .form-container{
-    padding: 0px 0px;
-    background-color: black;
-  }
-
-}
-
-@media only screen and (min-width: 600px) {
-
-
-  .send{
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-  .phone{
-    padding-left: 80px;
-  }
-  .tablet{
-    padding-right: 80px;
-  }
-  .tv{
-    padding-left: 80px;
-  }
-  .wifi{
-
-  }
-  .smarthome{
-    padding-right: 80px;
-  }
-
-}
-
-
 /*Navbar*/
 .nav-container{
   margin-bottom: 10px;
@@ -264,14 +208,6 @@ body{
   font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
-}
-
-@media only screen and (max-width: 600px) {
-
-.icon-text-sub {
-  margin-top: 20px
-}
-
 }
 
 .btn {
@@ -602,11 +538,6 @@ button a:focus, a:hover{
 }
 
 /* Contact Form */
-@media only screen and (max-width: 600px) {
-  .contact-image {
-    margin-top: 25px;
-  }
-}
 .form-container{
   display: block;
   background-color: #ffffff;
@@ -682,11 +613,6 @@ textarea.form-control {
   text-align: center;
   padding: 46px 78px;
 
-}
-@media only screen and (max-width: 600px){
-  .form-container{
-    padding: 46px 36px;
-  }
 }
 .card-heading{
   font-size: var(--subheading-size);
@@ -923,36 +849,7 @@ textarea.form-control {
   margin-bottom: 40px;
 }
 
-/*========= FAQ PAge =============*/
-@media only screen and (max-width: 600px) {
-  .link-margin{
-    margin-bottom: 40px;
-  }
-}
-
 /* ======== Contact Page ======== */
-@media only screen and (max-width: 600px) {
-
-  .contact-image {
-    margin-top: 25px;
-  }
-  .faq_content{
-    margin-left: 3%;
-    margin-right: 3%;
-
-  }
-}
-
-@media only screen and (min-width: 600px) {
-
-  .faq_content{
-    margin-left: 15%;
-    margin-bottom: 5%;
-  }
-
-}
-
-
 
 .contact-heading {
   margin-top: 150px;
