@@ -84,9 +84,7 @@
                     <label>Full Name</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="entry.416692538" required>
 
-
-
-                    <label for="formGroupExampleInput2">Email (preferrably Gmail)</label>
+                    <label for="formGroupExampleInput2">Email</label>
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email" name="entry.1136160339" required>
 
 
@@ -98,31 +96,64 @@
 
               <div class="row">
                 <div class="col-md-6">
-              <div class="form-group" role="radiogroup">
-                <label for="formGroupExampleInput2">What form of transportation do you have access to?</label>
-                <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio1" name="entry.1715280103" value="Personal Car" class="custom-control-input">
-                  Personal Car
-                </div>
-                <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio2" name="entry.1715280103" value="Bike" class="custom-control-input">
-                  Bike
-                </div>
-                <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio2" name="entry.1715280103" value="Public Transportation" class="custom-control-input">
-                  Public Transportation
-                </div>
-                <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio2" name="entry.1715280103" value="Other" class="custom-control-input">
-                  Other
-                  <input type="text" class="form-control" id="exampleInputEmail1" name="entry.1715280103" value="" aria-describedby="emailHelp" placeholder="Other Transportation">
+                  <div class="form-group" role="radiogroup">
+                    <label for="formGroupExampleInput2">What form of transportation do you have access to?</label>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio1" name="entry.1715280103" value="Personal Car" class="custom-control-input">
+                      Personal Car
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio2" name="entry.1715280103" value="Bike" class="custom-control-input">
+                      Bike
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio2" name="entry.1715280103" value="Public Transportation" class="custom-control-input">
+                      Public Transportation
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio2" name="entry.1715280103" value="Other" class="custom-control-input">
+                      Other
+                      <input type="text" class="form-control" id="exampleInputEmail1" name="entry.1715280103" value="" aria-describedby="emailHelp" placeholder="Other Transportation">
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
+
+              <div class="row">
+                <div class="col-md-6">
+
+                  <div class="form-group" role="radiogroup">
+                    <label for="formGroupExampleInput2">Are you currently attending school?</label>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio1" name="entry.1908698693" value="Personal Car" class="custom-control-input">
+                      Yes
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio2" name="entry.1908698693" value="Bike" class="custom-control-input">
+                      No
+                    </div>
+
+                    <label for="formGroupExampleInput2">What school are you attending?</label>
+                    <label for="formGroupExampleInput2" class="app-ques-subtitle"> Skip if not in school.</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="University of Florida" name="entry.1057272054">
+
+                    <label for="formGroupExampleInput2">If you are in school, how far along are you? </label>
+                    <label for="formGroupExampleInput2" class="app-ques-subtitle"> Skip if not in school.</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="2nd year" name="entry.1778031709">
+
+                    <label for="formGroupExampleInput2">What is your background?</label>
+                    <label for="formGroupExampleInput2" class="app-ques-subtitle">Or fields of study if you're currently in school.</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Mechanical Engineering with Psychology minor" name="entry.1392927551" required>
+                  </div>
+                </div>
+              </div>
+
+
+
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">Have you ever...? (check all that applies)</label>
+                <label for="formGroupExampleInput2">Have you ever...?</label>
+                <br><label for="formGroupExampleInput2" class="app-ques-subtitle">Check all that applies.</label>
                 <div class="custom-control custom-checkbox">
                   <input type="checkbox" name="entry.1475368468" value="Had a customer experience job" class="custom-control-input" id="customCheck1">
                   Had a customer experience job
@@ -147,18 +178,17 @@
                   <input type="checkbox" name="entry.1475368468" value="None of the above" class="custom-control-input" id="customCheck1">
                   None of the above
                 </div>
+
+                <label for="formGroupExampleInput2">If you've previously worked in tech support, tell us more.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1351834129"></textarea>
+
               </div>
 
             <div class="row">
               <div class="col-md-12">
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">If you've previously worked in tech support, tell us more.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1351834129"></textarea>
-              </div>
-
-              <div class="form-group">
-                <label for="formGroupExampleInput2">If an 82 year old grandma asks you "I thought I just go to Google. Why do I have to go to Chrome? What's the difference?" How would you answer her in a way she might understand best?</label>
+                <label for="formGroupExampleInput2">If an 82 year-old grandma asks you "I thought I just go to Google. Why do I have to go to Chrome? What's the difference?" How would you answer her in a way she might understand best?</label>
                 <label for="formGroupExampleInput2" class="app-ques-subtitle">Answer with how you would respond to the situation.</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.934418591"></textarea>
               </div>
