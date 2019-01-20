@@ -68,11 +68,17 @@ body{
   }
   .index_image{
     padding-right:0;
-    height:500px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .img_tree{
     height: 240px;
-    
+
+  }
+
+  .contact_us_btn {
+    margin-top: 0px;
   }
 
 }
@@ -81,7 +87,7 @@ body{
 
 
   .send{
-    
+
     margin-left: 10px;
   }
   .phone{
@@ -107,6 +113,10 @@ body{
 
   .img_tree{
     height: 500px;
+  }
+
+  .contact_us_btn {
+    margin-top: 100px;
   }
 
 }
@@ -236,7 +246,7 @@ body{
 
 @media only screen and (max-width: 600px) {
 
-  .block-subheading{
+  .index-subheading .block-subheading{
     margin-top: 60px
   }
 }
@@ -293,7 +303,8 @@ body{
 @media only screen and (max-width: 600px) {
 
 .icon-text-sub {
-  margin-top: 20px
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 }
@@ -434,6 +445,27 @@ button a:focus, a:hover{
   background: var(--line-color);
   margin: 100px auto 30px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .values-firstdivider {
+
+    margin: 60px auto 80px;
+
+  }
+
+  .values-divider{
+
+   margin: 100px auto 100px;
+
+  }
+
+
+
+}
+
+
+
 .review-details{
   text-align: left;
 }
@@ -772,7 +804,8 @@ textarea.form-control {
   }
 
   .box-size{
-    height: 900px;
+    height: 750px;
+    margin-bottom:  50px;
 
   }
 
@@ -780,7 +813,7 @@ textarea.form-control {
 
   }
   .right-box {
-    margin-top: 100px;
+
   }
 
 
@@ -1014,11 +1047,27 @@ textarea.form-control {
 }
 
 /* ======== Techie Page ======== */
+
+@media only screen and (max-width: 600px) {
+
+  .techie-footer .image-footer {
+    margin-bottom: 50px;
+  }
+
+}
+
 .row-color {
     background-color: var(--block-color);
     padding-bottom: 0px;
 
 
+}
+
+.easter_egg {
+  padding-bottom: 0px;
+  display: none;
+  opacity: 0;
+  position: absolute;
 }
 
 .author {
