@@ -277,12 +277,12 @@ body{
   padding: 5px 15px;
   text-align: center;
 }
-.underline-hov{
+.question-links{
   margin-top:75px;
   font-size: var(--desc-size);
   color: var(--main-color);
 }
-.underline-hov:focus, .underline-hov:hover {
+.question-links:focus, .question-links:hover {
     color: var(--main-color);
     opacity: 0.9;
     text-decoration: underline;
@@ -804,7 +804,7 @@ textarea.form-control {
   }
 
   .box-size{
-    height: 750px;
+    height: 800px;
     margin-bottom:  50px;
 
   }
