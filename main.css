@@ -15,12 +15,12 @@
   --popup-field-color: rgba(196,196,196,0.2);
 
   /*Font*/
-  --heading-size: 36px;
-  --subheading-size: 25px;
+  --heading-size: 40px;
+  --subheading-size: 28px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 22px;
   --link-size: 20px;
-  --desc-size: 18px;
+  --desc-size: 22px;
   --smaller-size: 14px;
   --big-number-size: 88px;
   --size-32: 32px;
@@ -42,6 +42,12 @@ body{
 
 
 /*======= Index Page========*/
+
+.nav-item {
+  font-size: 25px;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 600px) {
   .send{
     margin-top: 10px;
@@ -69,9 +75,21 @@ body{
   .index_image{
     padding-right:0;
     height: 250px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: none;
   }
+
+  .mobile_index_image{
+
+    padding-right:0;
+    height: 250px;
+    margin-top: 0px;
+    padding-top: 70px
+
+  }
+
+
   .img_tree{
     height: 240px;
 
@@ -106,7 +124,8 @@ body{
     padding-right: 80px;
   }
 
-  .index_image{
+  .mobile_index_image{
+    display:none;
     padding-right:0;
     height:500px;
   }
@@ -162,7 +181,7 @@ body{
   box-shadow: 0 2px 4px 0 rgba(46,62,72,.12), 0 0 2px 0 rgba(46,62,72,.12);
 }
 .logo{
-  font-size: 28px;
+  font-size: 40px;
   font-weight: var(--bold);
   color: var(--main-color);
 }
@@ -240,7 +259,7 @@ body{
 }
 .block-subheading{
 	font-size: var(--subheading-size);
-  font-weight: var(--light);
+  font-weight: var(--regular);
   margin-bottom: 5px;
 }
 
@@ -249,12 +268,20 @@ body{
   .index-subheading .block-subheading{
     margin-top: 60px
   }
+
 }
 
 
 .block-paragraph {
   margin-bottom: 3%;
-  font-size: 15px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .block-paragraph {
+    margin-bottom: 12%;
+
+  }
+
 }
 
 .heading-border {
@@ -609,12 +636,12 @@ button a:focus, a:hover{
 }
 
 /* Popup*/
+.modal-header{
+  border-bottom: none;
+}
 .modal-body{
   padding: 0px 78px;
   text-align: left;
-}
-.modal-header{
-  border-bottom: none;
 }
 .modal-title{
   font-size: var(--slogan-subtitle-size);
@@ -623,6 +650,19 @@ button a:focus, a:hover{
   text-align: center;
   padding: 0 100px;
 }
+@media only screen and (max-width: 600px) {
+
+  .modal-body {
+    padding: 0px 20px;
+    text-align: center;
+  }
+
+  .modal-title{
+    padding: 0px;
+  }
+
+}
+
 .modal-thankYouTitle{
   font-size: var(--slogan-subtitle-size);
   font-weight: var(--regular);
@@ -760,7 +800,7 @@ textarea.form-control {
   font-weight: var(--regualr);
 }
 .pricing-smallTxt{
-  font-size: 15px;
+  font-size: 18px;
   font-weight: var(--regular);
 }
 .plus-pricing{
@@ -809,11 +849,14 @@ textarea.form-control {
 
   }
 
-  .left-box{
+  .left-box-size{
+    height: 900px;
+    margin-bottom:  50px;
 
   }
-  .right-box {
-
+  .right-box-size{
+    height: 700px;
+    margin-bottom:  50px;
   }
 
 
@@ -833,7 +876,14 @@ textarea.form-control {
 
   }
 
-  .right-box {
+  .left-box-size{
+    height: 800px;
+    margin-bottom:  150px;
+
+  }
+  .right-box-size{
+    height: 700px;
+    margin-bottom:  150px;
 
   }
 
@@ -848,7 +898,16 @@ textarea.form-control {
   }
 
   .box-size{
-    height: 655px;
+    height: 755px;
+  }
+
+  .left-box-size{
+    height: 700px;
+
+  }
+  .right-box-size{
+    height: 700px;
+
   }
 
 }
@@ -864,6 +923,17 @@ textarea.form-control {
   .right-box {
     margin-left: 17%;
   }
+
+  .left-box-size{
+    width: 473.33px;
+
+  }
+  .right-box-size{
+    width: 473.33px;
+
+  }
+
+
 
 
  }
@@ -883,6 +953,15 @@ textarea.form-control {
 
    .right-box {
      margin-left: 9%;
+   }
+
+   .left-box-size{
+      width: 503.33px;
+
+   }
+   .right-box-size{
+      width: 503.33px;
+
    }
 
   }
@@ -967,7 +1046,7 @@ textarea.form-control {
 .btn-bottom2{
   bottom: -55px;
   position: relative;
-  /* margin-top:35px; */
+   margin-top: 33px;
 }
 /* ======== Application Page ======== */
 .app-text{
