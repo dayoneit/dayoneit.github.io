@@ -1,5 +1,7 @@
 <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='';}"></iframe> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+<div class="container-fluid">
 <div class="modal fade" id="modalGetStarted" tabindex="-1" role="dialog" aria-labelledby="modalGetStartedLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -7,20 +9,24 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
+                <div class="row">
+                  <div class="col">
                 <h5 class="modal-title" id="modalGetStartedLabel">Request an appointment</h5>
                 <h5 class="modal-title" id="thankYou2" style="display:none">Got it! We will reach out back within 24 hours.</h5>
+                  </div>
+                </div>
             </div>
             <div class="modal-body">
-                <form id="contact_form1" action="https://docs.google.com/forms/d/e/1FAIpQLSe9eBx0yfzNq_Czek_-aa7cGJ337KUYS_6sHgq4NYNqJpPM_w/formResponse" method="POST" target="hidden_iframe" 
+                <form id="contact_form1" action="https://docs.google.com/forms/d/e/1FAIpQLSe9eBx0yfzNq_Czek_-aa7cGJ337KUYS_6sHgq4NYNqJpPM_w/formResponse" method="POST" target="hidden_iframe"
                 onsubmit="submitted=true;">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-name" name="entry.1286636554" placeholder="Name">
+                        <input type="text" class="form-control" id="recipient-name" name="entry.1286636554" placeholder="Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-email" name="entry.1462677588" placeholder="Email">
+                        <input type="text" class="form-control" id="recipient-email" name="entry.1462677588" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-phone" name="entry.1937714152" placeholder="Phone Number">
+                        <input type="text" class="form-control" id="recipient-phone" name="entry.1937714152" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" id="message-text" name="entry.1769716152"></textarea>
@@ -34,11 +40,11 @@
                     </label>
                     <label class="radio-inline">
                         <input type="radio" name="entry.1248010040" value="Text" id="33"> By Text
-                    </label>    
+                    </label>
                     <input type="hidden" name="entry.436110837" value="Pricing page - Get Started button">
                     <div class="btn-submit">
                         <button id="submit1" type="submit" class="btn btn-primary btn-lg round">Submit</button>
-                    </div>                   
+                    </div>
                 </form>
                 <div class="text-center" id="thankYou22" style="display:none"><img src="img/completeImg.png"/></div>
             </div>
@@ -47,4 +53,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
