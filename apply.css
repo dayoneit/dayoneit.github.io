@@ -10,6 +10,10 @@ label {
   margin-bottom: 100px;
 }
 
+.apply-form{
+  padding: 0px 10px;
+}
+
 .heading-details{
 	margin-top: 150px;
 
@@ -19,4 +23,13 @@ label {
 	font-size: 27px;
   font-weight: 400;
   margin-bottom: 5px;
+}
+
+.container-fluid{
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+
 }
