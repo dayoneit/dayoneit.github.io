@@ -19,7 +19,7 @@
   --subheading-size: 28px;
   --slogan-size: 56px;
   --slogan-subtitle-size: 22px;
-  --link-size: 20px;
+  --link-size: 17px;
   --desc-size: 22px;
   --smaller-size: 14px;
   --big-number-size: 88px;
@@ -35,14 +35,12 @@
   --italic: italic;
 
 }
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
+
 body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: var(--main-color-text);
 }
@@ -557,6 +555,7 @@ button a:focus, a:hover{
   font-size: 100px;
   font-weight: var(--regular);
   opacity: 0.12;
+
 }
 .sub-textP{
   font-size: var(--subheading-size);
@@ -822,7 +821,7 @@ textarea.form-control {
   opacity: 0.12;
 }
 .card-text{
-  font-size: var(--desc-size);
+  font-size: var(--link-size);
   font-weight: var(--regular);
   margin-top: 31px;
 }
@@ -1146,6 +1145,28 @@ textarea.form-control {
     margin-bottom: 50px;
   }
 
+}
+
+.techie .sub-textP  {
+  font-size: 25px;
+
+}
+
+.techie .block-subheading {
+  font-size: var(--desc-size);
+}
+
+.techie .image-footer {
+  font-size: var(--link-size);
+}
+
+.techie .applynow-btn {
+  padding: 15px 40px;
+  font-size: var(--link-size);
+}
+
+.techie .question-links {
+  font-size: var(--link-size);
 }
 
 .row-color {

@@ -9,7 +9,7 @@ tl
   targets: '.footer',
   translateY: function () {
     if ($(window).width() < 960) {
-      return 1700;
+      return 1900;
     }
     else {
       return 1050;
