@@ -597,6 +597,9 @@ button a:focus, a:hover{
 }
 .contact-imgIcon{
   float: left;
+  margin-top: 10px;
+  width: 20px;
+  height: 15px;
 }
 .bgImg{
   background-image: url(./img/learnMoreBg.png);
@@ -793,8 +796,12 @@ textarea.form-control {
 @media only screen and (max-width: 600px){
   .form-container{
     padding: 46px 36px;
-    height: 700px;
+
   }
+}
+.about-pricing-row{
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .card-heading{
   font-size: var(--subheading-size);
@@ -803,9 +810,15 @@ textarea.form-control {
   margin-top: 26px;
   margin-bottom: 19px;
 }
+.subscript-numb{
+  font-size: 45px;
+  font-weight: var(--light);
+  margin-bottom: 20px;
+}
+
 .pricing-numb{
   font-size: 45px;
-  font-weight: var(--regular);
+  font-weight: var(--light);
 }
 .pricing-subNumb{
   font-size: var(--desc-size);
@@ -862,10 +875,16 @@ textarea.form-control {
   }
 
   .left-box-size{
-    height: 900px;
+    height: 800px;
     margin-bottom:  50px;
 
   }
+
+  .center-box-size{
+    height: 850px;
+    margin-bottom:  50px;
+  }
+
   .right-box-size{
     height: 700px;
     margin-bottom:  50px;
@@ -877,21 +896,29 @@ textarea.form-control {
 
 @media (min-width: 600px) {
 
+  .line-one{
+    margin-left: -15%;
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    background-color: grey;
+  }
+  .line-two{
+    margin-left: -5%;
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    background-color: grey;
+  }
   .pricing-container {
     margin-left:15px;
-
-
   }
-
   .box-size{
     height: 805px;
-
   }
-
   .left-box-size{
     height: 800px;
     margin-bottom:  150px;
-
   }
   .right-box-size{
     height: 700px;
@@ -932,16 +959,33 @@ textarea.form-control {
 
   }
 
-  .right-box {
+  .center-box {
     margin-left: 17%;
   }
 
+  .right-box {
+    margin-left: -8%;
+    margin-top: 5%;
+  }
+
+
+
   .left-box-size{
     width: 473.33px;
+    height: 700px;
 
   }
+
+  .center-box-size{
+    width: 473.33px;
+    height: 700px;
+
+  }
+
+
   .right-box-size{
     width: 473.33px;
+    height: 700px;
 
   }
 
@@ -960,14 +1004,22 @@ textarea.form-control {
    }
 
    .left-box {
-     margin-left: 8%;
+     margin-left: 7.5%;
+   }
+
+   .center-box {
+     margin-left: 10%;
    }
 
    .right-box {
-     margin-left: 9%;
+     margin-left: -12%;
    }
 
    .left-box-size{
+      width: 503.33px;
+
+   }
+   .center-box-size{
       width: 503.33px;
 
    }
@@ -984,8 +1036,12 @@ textarea.form-control {
      margin-left: 10.7%;
    }
 
+   .center-box{
+     margin-left: 8%;
+   }
+
    .right-box {
-     margin-left: 7%;
+     margin-left: -13%;
    }
 
 
@@ -997,8 +1053,12 @@ textarea.form-control {
     margin-left: 12.7%;
   }
 
-  .right-box {
+  .center-box {
     margin-left: 4%;
+  }
+
+  .right-box {
+    margin-left: -15%;
   }
 
  }
@@ -1011,7 +1071,7 @@ textarea.form-control {
   }
 
   .right-box {
-    margin-left: 4%;
+    margin-left: -15%;
   }
 
 }
@@ -1022,19 +1082,27 @@ textarea.form-control {
     margin-left: 16.7%;
   }
 
-  .right-box {
+  .center-box{
     margin-left: 0%;
+  }
+
+  .right-box {
+    margin-left: -16%;
   }
 }
 
 @media (min-width: 1680px) {
 
   .left-box {
-    margin-left: 18.7%;
+    margin-left: 17.7%;
+  }
+
+  .center-box{
+    margin-left: 0%;
   }
 
   .right-box {
-    margin-left: -2%;
+    margin-left: -17%;
   }
 }
 
@@ -1043,23 +1111,49 @@ textarea.form-control {
 @media (min-width: 1920px) {
 
   .left-box {
-    margin-left: 21.7%;
+    margin-left: 0%;
+  }
+  .center-box{
+    margin-left: 0%;
   }
   .right-box {
-    margin-left: -5%;
+    margin-left: 0%;
+    margin-top: 0%;
   }
+
+  .left-box-size {
+    margin: 0 0 0 auto;
+  }
+
+  .center-box-size {
+    margin: 0 auto;
+  }
+
+  .right-box-size {
+    margin: 0 auto 0 0;
+  }
+
+
+
 }
 
-.btn-bottom{
+.onetime-btn{
   bottom: -30px;
   position: relative;
   /* margin-top:35px; */
 }
-.btn-bottom2{
+.credits-btn{
   bottom: -55px;
   position: relative;
-   margin-top: 33px;
+   margin-top: 29px;
 }
+
+.subscription-btn{
+
+  position: relative;
+   margin-top: 32px;
+}
+
 /* ======== Application Page ======== */
 .app-text{
   font-size: var(--desc-size);
