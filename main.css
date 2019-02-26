@@ -897,18 +897,20 @@ textarea.form-control {
 @media (min-width: 600px) {
 
   .line-one{
+    margin-top: 10px;
     margin-left: -15%;
     position: absolute;
-    height: 100px;
-    width: 1px;
-    background-color: grey;
+    height: 80px;
+    width: 3px;
+    background-color: #DDDDDD;
   }
   .line-two{
+    margin-top: 10px;
     margin-left: -5%;
     position: absolute;
-    height: 100px;
-    width: 1px;
-    background-color: grey;
+    height: 80px;
+    width: 3px;
+    background-color: #DDDDDD ;
   }
   .pricing-container {
     margin-left:15px;
