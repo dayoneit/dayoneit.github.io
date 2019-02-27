@@ -793,6 +793,53 @@ textarea.form-control {
   padding: 46px 78px;
 
 }
+
+.credits-price{
+   margin-bottom: 100px;
+   color: #696969;
+}
+
+.subscription-btn{
+
+  position: relative;
+   margin-top: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+  }
+
+  .subscript-plan-detail{
+    margin-left: 50px;
+  }
+
+  .box-size{
+    height: 800px;
+    margin-bottom:  50px;
+  }
+
+  .left-box-size{
+    height: 800px;
+    margin-bottom:  50px;
+
+  }
+
+  .center-box-size{
+    height: 850px;
+    margin-bottom:  50px;
+  }
+
+  .right-box-size{
+    height: 700px;
+    margin-bottom:  50px;
+  }
+
+
+}
+
 @media only screen and (max-width: 600px){
   .form-container{
     padding: 46px 36px;
@@ -814,6 +861,9 @@ textarea.form-control {
   font-size: 45px;
   font-weight: var(--light);
   margin-bottom: 20px;
+}
+.subscript-plan-detail{
+  margin-left: 10px;
 }
 
 .pricing-numb{
@@ -861,39 +911,6 @@ textarea.form-control {
 }
 
 
-@media only screen and (max-width: 600px) {
-
-  .pricing-container {
-    margin-left:15px;
-
-  }
-
-  .box-size{
-    height: 800px;
-    margin-bottom:  50px;
-
-  }
-
-  .left-box-size{
-    height: 800px;
-    margin-bottom:  50px;
-
-  }
-
-  .center-box-size{
-    height: 850px;
-    margin-bottom:  50px;
-  }
-
-  .right-box-size{
-    height: 700px;
-    margin-bottom:  50px;
-  }
-
-
-}
-
-
 @media (min-width: 600px) {
 
   .line-one{
@@ -911,6 +928,9 @@ textarea.form-control {
     height: 80px;
     width: 3px;
     background-color: #DDDDDD ;
+  }
+  .subscript-plan-detail{
+    margin-left: 50px;
   }
   .pricing-container {
     margin-left:15px;
@@ -962,31 +982,31 @@ textarea.form-control {
   }
 
   .center-box {
-    margin-left: 17%;
+    margin-left: 0%;
   }
 
   .right-box {
-    margin-left: -8%;
-    margin-top: 5%;
+    margin-left: 0%;
+    margin-top: 0%;
   }
 
 
 
   .left-box-size{
-    width: 473.33px;
+
     height: 700px;
 
   }
 
   .center-box-size{
-    width: 473.33px;
+
     height: 700px;
 
   }
 
 
   .right-box-size{
-    width: 473.33px;
+
     height: 700px;
 
   }
@@ -998,35 +1018,67 @@ textarea.form-control {
 
  @media (min-width: 1280px) {
 
-
+   .line-one{
+     margin-top: 10px;
+     margin-left: -20%;
+     position: absolute;
+     height: 80px;
+     width: 3px;
+     background-color: #DDDDDD;
+   }
+   .line-two{
+     margin-top: 10px;
+     margin-left: -17%;
+     position: absolute;
+     height: 80px;
+     width: 3px;
+     background-color: #DDDDDD ;
+   }
    .box-size {
 
-     width: 503.33px;
+
+
+   }
+   .card-text{
 
    }
 
    .left-box {
-     margin-left: 7.5%;
+     margin-left: 0%;
    }
 
    .center-box {
-     margin-left: 10%;
+     margin-left: 0%;
    }
 
    .right-box {
-     margin-left: -12%;
+     margin-left: 0%;
    }
 
+   .subscript-plan-detail{
+     margin-left: 0;
+   }
+   .subscription-btn{
+
+     position: relative;
+      margin-top: 65px;
+   }
+
+   .plus-pricing {
+     margin-left: -3%;
+   }
+
+
    .left-box-size{
-      width: 503.33px;
+
 
    }
    .center-box-size{
-      width: 503.33px;
+
 
    }
    .right-box-size{
-      width: 503.33px;
+
 
    }
 
@@ -1035,15 +1087,21 @@ textarea.form-control {
  @media (min-width: 1366px) {
 
    .left-box {
-     margin-left: 10.7%;
+     margin-left: 0%;
    }
 
    .center-box{
-     margin-left: 8%;
+     margin-left: 0%;
    }
 
    .right-box {
-     margin-left: -13%;
+     margin-left: 0%;
+   }
+   .plus-pricing {
+     margin-left: -5%;
+   }
+   .subscript-plan-detail{
+     margin-left: 7%;
    }
 
 
@@ -1051,16 +1109,29 @@ textarea.form-control {
 
 @media (min-width: 1400px) {
 
+  .line-one{
+    margin-left: -15%;
+  }
+  .line-two{
+    margin-left: -15%;
+  }
   .left-box {
-    margin-left: 12.7%;
+    margin-left: 0%;
   }
 
   .center-box {
-    margin-left: 4%;
+    margin-left: 0%;
   }
 
   .right-box {
-    margin-left: -15%;
+    margin-left: 0%;
+  }
+
+  .subscript-plan-detail{
+    margin-left: 5%;
+  }
+  .plus-pricing {
+    margin-left: -5%;
   }
 
  }
@@ -1069,42 +1140,84 @@ textarea.form-control {
 @media (min-width: 1440px) {
 
   .left-box {
-    margin-left: 12.7%;
+    margin-left: 0%;
+  }
+
+  .center-box{
+    margin-left: 0%;
   }
 
   .right-box {
-    margin-left: -15%;
+    margin-left: 0%;
+  }
+
+  .subscript-plan-detail{
+    margin-left: 20px;
+  }
+  .plus-pricing {
+    margin-left: -5%;
   }
 
 }
 
 @media (min-width: 1600px) {
 
+  .line-one{
+    margin-left: -15%;
+  }
+  .line-two{
+    margin-left: -12%;
+  }
   .left-box {
-    margin-left: 16.7%;
+    margin-left: 0%;
+  }
+
+  .left-box-size {
+    width: 503.33px;
   }
 
   .center-box{
     margin-left: 0%;
   }
+  .center-box-size{
+    width: 503.33px;
+  }
 
   .right-box {
-    margin-left: -16%;
+    margin-left: 0%;
+  }
+  .right-box-size{
+    width: 503.33px;
   }
 }
 
 @media (min-width: 1680px) {
 
+  .line-one{
+    margin-left: -15%;
+  }
+  .line-two{
+    margin-left: -10%;
+  }
   .left-box {
-    margin-left: 17.7%;
+    margin-left: 0%;
+  }
+  .left-box-size {
+    margin: 0 0 0 auto;
   }
 
   .center-box{
     margin-left: 0%;
   }
+  .center-box-size {
+    margin: 0 auto;
+  }
 
   .right-box {
-    margin-left: -17%;
+    margin-left: 0%;
+  }
+  .right-box-size {
+    margin: 0 auto 0 0;
   }
 }
 
@@ -1148,12 +1261,6 @@ textarea.form-control {
   bottom: -55px;
   position: relative;
    margin-top: 29px;
-}
-
-.subscription-btn{
-
-  position: relative;
-   margin-top: 32px;
 }
 
 /* ======== Application Page ======== */
