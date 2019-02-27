@@ -804,6 +804,11 @@ textarea.form-control {
   position: relative;
    margin-top: 32px;
 }
+.credits-btn{
+  bottom: -55px;
+  position: relative;
+  margin-top: 29px;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -1157,6 +1162,15 @@ textarea.form-control {
   .plus-pricing {
     margin-left: -5%;
   }
+  .credits-price{
+    margin-bottom:80px
+  }
+  .credits-btn{
+    margin-top: 0px;
+  }
+  .subscription-btn{
+    margin-top: 55px;
+  }
 
 }
 
@@ -1189,6 +1203,13 @@ textarea.form-control {
   .right-box-size{
     width: 503.33px;
   }
+  .subscript-plan-detail{
+    margin-left: 15%;
+  }
+  .subscription-btn{
+    margin-top: 30px;
+  }
+
 }
 
 @media (min-width: 1680px) {
@@ -1218,6 +1239,9 @@ textarea.form-control {
   }
   .right-box-size {
     margin: 0 auto 0 0;
+  }
+  .subscript-plan-detail{
+    margin-left: 15%;
   }
 }
 
@@ -1257,11 +1281,7 @@ textarea.form-control {
   position: relative;
   /* margin-top:35px; */
 }
-.credits-btn{
-  bottom: -55px;
-  position: relative;
-   margin-top: 29px;
-}
+
 
 /* ======== Application Page ======== */
 .app-text{
