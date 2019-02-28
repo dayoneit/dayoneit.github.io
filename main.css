@@ -868,7 +868,7 @@ textarea.form-control {
   margin-bottom: 20px;
 }
 .subscript-plan-detail{
-  margin-left: 10px;
+  margin-left: 35px;
 }
 
 .pricing-numb{
@@ -985,6 +985,38 @@ textarea.form-control {
     width: 473.33px;
 
   }
+  .form-container{
+    padding: 46px 10px;
+  }
+  .logo{
+    margin-left: 237%;
+  }
+
+  .subscript-plan-detail {
+    margin-left: 35px;
+  }
+
+  .plus-pricing{
+    margin-left:-10%;
+  }
+
+  .pricing-margin{
+    margin-left: -5%;
+  }
+
+  .credits-btn{
+    bottom: 0;
+    margin-top:33px;
+  }
+
+  .subscription-btn{
+    margin-top: 50px;
+  }
+  .line-two{
+    margin-left: -12%
+  }
+
+
 
   .center-box {
     margin-left: 0%;
@@ -1038,6 +1070,19 @@ textarea.form-control {
      height: 80px;
      width: 3px;
      background-color: #DDDDDD ;
+   }
+   .logo{
+     margin-left: 0%;
+   }
+   .form-container{
+     padding: 46px 78px;
+   }
+   .plus-pricing{
+     margin-left:0px
+   }
+   .credits-btn{
+     bottom: -55px;
+     margin-top: 29px;
    }
    .box-size {
 
