@@ -262,6 +262,28 @@ body{
   font-weight: var(--bold);
   color: var(--main-color);
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .logo{
+
+    margin-left: 230%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .logo{
+
+    margin-left: 150%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo{
+
+    margin-left: 0%;
+  }
+}
+
 .slogan{
   font-size: var(--slogan-size);
   font-weight: var(--light);
@@ -338,7 +360,6 @@ body{
 	font-size: var(--subheading-size);
   font-weight: var(--regular);
   margin-bottom: 5px;
-  margin-top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -410,6 +431,10 @@ body{
 .icon-text-sub {
   margin-top: 20px;
   margin-bottom: 100px;
+}
+.index .block-subheading{
+
+  margin-top: 50px;
 }
 
 }
