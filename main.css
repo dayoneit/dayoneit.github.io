@@ -313,7 +313,7 @@ body{
 	color: var(--heading-color);
   font-weight: var(--bold);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .block-heading{
     margin-top: 50px;
   }
