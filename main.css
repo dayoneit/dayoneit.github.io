@@ -52,6 +52,12 @@ body{
   font-size: 25px;
   font-weight: 500;
 }
+.learnMore_email{
+  margin-top:36px;
+}
+.learnMore_phoneNumber{
+  margin-top:82px;
+}
 
 @media only screen and (max-width: 600px) {
   .send{
@@ -118,6 +124,63 @@ body{
 
     margin-left: 10px;
   }
+
+  .mobile_index_image{
+    display:none;
+    padding-right:0;
+    height:500px;
+  }
+
+  .img_tree{
+    height: 500px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .contact_us_btn {
+    margin-left: 25px;
+  }
+
+  .learnMore_email{
+    margin-bottom: 50px;
+  }
+  .send{
+
+    margin-left: 0px;
+  }
+
+  .mobile_index_image{
+    display:none;
+    padding-right:0;
+    height:500px;
+  }
+
+  .img_tree{
+    height: 500px;
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .send{
+    margin-top:10px;
+  }
+
+}
+
+@media only screen and (min-width: 1366px) {
+
+  .send{
+    margin-top: 0px;
+  }
   .phone{
     padding-left: 80px;
   }
@@ -134,22 +197,26 @@ body{
     padding-right: 80px;
   }
 
-  .mobile_index_image{
-    display:none;
-    padding-right:0;
-    height:500px;
-  }
-
-  .img_tree{
-    height: 500px;
-  }
-
-  .contact_us_btn {
-    margin-top: 100px;
-  }
-
 }
 
+
+/*
+.phone{
+  padding-left: 80px;
+}
+.tablet{
+  padding-right: 80px;
+}
+.tv{
+  padding-left: 80px;
+}
+.wifi{
+
+}
+.smarthome{
+  padding-right: 80px;
+}
+*/
 
 /*Navbar*/
 .nav-container{
@@ -271,6 +338,7 @@ body{
 	font-size: var(--subheading-size);
   font-weight: var(--regular);
   margin-bottom: 5px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -337,7 +405,7 @@ body{
   margin-top: 7px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
 .icon-text-sub {
   margin-top: 20px;
@@ -490,14 +558,11 @@ button a:focus, a:hover{
     margin: 60px auto 80px;
 
   }
-
   .values-divider{
 
    margin: 100px auto 100px;
 
   }
-
-
 
 }
 
@@ -925,6 +990,9 @@ textarea.form-control {
 }
 
 @media (min-width: 1024px) {
+  .contact_us_btn {
+    margin-top: 100px;
+  }
 
   .box-size {
 
@@ -1056,7 +1124,6 @@ textarea.form-control {
   /* margin-top:35px; */
 }
 .btn-bottom2{
-
   position: relative;
    margin-top: 45px;
 }
@@ -1088,11 +1155,19 @@ textarea.form-control {
   .faq_content{
     margin-left: 3%;
     margin-right: 3%;
-
   }
 }
 
 @media only screen and (min-width: 600px) {
+
+  .faq_content{
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
 
   .faq_content{
     margin-left: 15%;
