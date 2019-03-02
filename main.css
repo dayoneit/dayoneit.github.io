@@ -313,6 +313,17 @@ body{
 	color: var(--heading-color);
   font-weight: var(--bold);
 }
+@media only screen and (max-width: 768px) {
+  .block-heading{
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .block-heading{
+    margin-top: 0px;
+  }
+}
 
 .block-link{
   font-size: 20px;
