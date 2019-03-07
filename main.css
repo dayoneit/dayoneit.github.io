@@ -809,6 +809,11 @@ textarea.form-control {
   position: relative;
   margin-top: 29px;
 }
+.onetime-btn{
+  bottom: -30px;
+  position: relative;
+  /* margin-top:35px; */
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -1057,7 +1062,7 @@ textarea.form-control {
 
    .line-one{
      margin-top: 10px;
-     margin-left: -20%;
+     margin-left: -16%;
      position: absolute;
      height: 80px;
      width: 3px;
@@ -1065,7 +1070,7 @@ textarea.form-control {
    }
    .line-two{
      margin-top: 10px;
-     margin-left: -17%;
+     margin-left: -12%;
      position: absolute;
      height: 80px;
      width: 3px;
@@ -1075,14 +1080,13 @@ textarea.form-control {
      margin-left: 0%;
    }
    .form-container{
-     padding: 46px 78px;
+     padding: 46px 40px;
    }
    .plus-pricing{
      margin-left:0px
    }
    .credits-btn{
-     bottom: -55px;
-     margin-top: 29px;
+     margin-top: 36px;
    }
    .box-size {
 
@@ -1106,12 +1110,12 @@ textarea.form-control {
    }
 
    .subscript-plan-detail{
-     margin-left: 0;
+     margin-left: 12%;
    }
    .subscription-btn{
 
      position: relative;
-      margin-top: 65px;
+      margin-top: 57px;
    }
 
    .plus-pricing {
@@ -1151,7 +1155,10 @@ textarea.form-control {
      margin-left: -5%;
    }
    .subscript-plan-detail{
-     margin-left: 7%;
+     margin-left: 16%;
+   }
+   .subscription-btn{
+     margin-top: 32px;
    }
 
 
@@ -1178,7 +1185,7 @@ textarea.form-control {
   }
 
   .subscript-plan-detail{
-    margin-left: 5%;
+    margin-left: 17%;
   }
   .plus-pricing {
     margin-left: -5%;
@@ -1202,7 +1209,7 @@ textarea.form-control {
   }
 
   .subscript-plan-detail{
-    margin-left: 20px;
+    margin-left: 17%;
   }
   .plus-pricing {
     margin-left: -5%;
@@ -1211,10 +1218,10 @@ textarea.form-control {
     margin-bottom:80px
   }
   .credits-btn{
-    margin-top: 0px;
+    margin-top: 55px;
   }
   .subscription-btn{
-    margin-top: 55px;
+    margin-top: 32px;
   }
 
 }
@@ -1225,7 +1232,7 @@ textarea.form-control {
     margin-left: -15%;
   }
   .line-two{
-    margin-left: -12%;
+    margin-left: -4%;
   }
   .left-box {
     margin-left: 0%;
@@ -1249,10 +1256,14 @@ textarea.form-control {
     width: 503.33px;
   }
   .subscript-plan-detail{
-    margin-left: 15%;
+    margin-left: 22%;
   }
   .subscription-btn{
     margin-top: 30px;
+  }
+
+  .onetime-btn{
+    margin-top: 20px;
   }
 
 }
@@ -1263,7 +1274,7 @@ textarea.form-control {
     margin-left: -15%;
   }
   .line-two{
-    margin-left: -10%;
+    margin-left: -4%;
   }
   .left-box {
     margin-left: 0%;
@@ -1317,15 +1328,15 @@ textarea.form-control {
     margin: 0 auto 0 0;
   }
 
+  .subscript-plan-detail{
+    margin-left: 22%;
+  }
+
 
 
 }
 
-.onetime-btn{
-  bottom: -30px;
-  position: relative;
-  /* margin-top:35px; */
-}
+
 
 
 /* ======== Application Page ======== */
