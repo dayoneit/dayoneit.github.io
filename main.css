@@ -1049,6 +1049,10 @@ textarea.form-control {
 
   }
 
+  .subscript-plan-detail{
+    margin-left: 14%;
+  }
+
 
 
 
@@ -1079,6 +1083,9 @@ textarea.form-control {
       width: 503.33px;
 
    }
+   .subscript-plan-detail{
+     margin-left: 16%;
+   }
 
   }
 
@@ -1103,6 +1110,9 @@ textarea.form-control {
 
   .right-box {
     margin-left: 4%;
+  }
+  .subscript-plan-detail{
+    margin-left: 17%;
   }
 
  }
