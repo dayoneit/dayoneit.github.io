@@ -369,7 +369,7 @@ body{
 }
 .block-subheading{
 	font-size: var(--subheading-size);
-  font-weight: var(--regular);
+  font-weight: var(--light);
   margin-bottom: 5px;
 }
 
