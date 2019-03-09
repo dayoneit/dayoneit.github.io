@@ -1196,6 +1196,10 @@ textarea.form-control {
 
 @media (min-width: 1440px) {
 
+  .line-two{
+    margin-left: -9%;
+  }
+
   .left-box {
     margin-left: 0%;
   }
@@ -1209,7 +1213,7 @@ textarea.form-control {
   }
 
   .subscript-plan-detail{
-    margin-left: 17%;
+    margin-left: 18%;
   }
   .plus-pricing {
     margin-left: -5%;
