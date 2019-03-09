@@ -698,6 +698,7 @@ button a:focus, a:hover{
 }
 .contact-imgIcon{
   float: left;
+  margin-top: 5px;
 }
 .bgImg{
   background-image: url(./img/learnMoreBg.png);
@@ -970,6 +971,9 @@ textarea.form-control {
   .right-box-size{
     height: 700px;
     margin-bottom:  50px;
+  }
+  .subscript-plan-detail{
+    margin-left: 7%;
   }
 
 
