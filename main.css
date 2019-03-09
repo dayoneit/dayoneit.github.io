@@ -1165,7 +1165,7 @@ textarea.form-control {
 }
 /* ======== Application Page ======== */
 .app-text{
-  font-size: var(--desc-size);
+  font-size: var(--link-size);
   font-weight: var(--regular);
   margin-bottom: 30px;
 
