@@ -1190,6 +1190,12 @@ textarea.form-control {
   .plus-pricing {
     margin-left: -5%;
   }
+  .credits-price{
+    margin-bottom: 60px;
+  }
+  .credits-btn {
+    margin-top: 75px;
+  }
 
  }
 
@@ -1266,6 +1272,13 @@ textarea.form-control {
     margin-top: 30px;
   }
 
+  .credits-price {
+    margin-bottom: 60px;
+  }
+  .credits-btn{
+    margin-top: 75px;
+  }
+
   .onetime-btn{
     margin-top: 20px;
   }
@@ -1300,9 +1313,7 @@ textarea.form-control {
   .right-box-size {
     margin: 0 auto 0 0;
   }
-  .subscript-plan-detail{
-    margin-left: 15%;
-  }
+  
 }
 
 
