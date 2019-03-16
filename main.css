@@ -1053,7 +1053,7 @@ textarea.form-control {
   .subscript-plan-detail{
     margin-left: 50px;
   }
-<<<<<<< HEAD
+
   .subscript-plan-detail{
     margin-left: 7%;
   }
@@ -1064,8 +1064,7 @@ textarea.form-control {
 
 @media (min-width: 600px) {
 
-=======
->>>>>>> 5ab50574a7ef897ead45d2a18edd39b8131faa9a
+
   .pricing-container {
     margin-left:15px;
   }
@@ -1217,23 +1216,31 @@ textarea.form-control {
      margin-left:0px
    }
    .credits-btn{
-     margin-top: 36px;
+     margin-top: 48px;
+   }
+   .credits-price{
+     margin-bottom: 60px;
    }
    .box-size {
 
 
 
    }
-   .card-text{
 
+   .left-box-size {
+     width: 503.33px;
    }
 
-   .left-box {
-     margin-left: 0%;
+   .center-box-size{
+     width: 503.33px;
+   }
+
+   .left-box{
+     margin-left: 8%;
    }
 
    .center-box {
-     margin-left: 0%;
+     margin-left: 9%;
    }
 
    .right-box {
@@ -1253,19 +1260,6 @@ textarea.form-control {
      margin-left: -3%;
    }
 
-
-   .left-box-size{
-
-
-   }
-   .center-box-size{
-
-
-   }
-   .right-box-size{
-
-
-   }
    .subscript-plan-detail{
      margin-left: 16%;
    }
@@ -1274,8 +1268,12 @@ textarea.form-control {
 
  @media (min-width: 1366px) {
 
-   .left-box {
-     margin-left: 0%;
+   .credits-price{
+     margin-bottom: 60px;
+   }
+
+   .credits-btn{
+     margin-top: 48px;
    }
 
    .center-box{
@@ -1294,6 +1292,13 @@ textarea.form-control {
    .subscription-btn{
      margin-top: 32px;
    }
+   .left-box{
+     margin-left: 10%;
+   }
+
+   .center-box {
+     margin-left: 7%;
+   }
 
 
   }
@@ -1305,9 +1310,6 @@ textarea.form-control {
   }
   .line-two{
     margin-left: -15%;
-  }
-  .left-box {
-    margin-left: 0%;
   }
 
   .center-box {
@@ -1328,10 +1330,18 @@ textarea.form-control {
     margin-bottom: 60px;
   }
   .credits-btn {
-    margin-top: 75px;
+    margin-top: 50px;
   }
   .subscript-plan-detail{
     margin-left: 17%;
+  }
+
+  .left-box{
+    margin-left: 12%;
+  }
+
+  .center-box {
+    margin-left: 5%;
   }
 
  }
@@ -1343,9 +1353,7 @@ textarea.form-control {
     margin-left: -9%;
   }
 
-  .left-box {
-    margin-left: 0%;
-  }
+
 
   .center-box{
     margin-left: 0%;
@@ -1361,14 +1369,16 @@ textarea.form-control {
   .plus-pricing {
     margin-left: -5%;
   }
-  .credits-price{
-    margin-bottom:80px
-  }
-  .credits-btn{
-    margin-top: 55px;
-  }
+
   .subscription-btn{
     margin-top: 32px;
+  }
+  .left-box{
+    margin-left: 12.5%;
+  }
+
+  .center-box {
+    margin-left: 5%;
   }
 
 }
@@ -1381,11 +1391,13 @@ textarea.form-control {
   .line-two{
     margin-left: -4%;
   }
-  .left-box {
-    margin-left: 0%;
-  }
+
 
   .left-box-size {
+    width: 503.33px;
+  }
+
+  .center-box-size{
     width: 503.33px;
   }
 
@@ -1395,6 +1407,11 @@ textarea.form-control {
   .center-box-size{
     width: 503.33px;
   }
+
+  .left-box{
+    margin-left: 16.7%;
+  }
+
 
   .right-box {
     margin-left: 0%;
@@ -1413,7 +1430,7 @@ textarea.form-control {
     margin-bottom: 60px;
   }
   .credits-btn{
-    margin-top: 75px;
+    margin-top: 66px;
   }
 
   .onetime-btn{
@@ -1430,9 +1447,7 @@ textarea.form-control {
   .line-two{
     margin-left: -4%;
   }
-  .left-box {
-    margin-left: 0%;
-  }
+
   .left-box-size {
     margin: 0 0 0 auto;
   }
@@ -1440,9 +1455,7 @@ textarea.form-control {
   .center-box{
     margin-left: 0%;
   }
-  .center-box-size {
-    margin: 0 auto;
-  }
+
 
   .right-box {
     margin-left: 0%;
@@ -1450,16 +1463,14 @@ textarea.form-control {
   .right-box-size {
     margin: 0 auto 0 0;
   }
-  
+
 }
 
 
 
 @media (min-width: 1920px) {
 
-  .left-box {
-    margin-left: 0%;
-  }
+
   .center-box{
     margin-left: 0%;
   }
@@ -1468,7 +1479,6 @@ textarea.form-control {
     margin-top: 0%;
   }
 
-<<<<<<< HEAD
 .btn-bottom{
   bottom: -30px;
   position: relative;
@@ -1477,14 +1487,12 @@ textarea.form-control {
 .btn-bottom2{
   position: relative;
    margin-top: 45px;
-=======
+ }
   .left-box-size {
     margin: 0 0 0 auto;
   }
 
-  .center-box-size {
-    margin: 0 auto;
-  }
+
 
   .right-box-size {
     margin: 0 auto 0 0;
@@ -1496,7 +1504,6 @@ textarea.form-control {
 
 
 
->>>>>>> 5ab50574a7ef897ead45d2a18edd39b8131faa9a
 }
 
 
