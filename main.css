@@ -704,7 +704,13 @@ button a:focus, a:hover{
 }
 .contact-imgIcon{
   float: left;
+<<<<<<< HEAD
   margin-top: 5px;
+=======
+  margin-top: 10px;
+  width: 20px;
+  height: 15px;
+>>>>>>> 5ab50574a7ef897ead45d2a18edd39b8131faa9a
 }
 .bgImg{
   background-image: url(./img/learnMoreBg.png);
@@ -898,11 +904,72 @@ textarea.form-control {
   padding: 46px 78px;
 
 }
+
+.credits-price{
+   margin-bottom: 100px;
+   color: #696969;
+}
+
+.subscription-btn{
+
+  position: relative;
+   margin-top: 32px;
+}
+.credits-btn{
+  bottom: -55px;
+  position: relative;
+  margin-top: 29px;
+}
+.onetime-btn{
+  bottom: -30px;
+  position: relative;
+  /* margin-top:35px; */
+}
+
+@media only screen and (max-width: 600px) {
+
+  .pricing-container {
+    margin-left:15px;
+
+  }
+
+  .subscript-plan-detail{
+    margin-left: 50px;
+  }
+
+  .box-size{
+    height: 800px;
+    margin-bottom:  50px;
+  }
+
+  .left-box-size{
+    height: 800px;
+    margin-bottom:  50px;
+
+  }
+
+  .center-box-size{
+    height: 850px;
+    margin-bottom:  50px;
+  }
+
+  .right-box-size{
+    height: 700px;
+    margin-bottom:  50px;
+  }
+
+
+}
+
 @media only screen and (max-width: 600px){
   .form-container{
     padding: 46px 36px;
-    height: 700px;
+
   }
+}
+.about-pricing-row{
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .card-heading{
   font-size: var(--subheading-size);
@@ -911,9 +978,18 @@ textarea.form-control {
   margin-top: 26px;
   margin-bottom: 19px;
 }
+.subscript-numb{
+  font-size: 45px;
+  font-weight: var(--light);
+  margin-bottom: 20px;
+}
+.subscript-plan-detail{
+  margin-left: 35px;
+}
+
 .pricing-numb{
   font-size: 45px;
-  font-weight: var(--regular);
+  font-weight: var(--light);
 }
 .pricing-subNumb{
   font-size: var(--desc-size);
@@ -956,28 +1032,28 @@ textarea.form-control {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 600px) {
 
-  .pricing-container {
-    margin-left:15px;
-
+  .line-one{
+    margin-top: 10px;
+    margin-left: -15%;
+    position: absolute;
+    height: 80px;
+    width: 3px;
+    background-color: #DDDDDD;
   }
-
-  .box-size{
-    height: 800px;
-    margin-bottom:  50px;
-
+  .line-two{
+    margin-top: 10px;
+    margin-left: -5%;
+    position: absolute;
+    height: 80px;
+    width: 3px;
+    background-color: #DDDDDD ;
   }
-
-  .left-box-size{
-    height: 900px;
-    margin-bottom:  50px;
-
+  .subscript-plan-detail{
+    margin-left: 50px;
   }
-  .right-box-size{
-    height: 700px;
-    margin-bottom:  50px;
-  }
+<<<<<<< HEAD
   .subscript-plan-detail{
     margin-left: 7%;
   }
@@ -988,21 +1064,17 @@ textarea.form-control {
 
 @media (min-width: 600px) {
 
+=======
+>>>>>>> 5ab50574a7ef897ead45d2a18edd39b8131faa9a
   .pricing-container {
     margin-left:15px;
-
-
   }
-
   .box-size{
     height: 805px;
-
   }
-
   .left-box-size{
     height: 800px;
     margin-bottom:  150px;
-
   }
   .right-box-size{
     height: 700px;
@@ -1045,17 +1117,66 @@ textarea.form-control {
     width: 473.33px;
 
   }
+  .form-container{
+    padding: 46px 10px;
+  }
+  .logo{
+    margin-left: 237%;
+  }
+
+  .subscript-plan-detail {
+    margin-left: 35px;
+  }
+
+  .plus-pricing{
+    margin-left:-10%;
+  }
+
+  .pricing-margin{
+    margin-left: -5%;
+  }
+
+  .credits-btn{
+    bottom: 0;
+    margin-top:33px;
+  }
+
+  .subscription-btn{
+    margin-top: 50px;
+  }
+  .line-two{
+    margin-left: -12%
+  }
+
+
+
+  .center-box {
+    margin-left: 0%;
+  }
 
   .right-box {
-    margin-left: 17%;
+    margin-left: 0%;
+    margin-top: 0%;
   }
+
+
 
   .left-box-size{
-    width: 473.33px;
+
+    height: 700px;
 
   }
+
+  .center-box-size{
+
+    height: 700px;
+
+  }
+
+
   .right-box-size{
-    width: 473.33px;
+
+    height: 700px;
 
   }
 
@@ -1070,27 +1191,79 @@ textarea.form-control {
 
  @media (min-width: 1280px) {
 
-
+   .line-one{
+     margin-top: 10px;
+     margin-left: -16%;
+     position: absolute;
+     height: 80px;
+     width: 3px;
+     background-color: #DDDDDD;
+   }
+   .line-two{
+     margin-top: 10px;
+     margin-left: -12%;
+     position: absolute;
+     height: 80px;
+     width: 3px;
+     background-color: #DDDDDD ;
+   }
+   .logo{
+     margin-left: 0%;
+   }
+   .form-container{
+     padding: 46px 40px;
+   }
+   .plus-pricing{
+     margin-left:0px
+   }
+   .credits-btn{
+     margin-top: 36px;
+   }
    .box-size {
 
-     width: 503.33px;
+
+
+   }
+   .card-text{
 
    }
 
    .left-box {
-     margin-left: 8%;
+     margin-left: 0%;
+   }
+
+   .center-box {
+     margin-left: 0%;
    }
 
    .right-box {
-     margin-left: 9%;
+     margin-left: 0%;
    }
 
+   .subscript-plan-detail{
+     margin-left: 12%;
+   }
+   .subscription-btn{
+
+     position: relative;
+      margin-top: 57px;
+   }
+
+   .plus-pricing {
+     margin-left: -3%;
+   }
+
+
    .left-box-size{
-      width: 503.33px;
+
+
+   }
+   .center-box-size{
+
 
    }
    .right-box-size{
-      width: 503.33px;
+
 
    }
    .subscript-plan-detail{
@@ -1102,11 +1275,24 @@ textarea.form-control {
  @media (min-width: 1366px) {
 
    .left-box {
-     margin-left: 10.7%;
+     margin-left: 0%;
+   }
+
+   .center-box{
+     margin-left: 0%;
    }
 
    .right-box {
-     margin-left: 7%;
+     margin-left: 0%;
+   }
+   .plus-pricing {
+     margin-left: -5%;
+   }
+   .subscript-plan-detail{
+     margin-left: 16%;
+   }
+   .subscription-btn{
+     margin-top: 32px;
    }
 
 
@@ -1114,12 +1300,35 @@ textarea.form-control {
 
 @media (min-width: 1400px) {
 
+  .line-one{
+    margin-left: -15%;
+  }
+  .line-two{
+    margin-left: -15%;
+  }
   .left-box {
-    margin-left: 12.7%;
+    margin-left: 0%;
+  }
+
+  .center-box {
+    margin-left: 0%;
   }
 
   .right-box {
-    margin-left: 4%;
+    margin-left: 0%;
+  }
+
+  .subscript-plan-detail{
+    margin-left: 17%;
+  }
+  .plus-pricing {
+    margin-left: -5%;
+  }
+  .credits-price{
+    margin-bottom: 60px;
+  }
+  .credits-btn {
+    margin-top: 75px;
   }
   .subscript-plan-detail{
     margin-left: 17%;
@@ -1130,36 +1339,118 @@ textarea.form-control {
 
 @media (min-width: 1440px) {
 
+  .line-two{
+    margin-left: -9%;
+  }
+
   .left-box {
-    margin-left: 12.7%;
+    margin-left: 0%;
+  }
+
+  .center-box{
+    margin-left: 0%;
   }
 
   .right-box {
-    margin-left: 4%;
+    margin-left: 0%;
+  }
+
+  .subscript-plan-detail{
+    margin-left: 18%;
+  }
+  .plus-pricing {
+    margin-left: -5%;
+  }
+  .credits-price{
+    margin-bottom:80px
+  }
+  .credits-btn{
+    margin-top: 55px;
+  }
+  .subscription-btn{
+    margin-top: 32px;
   }
 
 }
 
 @media (min-width: 1600px) {
 
+  .line-one{
+    margin-left: -15%;
+  }
+  .line-two{
+    margin-left: -4%;
+  }
   .left-box {
-    margin-left: 16.7%;
+    margin-left: 0%;
+  }
+
+  .left-box-size {
+    width: 503.33px;
+  }
+
+  .center-box{
+    margin-left: 0%;
+  }
+  .center-box-size{
+    width: 503.33px;
   }
 
   .right-box {
     margin-left: 0%;
   }
+  .right-box-size{
+    width: 503.33px;
+  }
+  .subscript-plan-detail{
+    margin-left: 22%;
+  }
+  .subscription-btn{
+    margin-top: 30px;
+  }
+
+  .credits-price {
+    margin-bottom: 60px;
+  }
+  .credits-btn{
+    margin-top: 75px;
+  }
+
+  .onetime-btn{
+    margin-top: 20px;
+  }
+
 }
 
 @media (min-width: 1680px) {
 
+  .line-one{
+    margin-left: -15%;
+  }
+  .line-two{
+    margin-left: -4%;
+  }
   .left-box {
-    margin-left: 18.7%;
+    margin-left: 0%;
+  }
+  .left-box-size {
+    margin: 0 0 0 auto;
+  }
+
+  .center-box{
+    margin-left: 0%;
+  }
+  .center-box-size {
+    margin: 0 auto;
   }
 
   .right-box {
-    margin-left: -2%;
+    margin-left: 0%;
   }
+  .right-box-size {
+    margin: 0 auto 0 0;
+  }
+  
 }
 
 
@@ -1167,13 +1458,17 @@ textarea.form-control {
 @media (min-width: 1920px) {
 
   .left-box {
-    margin-left: 21.7%;
+    margin-left: 0%;
+  }
+  .center-box{
+    margin-left: 0%;
   }
   .right-box {
-    margin-left: -5%;
+    margin-left: 0%;
+    margin-top: 0%;
   }
-}
 
+<<<<<<< HEAD
 .btn-bottom{
   bottom: -30px;
   position: relative;
@@ -1182,7 +1477,31 @@ textarea.form-control {
 .btn-bottom2{
   position: relative;
    margin-top: 45px;
+=======
+  .left-box-size {
+    margin: 0 0 0 auto;
+  }
+
+  .center-box-size {
+    margin: 0 auto;
+  }
+
+  .right-box-size {
+    margin: 0 auto 0 0;
+  }
+
+  .subscript-plan-detail{
+    margin-left: 22%;
+  }
+
+
+
+>>>>>>> 5ab50574a7ef897ead45d2a18edd39b8131faa9a
 }
+
+
+
+
 /* ======== Application Page ======== */
 .app-text{
   font-size: var(--link-size);
