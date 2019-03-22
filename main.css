@@ -704,13 +704,7 @@ button a:focus, a:hover{
 }
 .contact-imgIcon{
   float: left;
-<<<<<<< HEAD
   margin-top: 5px;
-=======
-  margin-top: 10px;
-  width: 20px;
-  height: 15px;
->>>>>>> 5ab50574a7ef897ead45d2a18edd39b8131faa9a
 }
 .bgImg{
   background-image: url(./img/learnMoreBg.png);
@@ -926,6 +920,23 @@ textarea.form-control {
   /* margin-top:35px; */
 }
 
+.per-credit{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.credit-count {
+  font-size: 45px;
+  font-weight: 300;
+
+}
+
+.discount {
+  color: #373737;
+  font-size: 20px;
+  font-weight:600;
+}
+
 @media only screen and (max-width: 600px) {
 
   .pricing-container {
@@ -996,8 +1007,8 @@ textarea.form-control {
   font-weight: var(--regualr);
 }
 .pricing-smallTxt{
-  font-size: 18px;
-  font-weight: var(--regular);
+  font-size: 16px;
+  font-weight: var(--light);
 }
 .plus-pricing{
   font-size: 36px;
@@ -1007,7 +1018,7 @@ textarea.form-control {
 .card-text{
   font-size: var(--link-size);
   font-weight: var(--regular);
-  margin-top: 31px;
+  margin-top: 80px;
 }
 .coming-soon{
   font-size: var(--smaller-size);
@@ -1084,6 +1095,28 @@ textarea.form-control {
 
  }
 
+@media (min-width: 768px) {
+
+  .center-box-size{
+    height: 700px;
+  }
+  .line-one{
+    margin-left: -11.5%;
+    height: 125px;
+
+  }
+  .line-two{
+    height: 125px;
+
+  }
+
+  .credit-row{
+    margin-top: 70px;
+  }
+
+
+
+}
 
 @media (min-width: 769px) {
 
@@ -1128,7 +1161,7 @@ textarea.form-control {
   }
 
   .plus-pricing{
-    margin-left:-10%;
+    margin-left:-6%;
   }
 
   .pricing-margin{
@@ -1143,14 +1176,19 @@ textarea.form-control {
   .subscription-btn{
     margin-top: 50px;
   }
+
+  .line-one{
+    height: 127px;
+  }
   .line-two{
-    margin-left: -12%
+    margin-left: -5%;
+    height: 127px;
   }
 
 
 
   .center-box {
-    margin-left: 0%;
+    margin-left: 17%;
   }
 
   .right-box {
@@ -1162,20 +1200,23 @@ textarea.form-control {
 
   .left-box-size{
 
-    height: 700px;
+    height: 670px;
+    width: 473.33px;
 
   }
 
+
   .center-box-size{
 
-    height: 700px;
+    height: 670px;
+    width: 473.33px;
 
   }
 
 
   .right-box-size{
 
-    height: 700px;
+    height: 670px;
 
   }
 
@@ -1194,17 +1235,24 @@ textarea.form-control {
      margin-top: 10px;
      margin-left: -16%;
      position: absolute;
-     height: 80px;
+     height: 155px;
      width: 3px;
      background-color: #DDDDDD;
    }
    .line-two{
      margin-top: 10px;
-     margin-left: -12%;
+     margin-left: -7%;
      position: absolute;
-     height: 80px;
+     height: 155px;
      width: 3px;
-     background-color: #DDDDDD ;
+     background-color: #DDDDDD;
+   }
+   .line-three{
+     background-color: #DDDDDD;
+     margin-top:8px;
+     margin-bottom: 8px;
+     width: 25px;
+     height: 1px;
    }
    .logo{
      margin-left: 0%;
@@ -1212,14 +1260,17 @@ textarea.form-control {
    .form-container{
      padding: 46px 40px;
    }
+   .index .form-container{
+     padding: 46px 76px;
+   }
    .plus-pricing{
      margin-left:0px
    }
    .credits-btn{
-     margin-top: 48px;
+     margin-top: 29px;
    }
    .credits-price{
-     margin-bottom: 60px;
+     margin-bottom: 130px;
    }
    .box-size {
 
@@ -1293,11 +1344,14 @@ textarea.form-control {
      margin-top: 32px;
    }
    .left-box{
-     margin-left: 10%;
+     margin-left: 10.5%;
    }
 
    .center-box {
-     margin-left: 7%;
+     margin-left: 6%;
+   }
+   .line-two{
+     margin-left: -4%;
    }
 
 
@@ -1309,7 +1363,7 @@ textarea.form-control {
     margin-left: -15%;
   }
   .line-two{
-    margin-left: -15%;
+    margin-left: -6.3%;
   }
 
   .center-box {
@@ -1327,17 +1381,17 @@ textarea.form-control {
     margin-left: -5%;
   }
   .credits-price{
-    margin-bottom: 60px;
+    margin-bottom: 120px;
   }
   .credits-btn {
-    margin-top: 50px;
+    margin-top: 38px;
   }
   .subscript-plan-detail{
     margin-left: 17%;
   }
 
   .left-box{
-    margin-left: 12%;
+    margin-left: 11.6%;
   }
 
   .center-box {
@@ -1427,10 +1481,10 @@ textarea.form-control {
   }
 
   .credits-price {
-    margin-bottom: 60px;
+    margin-bottom: 120px;
   }
   .credits-btn{
-    margin-top: 66px;
+    margin-top: 52px;
   }
 
   .onetime-btn{
