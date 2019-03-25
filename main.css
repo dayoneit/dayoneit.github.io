@@ -59,63 +59,7 @@ body{
   margin-top:82px;
 }
 
-@media only screen and (max-width: 600px) {
-  .send{
-    margin-top: 10px;
-
-  }
-  .phone{
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-  .computer{
-    padding-bottom: 20px;
-  }
-  .learnMore_phoneNumber{
-    margin-left: 40px;
-  }
-  .learnMore_email{
-    margin-left: 40px;
-    margin-bottom: 100px;
-  }
-
-  .form-container{
-    padding: 0px 0px;
-    background-color: black;
-  }
-  .index_image{
-    padding-right:0;
-    height: 250px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    display: none;
-  }
-
-
-  .mobile_index_image{
-
-    padding-right:0;
-    height: 250px;
-    margin-top: 0px;
-    padding-top: 70px
-
-  }
-
-
-  .img_tree{
-    height: 240px;
-    padding-right: 20px;
-  }
-
-  .contact_us_btn {
-    margin-top: 0px;
-  }
-
-  .radio-question{
-    margin-bottom: 25px;
-  }
-
-}
+]
 
 @media only screen and (min-width: 600px) {
 
@@ -168,12 +112,81 @@ body{
 
 }
 
+@media only screen and (max-width: 600px) {
+  .send{
+    margin-top: 10px;
+
+  }
+  .phone{
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .computer{
+    padding-bottom: 20px;
+  }
+  .learnMore_phoneNumber{
+    margin-left: 40px;
+  }
+  .learnMore_email{
+    margin-left: 40px;
+    margin-bottom: 100px;
+  }
+
+  .index .form-container{
+    height: 700px;
+  }
+  .index_image{
+    padding-right:0;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+
+  }
+
+
+  .mobile_index_image{
+    padding-right:0;x`
+    height: 250px;
+    margin-top: 0px;
+    padding-top: 70px
+  }
+
+
+  .img_tree{
+    height: 250px;
+    padding-right: 20px;
+  }
+
+  .contact_us_btn {
+    margin-top: 0px;
+  }
+
+  .radio-question{
+    margin-bottom: 25px;
+  }
+
+}
+
 @media only screen and (min-width: 1024px) {
 
   .send{
     margin-top:10px;
   }
+  .index .form-container{
+    padding: 46px 78px;
+  }
+  .index_image{
 
+  }
+  .img_tree{
+    height: 500px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
 }
 
 @media only screen and (min-width: 1366px) {
@@ -960,13 +973,21 @@ textarea.form-control {
   }
 
   .center-box-size{
-    height: 850px;
+    height: 720px;
     margin-bottom:  50px;
+
   }
 
   .right-box-size{
     height: 700px;
     margin-bottom:  50px;
+  }
+  .vertical-line{
+    background-color: #DDDDDD;
+    margin-top:8px;
+    margin-bottom: 8px;
+    width: 25px;
+    height: 1px;
   }
 
 
@@ -1045,7 +1066,7 @@ textarea.form-control {
 
 @media (min-width: 600px) {
 
-  .line-one{
+  .horizontal-line-one{
     margin-top: 10px;
     margin-left: -15%;
     position: absolute;
@@ -1053,7 +1074,7 @@ textarea.form-control {
     width: 3px;
     background-color: #DDDDDD;
   }
-  .line-two{
+  .horizontal-line-two{
     margin-top: 10px;
     margin-left: -5%;
     position: absolute;
@@ -1100,12 +1121,12 @@ textarea.form-control {
   .center-box-size{
     height: 700px;
   }
-  .line-one{
+  .horizontal-line-one{
     margin-left: -11.5%;
     height: 125px;
 
   }
-  .line-two{
+  .horizontal-line-two{
     height: 125px;
 
   }
@@ -1173,14 +1194,18 @@ textarea.form-control {
     margin-top:33px;
   }
 
+  .credits-price{
+    margin-bottom: 120px;
+  }
+
   .subscription-btn{
     margin-top: 50px;
   }
 
-  .line-one{
+  .horizontal-line-one{
     height: 127px;
   }
-  .line-two{
+  .horizontal-line-two{
     margin-left: -5%;
     height: 127px;
   }
@@ -1231,7 +1256,7 @@ textarea.form-control {
 
  @media (min-width: 1280px) {
 
-   .line-one{
+   .horizontal-line-one{
      margin-top: 10px;
      margin-left: -16%;
      position: absolute;
@@ -1239,7 +1264,7 @@ textarea.form-control {
      width: 3px;
      background-color: #DDDDDD;
    }
-   .line-two{
+   .horizontal-line-two{
      margin-top: 10px;
      margin-left: -7%;
      position: absolute;
@@ -1247,7 +1272,7 @@ textarea.form-control {
      width: 3px;
      background-color: #DDDDDD;
    }
-   .line-three{
+   .vertical-line{
      background-color: #DDDDDD;
      margin-top:8px;
      margin-bottom: 8px;
@@ -1270,7 +1295,7 @@ textarea.form-control {
      margin-top: 29px;
    }
    .credits-price{
-     margin-bottom: 130px;
+     margin-bottom: 120px;
    }
    .box-size {
 
@@ -1320,11 +1345,11 @@ textarea.form-control {
  @media (min-width: 1366px) {
 
    .credits-price{
-     margin-bottom: 60px;
+     margin-bottom: 120px;
    }
 
    .credits-btn{
-     margin-top: 48px;
+     margin-top: 32px;
    }
 
    .center-box{
@@ -1350,7 +1375,7 @@ textarea.form-control {
    .center-box {
      margin-left: 6%;
    }
-   .line-two{
+   .horizontal-line-two{
      margin-left: -4%;
    }
 
@@ -1359,10 +1384,10 @@ textarea.form-control {
 
 @media (min-width: 1400px) {
 
-  .line-one{
+  .horizontal-line-one{
     margin-left: -15%;
   }
-  .line-two{
+  .horizontal-line-two{
     margin-left: -6.3%;
   }
 
@@ -1403,7 +1428,7 @@ textarea.form-control {
 
 @media (min-width: 1440px) {
 
-  .line-two{
+  .horizontal-line-two{
     margin-left: -9%;
   }
 
@@ -1439,10 +1464,10 @@ textarea.form-control {
 
 @media (min-width: 1600px) {
 
-  .line-one{
+  .horizontal-line-one{
     margin-left: -15%;
   }
-  .line-two{
+  .horizontal-line-two{
     margin-left: -4%;
   }
 
@@ -1495,10 +1520,10 @@ textarea.form-control {
 
 @media (min-width: 1680px) {
 
-  .line-one{
+  .horizontal-line-one{
     margin-left: -15%;
   }
-  .line-two{
+  .horizontal-line-two{
     margin-left: -4%;
   }
 
