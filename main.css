@@ -177,12 +177,16 @@ body{
     padding: 46px 78px;
   }
   .index_image{
-    
+
   }
   .img_tree{
     height: 500px;
   }
 
+}
+
+@media only screen and (min-width: 1024px) {
+  
 }
 
 @media only screen and (min-width: 1366px) {
