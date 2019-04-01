@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shop | Orchard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '362629797662158');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1"
+      src="https://www.facebook.com/tr?id=362629797662158&ev=PageView
+      &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+  </head>
+
+  <body>
+    <div id="header"></div>
+    <!-- Body -->
+    <div class="container-fluid shop">
+      <div class="row headingPage-margin">
+        <div class="col-md-10 block-details" style="float:none; margin:0 auto;">
+          <div class="row">
+            <div class="col-md-2 col-md-offset-5 text-center">
+              <div class="block-heading">Shop</div>
+              <div class="heading-border"></div>
+            </div>
+          </div>
+          <div class="row text-center">
+
+            <div class="col-md-4">
+              <div class="item-container">
+                <div class="row">
+                  <img src="./img/subscription-image.png" style="width: 140px; height: 140px;">
+                </div>
+                <div class="row" style="height: 200px;">
+                  <div class="col-md-4 col-md-offset-4 text-center " style="height: 90px;">
+                    <div class="row">
+                      <div class="col credit-count" >
+                        3
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col discount" >
+                        10% off
+                      </div>
+                    </div>
+                    <div class="col col-xs-offset-4 col-md-offset-5" style="font-size: 20px;">
+                      <div class="vertical-line">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col per-credit">
+                        $54/credit
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="font-size: 20px;">
+                        $162
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="row">
+                  <form method="post" action="checkout.php">
+                    <input name="credits" type="hidden" value="3"/>
+                    <button type="submit" class="btn btn-primary btn-lg round"> &nbsp; Pay Now &nbsp; </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="item-container">
+                <div class="row">
+                  <img src="./img/subscription-image.png" style="width: 140px; height: 140px;">
+                </div>
+                <div class="row" style="height: 200px;">
+                  <div class="col-md-4 col-md-offset-4 text-center " style="height: 90px;">
+                    <div class="row">
+                      <div class="col credit-count" >
+                        6
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col discount" >
+                        15% off
+                      </div>
+                    </div>
+                    <div class="col col-xs-offset-4 col-md-offset-5" style="font-size: 20px;">
+                      <div class="vertical-line">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col per-credit">
+                        $48/credit
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="font-size: 20px;">
+                        $288
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="row">
+                  <form method="post" action="checkout.php">
+                    <input name="credits" type="hidden" value="6"/>
+                    <button type="submit" class="btn btn-primary btn-lg round"> &nbsp; Pay Now &nbsp; </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="item-container">
+                <div class="row">
+                  <img src="./img/subscription-image.png" style="width: 140px; height: 140px;">
+                </div>
+                <div class="row" style="height: 200px;">
+                  <div class="col-md-4 col-md-offset-4 text-center " style="height: 90px;">
+                    <div class="row">
+                      <div class="col credit-count" >
+                        10
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col discount" >
+                        20% off
+                      </div>
+                    </div>
+                    <div class="col col-xs-offset-4 col-md-offset-5" style="font-size: 20px;">
+                      <div class="vertical-line">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col per-credit">
+                        $45/credit
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="font-size: 20px;">
+                        $450
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="row">
+                  <form method="post" action="checkout.php">
+                    <input name="credits" type="hidden" value="10" />
+                    <button type="submit" class="btn btn-primary btn-lg round"> &nbsp; Pay Now &nbsp; </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer" style="margin-top: 500px;"></div>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+
+    <!-- <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script> -->
+  </body>
+</html>
