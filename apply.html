@@ -122,24 +122,14 @@
               <div class="row">
                 <div class="col-sm-7 col-md-12 col-lg-6">
                   <div class="form-group" role="radiogroup">
-                    <label for="formGroupExampleInput2">What form of transportation do you have access to?</label>
+                    <label for="formGroupExampleInput2">Do you have access to a personal car?</label>
                     <div class="custom-control custom-radio">
-                      <input type="radio" id="customRadio1" name="entry.1715280103" value="Personal Car" class="custom-control-input">
-                      Personal Car
+                      <input type="radio" id="customRadio1" name="entry.1376859647" value="Yes" class="custom-control-input" required>
+                      Yes
                     </div>
                     <div class="custom-control custom-radio">
-                      <input type="radio" id="customRadio2" name="entry.1715280103" value="Bike" class="custom-control-input">
-                      Bike
-                    </div>
-                    <div class="custom-control custom-radio">
-                      <input type="radio" id="customRadio2" name="entry.1715280103" value="Public Transportation" class="custom-control-input">
-                      Public Transportation
-                    </div>
-                    <div class="custom-control custom-radio">
-                      <input type="radio" id="customRadio2" name="entry.1715280103" value="__other_option__" class="custom-control-input">
-                      Other
-                      <input type="text" class="form-control" id="exampleInputEmail1" name="entry.1715280103.other_option_response" value="" aria-describedby="emailHelp" placeholder="Other Transportation">
-                      <input type="hidden" name="entry.1715280103.other_option_response" jsname="MfYA1e">
+                      <input type="radio" id="customRadio2" name="entry.1376859647" value="No" class="custom-control-input" required>
+                      No
                     </div>
                   </div>
                 </div>
@@ -162,80 +152,37 @@
                     <label for="formGroupExampleInput2">What school are you attending?</label>
                     <label for="formGroupExampleInput2" class="app-ques-subtitle"> Skip if not in school.</label>
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="University of Florida" name="entry.1057272054">
-
-                    <label for="formGroupExampleInput2">If you are in school, how far along are you? </label>
-                    <label for="formGroupExampleInput2" class="app-ques-subtitle"> Skip if not in school.</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="2nd year" name="entry.1778031709">
-
-                    <label for="formGroupExampleInput2">What is your background?</label>
-                    <label for="formGroupExampleInput2" class="app-ques-subtitle">Or fields of study if you're currently in school.</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Mechanical Engineering with Psychology minor" name="entry.1392927551" required>
                   </div>
                 </div>
-              </div>
-
-
-
-
-              <div class="form-group">
-                <label for="formGroupExampleInput2">Have you ever...?</label>
-                <br><label for="formGroupExampleInput2" class="app-ques-subtitle">Check all that applies.</label>
-                <div class="custom-control custom-checkbox">
-                  <input type="checkbox" name="entry.1475368468" value="Had a customer experience job" class="custom-control-input" id="customCheck1">
-                  Had a customer experience job
-                </div>
-                <div class="custom-control custom-checkbox">
-                  <input type="checkbox" name="entry.1475368468" value="Explained or helped someone 55+ with technology" class="custom-control-input" id="customCheck1">
-                  Explained to or helped someone 55+ with technology
-                </div>
-                <div class="custom-control custom-checkbox">
-                  <input type="checkbox" name="entry.1475368468" value="Tutored someone" class="custom-control-input" id="customCheck1">
-                  Tutored someone
-                </div>
-                <div class="custom-control custom-checkbox">
-                  <input type="checkbox" name="entry.1475368468" value="Worked with kids" class="custom-control-input" id="customCheck1">
-                  Worked with kids
-                </div>
-                <div class="custom-control custom-checkbox">
-                  <input type="checkbox" name="entry.1475368468" value="Worked in tech support" class="custom-control-input" id="customCheck1">
-                  Worked in tech support
-                </div>
-                <div class="custom-control custom-checkbox">
-                  <input type="checkbox" name="entry.1475368468" value="None of the above" class="custom-control-input" id="customCheck1">
-                  None of the above
-                </div>
-
-
-
-                <label for="formGroupExampleInput2">If you've previously worked in tech support, tell us more.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1351834129"></textarea>
-
-              </div>
+            </div>
 
             <div class="row">
               <div class="col-md-12">
 
               <div class="form-group">
+                  <label for="formGroupExampleInput2">If you've previously worked in tech support, tell us more.</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1351834129" required></textarea>
+              </div>
+
+              <div class="form-group">
                 <label for="formGroupExampleInput2">If an 82 year-old grandma asks you "I thought I just go to Google. Why do I have to go to Chrome? What's the difference?" How would you answer her in a way she might understand best?</label>
                 <label for="formGroupExampleInput2" class="app-ques-subtitle">Answer with how you would respond to the situation.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.934418591"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.934418591" required></textarea>
               </div>
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">An 85-year-old grandpa forgets the password to his email account so he's unable to access it. To help, you guide him through resetting the password. When he goes to log in, he appears frustrated at you because he now has to remember a new password. What would you do or say next?</label>
-                <label for="formGroupExampleInput2" class="app-ques-subtitle">Answer with how you would respond to the situation.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.882245911"></textarea>
+                <label for="formGroupExampleInput2">Describe a time you made a technology recommendation (software or hardware) to a friend or family member and explain why you think it would be helpful to them.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1459607726" required></textarea>
               </div>
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">Describe your strengths and weaknesses as it applies to this role as a Techie.</label>
-                <label for="formGroupExampleInput2" class="app-ques-subtitle">Self-awareness and the growth mindset is paramount for us. We want to know that you understand where you excel and where you have room to grow.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1803352262"></textarea>
+                <label for="formGroupExampleInput2">Tell us about a time that you went above and beyond to help your teammates or colleagues to make them successful.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1723663994"required></textarea>
               </div>
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">What are your motivations for joining the company? What do you hope to gain from your involvement?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.1958384189"></textarea>
+                <label for="formGroupExampleInput2">Tell us about a time you worked with someone difficult. Describe the situation, the actions you took, and the results of your actions.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.757331533" required></textarea>
               </div>
 
               <div class="form-group">
@@ -245,29 +192,28 @@
               </div>
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">Upload a 1-min YouTube video introducing yourself.</label>
-                <label for="formGroupExampleInput2" class="app-ques-subtitle">A casual one woman/man show in front of the camera is perfectly fine. We simply want to get to know your personality. Please make your video unlisted, not private. Paste video link here.</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" name="entry.332850680" required>
+                <label for="formGroupExampleInput2">If you would like, upload a 1-min YouTube video introducing yourself.</label>
+                <label for="formGroupExampleInput2" class="app-ques-subtitle">Not required, but highly recommended. A casual one woman/man show in front of the camera is perfectly fine. We simply want to get to know your personality. Please make your video unlisted, not private. Paste video link here.</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" name="entry.332850680">
               </div>
 
               <div class="form-group">
-                <label for="formGroupExampleInput2">Upload your resume here.</label>
-                <input type="file"  name="file" id="file" class="inputfile" onchange="uploadFile(this.files)"/>
-                <div>
-                  <label for="file" class="inputFileLabel">Choose a file</label>
-                  <label class="fileName">  </label>
-                </div>
-
-              </div>
-
-              <div class="form-group">
-                <label for="formGroupExampleInput2">How did you hear about us?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.232801655"></textarea>
+                <label for="formGroupExampleInput2">Why did you apply for this job?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.811488628"></textarea>
               </div>
 
               <div class="form-group">
                 <label for="formGroupExampleInput2">Anything else you would like us to know?</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="entry.516583172"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Please upload your resume.</label>
+                <input type="file"  name="file" id="file" class="inputfile" onchange="uploadFile(this.files)" required/>
+                <div>
+                  <label for="file" class="inputFileLabel">Choose a file</label>
+                  <label class="fileName">  </label>
+                </div>
               </div>
 
               <div class="form-group">
@@ -300,7 +246,6 @@
 
                   </script>
                   <input id="button" type="submit" class="btn btn-primary btn-lg round applynow-btn" value="Submit"/>
-
 
               </div>
             </div>
