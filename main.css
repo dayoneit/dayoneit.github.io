@@ -1174,7 +1174,7 @@ textarea.form-control {
   .form-container{
     padding: 46px 10px;
   }
-  
+
   .subscript-plan-detail {
     margin-left: 35px;
   }
@@ -1596,6 +1596,111 @@ textarea.form-control {
 .app-heading{
   margin-bottom: 40px;
 }
+
+/* ======= About Page ============*/
+
+.team-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.techie-image{
+  width: 170px;
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.techie-info{
+  margin-top: 60px;
+}
+
+.image-title{
+  font-size: var(--subheading-size);
+  font-weight: var(--regular);
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+}
+
+.image-sub-title{
+  font-size: var(--link-size);
+  font-weight: var(--regular);
+  margin-bottom: 10px;
+  color: #00B3A6;
+}
+
+.about .sub-textP{
+  color: #545454;
+
+}
+
+.our-promise .sub-textP{
+  margin-top: 50px;
+}
+
+.about .image-footer{
+  font-size: var(--link-size);
+}
+
+
+
+.team-content{
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 30px 20px;
+  border-radius: 10%;
+}
+
+.badge-image{
+  width: 40px;
+  height: 35px;
+
+}
+
+.badge2-image{
+  width: 200px;
+  height: 170px;
+}
+
+.badge-number{
+  font-size: 17px;
+  margin-top:5px;
+}
+
+.content-title{
+
+}
+
+.content-sub-title{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.content-location{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.content-subtext{
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.location-image{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-bottom: 0.7em;
+  margin-right: 3px;
+
+}
+
+
 
 /*========= FAQ PAge =============*/
 @media only screen and (max-width: 600px) {
