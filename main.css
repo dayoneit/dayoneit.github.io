@@ -1599,6 +1599,8 @@ textarea.form-control {
 
 /* ======= About Page ============*/
 
+
+
 .team-img{
   width: 300px;
   height: 300px;
@@ -1606,18 +1608,18 @@ textarea.form-control {
 }
 
 .techie-image{
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .techie-info{
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 .image-title{
-  font-size: var(--subheading-size);
+  font-size: var(--size-32);
   font-weight: var(--regular);
   margin-top: 20px;
   margin-bottom: 5px;
@@ -1625,7 +1627,7 @@ textarea.form-control {
 }
 
 .image-sub-title{
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
   font-weight: var(--regular);
   margin-bottom: 10px;
   color: #00B3A6;
@@ -1641,7 +1643,7 @@ textarea.form-control {
 }
 
 .about .image-footer{
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
 }
 
 
@@ -1651,8 +1653,9 @@ textarea.form-control {
   background-color: #ffffff;
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  padding: 30px 20px;
+  padding: 30px 25px;
   border-radius: 10%;
+  color: #545454;
 }
 
 .badge-image{
@@ -1672,24 +1675,29 @@ textarea.form-control {
 }
 
 .content-title{
-
+  font-weight: 600;
 }
 
 .content-sub-title{
   font-size: 15px;
   margin-top: 10px;
+  font-weight: 600;
 }
 
 .content-location{
   font-size: 15px;
   margin-top: 10px;
   margin-bottom:10px;
+  font-weight: 500;
 }
 
 .content-subtext{
   font-size: 15px;
   margin-top: 25px;
+  margin-right: 10px;
+  font-weight: 500;
 }
+
 
 .location-image{
   width: 20px;
@@ -1698,6 +1706,14 @@ textarea.form-control {
   margin-bottom: 0.7em;
   margin-right: 3px;
 
+}
+
+@media (max-width: 1024px) {
+  .team-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
 }
 
 
