@@ -1017,7 +1017,7 @@ textarea.form-control {
 .card-heading{
   font-size: var(--subheading-size);
   font-weight: var(--medium);
-  text-transform: uppercase;
+  
   margin-top: 26px;
   margin-bottom: 19px;
 }
@@ -1050,7 +1050,7 @@ textarea.form-control {
 .card-text{
   font-size: var(--link-size);
   font-weight: var(--regular);
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .coming-soon{
   font-size: var(--smaller-size);
@@ -1184,7 +1184,7 @@ textarea.form-control {
   .form-container{
     padding: 46px 10px;
   }
-  
+
   .subscript-plan-detail {
     margin-left: 35px;
   }
