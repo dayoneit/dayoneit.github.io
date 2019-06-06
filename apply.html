@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 
   <link rel="stylesheet" type="text/css" href="main.css" />
   <link rel="stylesheet" type="text/css" href="apply.css" />
@@ -104,17 +104,20 @@
 
 
                     <label>First Name</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="entry.416692538" required>
+                    <input type="text" class="form-control" id="formGroupExampleInput" name="entry.416692538" required>
 
                     <label>Last Name</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="entry.1980038224" required>
+                    <input type="text" class="form-control" id="formGroupExampleInput" name="entry.1980038224" required>
 
                     <label for="formGroupExampleInput2">Email</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email" name="entry.1136160339" required>
-
+                    <input type="text" class="form-control" id="formGroupExampleInput2" name="entry.1136160339" required>
 
                     <label for="formGroupExampleInput2">Date of Birth</label>
                     <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="mm/dd/yyyy" name="entry.790681022" required>
+                    
+                    <label for="formGroupExampleInput2">Home Address Zip Code</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" name="entry.420302649" required>
+                  
                   </div>
                 </div>
               </div>
@@ -227,6 +230,10 @@
                   No
                 </div>
               </div>
+
+              <div class="form-group">
+                <label for="formGroupExampleInput2">If you are unable to submit your application, please email us your responses at careers@orchardinfo.com. We apologize for the inconvenience.</label>
+              </div>
             </div>
           </div>
 
@@ -265,9 +272,9 @@
   <div id="footer"></div>
 
   <!-- JavaScript -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
-  <script src='https  ://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
 
   <script src="index.js"></script>
 
@@ -282,9 +289,34 @@
   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-storage.js"></script>
 
-  <script src="firebase_storage.js"></script>
+  <script>
+    // Firebase configuration
+    function uploadFile(files){
+      var firebaseConfig = {
+       apiKey: "AIzaSyCnj7LrQ_NkwBjL791FVIuk2FSmCOgYLa8",
+       authDomain: "orchardinfofileupload.firebaseapp.com",
+       databaseURL: "https://orchardinfofileupload.firebaseio.com",
+       projectId: "orchardinfofileupload",
+       storageBucket: "orchardinfofileupload.appspot.com",
+       messagingSenderId: "267444946218",
+       appId: "1:267444946218:web:76e719aa9c4def81"
+     };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
 
-      
+      // Create a storage ref
+      const storageRef = firebase.storage().ref('Resumes');
+
+      const fileRef = storageRef.child(files[0].name);
+
+      const file = files.item(0);
+      const task = fileRef.put(file);
+
+      // Display file name
+      document.querySelector('.fileName').innerHTML = files[0].name;
+
+  }
+  </script>
 </body>
 
 </html>
