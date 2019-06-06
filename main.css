@@ -36,6 +36,7 @@
 
 }
 
+
 body{
   width: 100%;
   margin: 0px;
@@ -1183,10 +1184,7 @@ textarea.form-control {
   .form-container{
     padding: 46px 10px;
   }
-  .logo{
-    margin-left: 237%;
-  }
-
+  
   .subscript-plan-detail {
     margin-left: 35px;
   }
