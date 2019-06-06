@@ -239,6 +239,13 @@ body{
   margin-left: 6%;
   margin-right: 80px;
 }
+@media only screen and (max-width: 1024px) {
+
+  .nav-container{
+    margin-right: 30px;
+  }
+
+}
 @media only screen and (max-width: 900px) {
   .nav-container{
     margin-bottom: 10px;
@@ -1174,7 +1181,7 @@ textarea.form-control {
   .form-container{
     padding: 46px 10px;
   }
-  
+
   .subscript-plan-detail {
     margin-left: 35px;
   }
@@ -1596,6 +1603,127 @@ textarea.form-control {
 .app-heading{
   margin-bottom: 40px;
 }
+
+/* ======= About Page ============*/
+
+
+
+.team-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.techie-image{
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.techie-info{
+  margin-top: 45px;
+}
+
+.image-title{
+  font-size: var(--size-32);
+  font-weight: var(--regular);
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+}
+
+.image-sub-title{
+  font-size: var(--desc-size);
+  font-weight: var(--regular);
+  margin-bottom: 10px;
+  color: #00B3A6;
+}
+
+.about .sub-textP{
+  color: #545454;
+
+}
+
+.our-promise .sub-textP{
+  margin-top: 50px;
+}
+
+.about .image-footer{
+  font-size: var(--desc-size);
+}
+
+
+
+.team-content{
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.07);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 30px 25px;
+  border-radius: 10%;
+  color: #545454;
+}
+
+.badge-image{
+  width: 40px;
+  height: 35px;
+
+}
+
+.badge2-image{
+  width: 200px;
+  height: 170px;
+}
+
+.badge-number{
+  font-size: 17px;
+  margin-top:5px;
+}
+
+.content-title{
+  font-weight: 600;
+}
+
+.content-sub-title{
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.content-location{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  font-weight: 500;
+}
+
+.content-subtext{
+  font-size: 15px;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+
+.location-image{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-bottom: 0.7em;
+  margin-right: 3px;
+
+}
+
+@media (max-width: 1024px) {
+  .team-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+
+
 
 /*========= FAQ PAge =============*/
 @media only screen and (max-width: 600px) {
