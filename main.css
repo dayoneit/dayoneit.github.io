@@ -818,10 +818,12 @@ button a:focus, a:hover{
   padding: 0 0px;
 }
 .modal-subTitle{
-  font-size: var(--desc-size);
+  font-size: var(--smaller-size);
   font-weight: var(--regular);
   margin-top: 16px;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 .form-control{
   background-color: var(--popup-field-color);
@@ -945,7 +947,11 @@ textarea.form-control {
 }
 
 .totalcare-btn{
-  padding-bottom:20px;
+  padding:40px 0px  ;
+}
+
+.totalcare-img{
+  padding-bottom: 25px;
 }
 
 .per-credit{
@@ -963,6 +969,30 @@ textarea.form-control {
   color: #373737;
   font-size: 20px;
   font-weight:600;
+}
+
+.pricing .card-heading{
+  font-size: var(--size-32);
+  color: #696969;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.pricing .btn-primary{
+  background-image: linear-gradient(90deg, #3700B3, #6200EE);
+}
+
+.pricing .credits{
+  background-color: white;
+  color: #6200EE;
+  border-color: #6200EE;
+  border: 2px solid;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+}
+
+.check-mark {
+  padding: 10px 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1035,8 +1065,9 @@ textarea.form-control {
 }
 
 .pricing-numb{
-  font-size: 45px;
+  font-size: 60px;
   font-weight: var(--light);
+  padding-top: 50px;
 }
 .pricing-subNumb{
   font-size: var(--desc-size);
@@ -1047,9 +1078,10 @@ textarea.form-control {
   font-weight: var(--light);
 }
 .plus-pricing{
-  font-size: 36px;
+  font-size: 50px;
   font-weight: var(--regular);
   opacity: 0.12;
+  padding-top: 50px;
 }
 .card-text{
   font-size: var(--link-size);
