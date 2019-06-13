@@ -284,6 +284,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
 
   <script src="index.js"></script>
+  
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -296,33 +297,7 @@
   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-storage.js"></script>
 
-  <script>
-    // Firebase configuration
-    function uploadFile(files){
-      var firebaseConfig = {
-       apiKey: "AIzaSyCnj7LrQ_NkwBjL791FVIuk2FSmCOgYLa8",
-       authDomain: "orchardinfofileupload.firebaseapp.com",
-       databaseURL: "https://orchardinfofileupload.firebaseio.com",
-       projectId: "orchardinfofileupload",
-       storageBucket: "orchardinfofileupload.appspot.com",
-       messagingSenderId: "267444946218",
-       appId: "1:267444946218:web:76e719aa9c4def81"
-     };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-
-      // Create a storage ref
-      const storageRef = firebase.storage().ref('Resumes');
-
-      const fileRef = storageRef.child(files[0].name);
-
-      const file = files.item(0);
-      const task = fileRef.put(file);
-
-      // Display file name
-      document.querySelector('.fileName').innerHTML = files[0].name;
-
-  }
+  <script src="firebase_storage.js">
   </script>
 </body>
 
