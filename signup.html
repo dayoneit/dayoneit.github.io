@@ -53,13 +53,9 @@
           <div class="heading-border"></div>
               <div class="row faq_content"> <!-- custom inline -->
 
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-3" style="margin-bottom: 1%;">
+                <div class="row signup" id="sign" >
+                    <div class="col-md-4 col-md-offset-3 signup" style="margin-bottom: 1%;">
                       <form>
-                        <div class="form-group">
-                          <label>Username</label>
-                          <input type="input" class="form-control" placeholder="Username" name="user">
-                        </div>
                         <div class="form-group">
                           <label>Email Address</label>
                           <input type="input" class="form-control" placeholder="Email Address" name="email">
@@ -76,9 +72,25 @@
                           <label >Password</label>
                           <input type="password" class="form-control" placeholder="Password" name="password">
                         </div>
+
+                        <div id="error-msg">
+                        </div>
+
                         <button type="submit" class="btn btn-default">Submit</button>
                       </form>
                     </div>
+                </div>
+
+                <div class="row text-center" id="complete">
+                  <div class="col-md-6 col-md-offset-2 ">
+
+                    <div>
+                    <h1> Sign Up Complete! </h1>
+                    </div>
+                    <div>
+                    <h2> You may now login!  </h2>
+                    </div>
+                  </div>
                 </div>
 
               </div>
