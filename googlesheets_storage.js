@@ -1,7 +1,6 @@
 document.getElementById("form").addEventListener('submit', (event) =>{
 
-  let url="https://script.google.com/macros/s/AKfycbwL_RAsrD575XZevtFMDDrBU_jQpXZm8jh20VlNCye7G2KLPgL3/exec"
-
+  let url = "https://script.google.com/macros/s/AKfycbzPjAgEakPPtPfaJVa23C2IsWy0rjbtRcrQZgzvBzfqgWhaRCQ/exec";
 
   let formSelect  = document.querySelector("form");
 
@@ -13,6 +12,7 @@ document.getElementById("form").addEventListener('submit', (event) =>{
   const dob   = formData.get('dob');
   const zip   = formData.get('zip');
   const car   = formData.get('car');
+  const city  = formData.get('city');
 
   const schoolAttendance = formData.get('schoolAttending');
   const schoolName = formData.get('schoolName');
@@ -35,6 +35,7 @@ document.getElementById("form").addEventListener('submit', (event) =>{
     dob,
     zip,
     car,
+    city,
     schoolAttendance,
     schoolName,
     prevWork,
