@@ -1174,7 +1174,7 @@ textarea.form-control {
   .form-container{
     padding: 46px 10px;
   }
-  
+
   .subscript-plan-detail {
     margin-left: 35px;
   }
@@ -1735,7 +1735,13 @@ textarea.form-control {
   font-size: var(--desc-size);
 }
 
+
+
 /* ======= Apply Page ========== */
+
+.apply .easter_egg {
+  margin-top: 80px;
+}
 
 .app-title {
   font-size: var(--subheading-size);
