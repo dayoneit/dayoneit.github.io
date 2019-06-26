@@ -25,23 +25,18 @@ tl
   opacity: 1
 })
 .add({
-  targets: '.sign',
-  begin: function () {
-    let sign = document.querySelector('.sign').innerHTML;
-
-    console.log(sign);
-
-    if (sign == "+"){
-      document.querySelector('.sign').innerHTML = "-";
-      document.querySelector('.easter_egg_btn').onclick = tl.reverse;
-    } else {
-      document.querySelector('.sign').innerHTML = "+";
-      document.querySelector('.easter_egg_btn').onclick = tl.play;
+  targets: '.footer',
+  translateY: function () {
+    let easter_egg = document.querySelector('.easter_egg').style.display;
+    if ($(window).width() < 960) {
+      return 1900;
     }
-
+    else {
+      return 850;
+    }
   },
-});
+})  ;
 
 
 
-document.querySelector('.easter_egg_btn').onclick = tl;
+document.querySelector('.easter_egg_btn').onclick = tl.play;;
