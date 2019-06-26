@@ -1174,7 +1174,7 @@ textarea.form-control {
   .form-container{
     padding: 46px 10px;
   }
-  
+
   .subscript-plan-detail {
     margin-left: 35px;
   }
@@ -1597,6 +1597,19 @@ textarea.form-control {
   margin-bottom: 40px;
 }
 
+.plus-sign{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.plus-sign-row{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
 /*========= FAQ PAge =============*/
 @media only screen and (max-width: 600px) {
   .link-margin{
@@ -1735,7 +1748,13 @@ textarea.form-control {
   font-size: var(--desc-size);
 }
 
+
+
 /* ======= Apply Page ========== */
+
+.apply .easter_egg {
+
+}
 
 .app-title {
   font-size: var(--subheading-size);
