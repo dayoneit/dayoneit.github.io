@@ -1143,12 +1143,16 @@ textarea.form-control {
 
 }
 
-.ribbon {
-  width: 230px;
-  height: 100px;
-  margin-top: 40px;
-  margin-left: 100px;
-  transform: rotate(-50deg);
+.ribbon_box{
+  position: absolute;
+  margin-right: 100px;
+  margin-left: -35px;
+  margin-top: -33px;
+}
+
+.ribbon_img {
+  width: 200px;
+  height: 200px;
 
 }
 
