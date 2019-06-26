@@ -6,50 +6,52 @@ document.getElementById("form").addEventListener('submit', (event) =>{
 
   let formData = new FormData(formSelect);
 
-  const fName = formData.get('fName');
-  const lName = formData.get('lName');
-  const email = formData.get('email');
-  const dob   = formData.get('dob');
-  const zip   = formData.get('zip');
-  const car   = formData.get('car');
-  const city  = formData.get('city');
+  const aa = formData.get('fName');
+  const bb = formData.get('lName');
+  const cc = formData.get('email');
+  const dd   = formData.get('dob');
+  const ee   = formData.get('zip');
+  const ff   = formData.get('car');
+  const gg  = formData.get('city');
 
-  const schoolAttendance = formData.get('schoolAttending');
-  const schoolName = formData.get('schoolName');
-  const prevWork   = formData.get('prevWork');
-  const grandma    = formData.get('grandmaQues');
-  const techRecc   = formData.get('techRecc');
-  const helpTeam   = formData.get('helpTeam');
-  const difficult  = formData.get('difficult');
-  const amusing    = formData.get('amusing');
-  const youtube    = formData.get('youtube');
-  const whyApply   = formData.get('whyApply');
-  const addInfo    = formData.get('addInfo');
-  const hear       = formData.get('hear');
-  const acknwldge  = formData.get('acknowledge');
+  const hh = formData.get('schoolAttending');
+  const ii = formData.get('schoolName');
+  const jj   = formData.get('prevWork');
+  const kk    = formData.get('grandmaQues');
+  const ll   = formData.get('techRecc');
+  const mm  = formData.get('helpTeam');
+  const nn  = formData.get('difficult');
+  const oo    = formData.get('amusing');
+  const pp    = formData.get('youtube');
+  const qq   = formData.get('whyApply');
+  const rr    = formData.get('addInfo');
+  const ss       = formData.get('hear');
+  const tt  = formData.get('acknowledge');
 
   const data = {
-    fName,
-    lName,
-    email,
-    dob,
-    zip,
-    car,
-    city,
-    schoolAttendance,
-    schoolName,
-    prevWork,
-    grandma,
-    techRecc,
-    helpTeam,
-    difficult,
-    amusing,
-    youtube,
-    whyApply,
-    addInfo,
-    hear,
-    acknwldge
+    aa,
+    bb,
+    cc,
+    dd,
+    ee,
+    ff,
+    gg,
+    hh,
+    ii,
+    jj,
+    kk,
+    ll,
+    mm,
+    nn,
+    oo,
+    pp,
+    qq,
+    rr,
+    ss,
+    tt
   };
+
+  console.log(data);
 
 
 
