@@ -2,6 +2,7 @@ document.getElementById("form").addEventListener('submit', (event) =>{
 
   let url = "https://script.google.com/macros/s/AKfycbzPjAgEakPPtPfaJVa23C2IsWy0rjbtRcrQZgzvBzfqgWhaRCQ/exec";
 
+
   let formSelect  = document.querySelector("form");
 
   console.log(url);
