@@ -30,6 +30,14 @@ document.getElementById("form").addEventListener('submit', (event) =>{
   const qq   = formData.get('whyApply');
   const rr    = formData.get('addInfo');
   const ss    = formData.get('hear');
+  const ll   = formData.get('techRecc');
+  const mm  = formData.get('helpTeam');
+  const nn  = formData.get('difficult');
+  const oo    = formData.get('amusing');
+  const pp    = formData.get('youtube');
+  const qq   = formData.get('whyApply');
+  const rr    = formData.get('addInfo');
+  const ss       = formData.get('hear');
   const tt  = formData.get('acknowledge');
 
   const data = {
