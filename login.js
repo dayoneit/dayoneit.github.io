@@ -23,8 +23,9 @@ form.addEventListener('submit', (event) =>{
   }).then(response => response.json())
     .then(data => {
           console.log(data);
-
+          localStorage.setItem('jwt', data.token );
           
+          window.location.href = "admin";
 
     });
 

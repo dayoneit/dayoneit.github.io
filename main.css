@@ -1893,3 +1893,7 @@ textarea.form-control {
   display: none;
   margin-bottom: 300px;
 }
+
+.admin{
+  display: none;
+}
