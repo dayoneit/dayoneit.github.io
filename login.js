@@ -6,11 +6,11 @@ const api = 'http://localhost:8080/login'
 form.addEventListener('submit', (event) =>{
   event.preventDefault();
   const formData = new FormData(form);
-  const user = formData.get('user');
+  const email = formData.get('email');
   const pass =  formData.get('password');
 
   const data = {
-    user,
+    email,
     pass
   };
 
@@ -20,7 +20,13 @@ form.addEventListener('submit', (event) =>{
     headers: {
         'content-type': 'application/json'
     }
-  });
+  }).then(response => response.json())
+    .then(data => {
+          console.log(data);
+
+          
+
+    });
 
 
 

@@ -1883,6 +1883,12 @@ textarea.form-control {
 
 }
 
+#error-msg{
+
+  padding: 20px 0px;
+
+}
+
 #complete{
   display: none;
   margin-bottom: 300px;
