@@ -943,6 +943,10 @@ textarea.form-control {
 
 }
 
+.total-care-section{
+
+}
+
 .present-row{
 
   padding-top: 25px;
@@ -1290,6 +1294,17 @@ textarea.form-control {
 
   }
 
+}
+
+@media (max-width: 1024px) {
+  .total-care-section{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .pricing .form-container{
+    height: 1200px;
+  }
 }
 
 @media (min-width: 1024px) {
