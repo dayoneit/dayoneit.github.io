@@ -925,6 +925,44 @@ textarea.form-control {
 
 }
 
+.pricing .form-container{
+  height: 1100px;
+}
+
+.pricing-shield{
+  width: 70px;
+  height: 80px;
+}
+
+.pricing-head{
+  width: 60px;
+  height: 50px;
+}
+
+.pricing-sub-title{
+
+}
+
+.present-row{
+
+  padding-top: 25px;
+
+
+}
+
+.pricing-check{
+  width: 25px;
+  height: 20px;
+
+}
+
+.present-img{
+  width: 25px;
+  height: 20px;
+
+}
+
+
 .credits-price{
    margin-bottom: 100px;
    color: #696969;
@@ -1132,7 +1170,7 @@ textarea.form-control {
 
 
 .box-size{
-  height: 605px;
+  height: 800px;
   margin-bottom: 150px;
 
 }
