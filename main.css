@@ -901,10 +901,44 @@ textarea.form-control {
   min-width: 100%;
 }
 
+/* ======== Credits Page ======== */
+
+.credits .btn-primary {
+
+  background-image: linear-gradient(90deg, #3700B3, #6200EE);
+
+}
+
+.back-button {
+
+  width: 90px;
+  height: 30px;
+  margin-top: 20px
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .credits .onetime-btn {
+
+
+
+  }
+
+  .back-button{
+    margin-top: 30px;
+  }
+
+}
+
+
+
 /* ======== Pricing Page ======== */
 .row-centered {
     text-align:center;
 }
+
+
 .col-centered {
     display:inline-block;
     float:none;
@@ -1304,6 +1338,12 @@ textarea.form-control {
 
   .pricing .form-container{
     height: 1200px;
+  }
+  .box{
+    margin: 50px 0px;
+  }
+  .ribbon_box{
+    margin-top: -83px;
   }
 }
 
