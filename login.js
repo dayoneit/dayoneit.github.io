@@ -9,10 +9,14 @@ form.addEventListener('submit', (event) =>{
   const email = formData.get('email');
   const pass =  formData.get('password');
 
+
+
   const data = {
     email,
     pass
   };
+
+  localStorage.setItem('email', data.email);
 
   fetch(api, {
     method: 'POST',
@@ -24,7 +28,8 @@ form.addEventListener('submit', (event) =>{
     .then(data => {
           console.log(data);
           localStorage.setItem('jwt', data.token );
-          
+
+
           window.location.href = "admin";
 
     });

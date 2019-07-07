@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>FAQ | Orchard</title>
+    <title>Admin | Orchard</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -41,19 +41,37 @@
 
   <body class="admin" onload="verifyJwt()">
     <div id="header">
-
     </div>
     <!-- Body -->
-
     <div class="container-fluid">
       <!-- First Block -->
       <div class="row headingPage-margin">
         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
           <div class="block-heading text-center">Admin</div>
           <div class="heading-border"></div>
-
         </div>
       </div>
+
+      <div class="row" style="margin-bottom: 500px">
+
+        <div class="col-md-6 text-right">
+          <img src="./img/profile-filler.jpg" style="height: 100px; width: 70px;">
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="profile-name" id="profile-name"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="profile-email" id="profile-email"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
     <!-- Footer -->

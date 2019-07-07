@@ -11,6 +11,9 @@ $("document").ready(function() {
     var fileName = page.split(".").shift();
     console.log(fileName);
 
+    if(localStorage.getItem('jwt')){
+      document.getElementById('login').innerHTML = "Log Out";
+    }
 
     //Do only if page is not index
     if ( fileName) {
@@ -30,4 +33,19 @@ $("document").ready(function() {
       document.getElementById('index').style.borderBottom = "solid #6200EE";
       document.getElementById('index').style.padding = "15px 0px 10px 0px";
     }
+
+
+
+
+
+
+
 });
+
+function logOut() {
+  console.log("button click");
+  if(document.getElementById('login').innerHTML == "Log Out"){
+    localStorage.removeItem('jwt');
+  }
+
+};
