@@ -1,6 +1,7 @@
 document.getElementById("form").addEventListener('submit', (event) =>{
 
   let url = "https://script.google.com/macros/s/AKfycbzPjAgEakPPtPfaJVa23C2IsWy0rjbtRcrQZgzvBzfqgWhaRCQ/exec";
+  event.preventDefault();
 
 
   let formSelect  = document.querySelector("form");
@@ -30,14 +31,6 @@ document.getElementById("form").addEventListener('submit', (event) =>{
   const qq   = formData.get('whyApply');
   const rr    = formData.get('addInfo');
   const ss    = formData.get('hear');
-  const ll   = formData.get('techRecc');
-  const mm  = formData.get('helpTeam');
-  const nn  = formData.get('difficult');
-  const oo    = formData.get('amusing');
-  const pp    = formData.get('youtube');
-  const qq   = formData.get('whyApply');
-  const rr    = formData.get('addInfo');
-  const ss       = formData.get('hear');
   const tt  = formData.get('acknowledge');
 
   const data = {
@@ -69,7 +62,7 @@ document.getElementById("form").addEventListener('submit', (event) =>{
 
 
 
-  event.preventDefault();
+
 
 
   $.ajax({
