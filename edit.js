@@ -5,17 +5,32 @@ const api = 'http://localhost:8080/edit'
 form.addEventListener('submit', (event) =>{
   event.preventDefault();
   const formData = new FormData(form);
-  const email = formData.get('email');
-  const pass =  formData.get('password');
+  const fName = formData.get('fName');
+  const lName = formData.get('lName');
+  const phone = formData.get('phone');
+  const addrs = formData.get('address');
+  const city  = formData.get('city');
+  const zip   = formData.get('zip');
+  const update = true;
+  let email = localStorage.getItem('email');
+
+
+
 
 
 
   const data = {
     email,
-    pass
+    fName,
+    lName,
+    phone,
+    addrs,
+    city,
+    zip,
+    update
+
   };
 
-  localStorage.setItem('email', data.email);
 
   fetch(api, {
     method: 'POST',
@@ -26,10 +41,7 @@ form.addEventListener('submit', (event) =>{
   }).then(response => response.json())
     .then(data => {
           console.log(data);
-          localStorage.setItem('jwt', data.token );
 
-
-          window.location.href = "admin";
 
     });
 
@@ -62,7 +74,6 @@ function fillFields() {
       }
     }).then(response => response.json())
       .then(data => {
-            document.getElementById('email').value = data.email;
             document.getElementById('fName').value = data.fName;
             document.getElementById('lName').value = data.lName;
             document.getElementById('phone').value = data.phone || " ";

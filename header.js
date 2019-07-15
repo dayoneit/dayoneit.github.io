@@ -13,6 +13,8 @@ $("document").ready(function() {
 
     if(localStorage.getItem('jwt')){
       document.getElementById('login').innerHTML = "Log Out";
+      document.getElementById('signup').style.display = "none";
+      document.getElementById('profile').style.display = "block";
     }
 
     //Do only if page is not index
