@@ -1311,6 +1311,10 @@ textarea.form-control {
     margin-top: 70px;
   }
 
+  .ribbon_box{
+    margin-top: -83px;
+  }
+
 
 
 }
@@ -1348,9 +1352,19 @@ textarea.form-control {
   .box{
     margin: 50px 0px;
   }
+
   .ribbon_box{
-    margin-top: -83px;
+    margin-top: -33px;
   }
+
+  .card-heading{
+    padding-top: 25px;
+  }
+
+  #ipad-padding{
+    padding-top: 50px;
+  }
+
 }
 
 @media (min-width: 1024px) {
