@@ -964,8 +964,8 @@ textarea.form-control {
 }
 
 .pricing-shield{
-  width: 70px;
-  height: 80px;
+  width: 90px;
+  height: 100px;
 }
 
 .pricing-head{
@@ -1048,7 +1048,7 @@ textarea.form-control {
 }
 
 .pricing .card-heading{
-  font-size: var(--size-32);
+  font-size: var(--size-40);
   color: #696969;
   font-weight: 600;
   padding-bottom: 20px;
@@ -1082,6 +1082,7 @@ textarea.form-control {
 
 .pricing .btn-primary{
   background-image: linear-gradient(90deg, #3700B3, #6200EE);
+
 }
 
 .pricing .credits{
@@ -1091,6 +1092,11 @@ textarea.form-control {
   border: 2px solid;
   letter-spacing: 1px;
   padding: 12px 24px;
+}
+
+.total-care-section .btn {
+  padding: 18px 30px;
+  border-radius: 30px;
 }
 
 .check-mark {
@@ -1571,6 +1577,14 @@ textarea.form-control {
   .horizontal-line-one{
     margin-left: -15%;
   }
+
+  .icon_tv {
+
+    margin-left: -7px;
+
+  }
+
+
   .horizontal-line-two{
     margin-left: -6.3%;
   }
@@ -1653,6 +1667,12 @@ textarea.form-control {
   }
   .horizontal-line-two{
     margin-left: -4%;
+  }
+
+  .icon_tv {
+
+    margin-left: 0px;
+
   }
 
 
