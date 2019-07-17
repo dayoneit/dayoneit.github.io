@@ -430,7 +430,7 @@ body{
 }
 .image-footer{
   font-weight: var(--regular);
-  font-size: var(--desc-size);
+  font-size: var(--link-size);
   padding: 5px 15px;
   text-align: center;
 }
@@ -866,7 +866,7 @@ button a:focus, a:hover{
 }
 
 .form-text{
-  font-size: var(--desc-size);
+  font-size: var(--link-size);
   font-weight: var(--regular);
   margin-bottom: 24px;
   line-height: 30px;
