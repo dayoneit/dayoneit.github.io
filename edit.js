@@ -82,3 +82,30 @@ function fillFields() {
             document.getElementById('zip').value = data.zip || " ";
       });
 }
+
+function uploadFile(files){
+  var firebaseConfig = {
+    apiKey: "AIzaSyBSO7MfiM66-jrb59O3hDi_dq8nlCPc_ws",
+    authDomain: "firebasics-8470d.firebaseapp.com",
+    databaseURL: "https://firebasics-8470d.firebaseio.com",
+    projectId: "firebasics-8470d",
+    storageBucket: "firebasics-8470d.appspot.com",
+    messagingSenderId: "369340214069",
+    appId: "1:369340214069:web:757540d02ca1e048"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+  // Create a storage ref
+  const storageRef = firebase.storage().ref('Profile_Pictures');
+
+  const fileRef = storageRef.child(files[0].name);
+
+  const file = files.item(0);
+  const task = fileRef.put(file);
+
+  // Display file name
+  document.querySelector('.fileName').innerHTML = files[0].name;
+
+}
