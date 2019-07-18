@@ -959,6 +959,21 @@ textarea.form-control {
 
 .pricing .btn{
   padding: 16px 60px
+
+}
+
+.dollar-amount{
+  font-size: 64px;
+  color: var(--heading-color);
+  font-weight: 300;
+  display: inline;
+}
+
+.per-year{
+  font-size: 40px;
+  color: var(--heading-color);
+  font-weight: var(--light);
+  display: inline;
 }
 
 .pricing .learn-more .btn-primary{
@@ -967,10 +982,32 @@ textarea.form-control {
   border: 3px solid;
 }
 
+.green-check-mark{
+  width: 45px;
+  height: auto;
+}
+
+
+.membership-details{
+  font-size: 22px;
+  font-weight: 300;
+}
+
 .pricing .round{
   border-radius: 35px;
 }
 
+.discount-text {
+  font-size: 48px;
+	color: var(--heading-color);
+  font-weight: var(--regualr);
+}
+
+.discount-subtext{
+  font-size: 32px;
+  color: var(--heading-color);
+  font-weight: var(--light);
+}
 
 
 @media only screen and (max-width: 600px) {
