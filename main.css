@@ -951,6 +951,28 @@ textarea.form-control {
   font-weight:600;
 }
 
+.check-mark-row {
+
+  padding: 20px 0px;
+
+}
+
+.pricing .btn{
+  padding: 16px 60px
+}
+
+.pricing .learn-more .btn-primary{
+  background: linear-gradient(white, white), linear-gradient(90deg, white, rgba(255, 255, 255, 0));
+  color: #7119EF;
+  border: 3px solid;
+}
+
+.pricing .round{
+  border-radius: 35px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
   .pricing-container {
