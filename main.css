@@ -958,9 +958,12 @@ textarea.form-control {
 }
 
 .pricing .btn{
-  padding: 16px 60px
+  padding: 16px 60px;
+  font-size: var(--desc-size);
 
 }
+
+
 
 .dollar-amount{
   font-size: 64px;
@@ -980,6 +983,10 @@ textarea.form-control {
   background: linear-gradient(white, white), linear-gradient(90deg, white, rgba(255, 255, 255, 0));
   color: #7119EF;
   border: 3px solid;
+}
+
+.pricing .heading-border{
+  margin-bottom: 90px;
 }
 
 .green-check-mark{
