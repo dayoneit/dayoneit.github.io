@@ -1016,9 +1016,21 @@ textarea.form-control {
   font-weight: var(--light);
 }
 
+.pricing-tree {
+  width: 400px;
+  height: auto;
+}
+
 
 @media only screen and (max-width: 600px) {
 
+  .pricing-tree {
+    width: 300px;
+    height: auto;
+  }
+  .discount-text{
+    padding-top: 50px;
+  }
   .pricing-container {
     margin-left:15px;
 
@@ -1065,6 +1077,7 @@ textarea.form-control {
     padding: 46px 36px;
 
   }
+
 }
 .about-pricing-row{
   padding-top: 50px;
