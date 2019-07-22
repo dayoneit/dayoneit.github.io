@@ -1238,6 +1238,13 @@ textarea.form-control {
 
   }
 
+  .left-box-size{
+
+    height: 0px;
+    width: 473.33px;
+
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -1268,7 +1275,7 @@ textarea.form-control {
 
   .credits-btn{
     bottom: 0;
-    margin-top:33px;
+    padding-top: 162px;
   }
 
   .credits-price{
@@ -1302,7 +1309,7 @@ textarea.form-control {
 
   .left-box-size{
 
-    height: 670px;
+    height: 800px;
     width: 473.33px;
 
   }
@@ -1310,7 +1317,7 @@ textarea.form-control {
 
   .center-box-size{
 
-    height: 670px;
+    height: 800px;
     width: 473.33px;
 
   }
@@ -1416,6 +1423,17 @@ textarea.form-control {
    .subscript-plan-detail{
      margin-left: 16%;
    }
+   .left-box-size{
+
+     height: 670px;
+     width: 473.33px;
+
+   }
+
+   .credits-btn{
+     bottom: 0;
+     padding-top: 112px;
+   }
 
   }
 
@@ -1427,6 +1445,7 @@ textarea.form-control {
 
    .credits-btn{
      margin-top: 32px;
+     padding-top: 45px;
    }
 
    .center-box{
