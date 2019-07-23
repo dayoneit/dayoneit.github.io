@@ -1475,6 +1475,13 @@ textarea.form-control {
      margin-left: -4%;
    }
 
+   .onetime-btn .join-now{
+     padding-top: 100px;
+     bottom: -30px;
+     position: relative;
+     /* margin-top:35px; */
+   }
+
 
   }
 
@@ -1517,6 +1524,10 @@ textarea.form-control {
 
   .center-box {
     margin-left: 5%;
+  }
+
+  .join-now{
+    margin-top: 100px;
   }
 
  }
@@ -1610,6 +1621,10 @@ textarea.form-control {
 
   .onetime-btn{
     margin-top: 20px;
+  }
+
+  .join-now{
+    margin-top: 100px;
   }
 
 }
