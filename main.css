@@ -973,6 +973,7 @@ textarea.form-control {
 }
 
 .per-year{
+  padding-top: 25px;
   font-size: 40px;
   color: var(--heading-color);
   font-weight: var(--light);
@@ -1017,7 +1018,7 @@ textarea.form-control {
 }
 
 .pricing-tree {
-  width: 400px;
+  width: 450px;
   height: auto;
 }
 
@@ -1080,7 +1081,7 @@ textarea.form-control {
 
 }
 .about-pricing-row{
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 .card-heading{
@@ -1140,6 +1141,12 @@ textarea.form-control {
 .box-size{
   height: 605px;
   margin-bottom: 150px;
+
+}
+
+.heading-margin{
+    margin-top: 80px;
+
 
 }
 
@@ -1476,7 +1483,7 @@ textarea.form-control {
    }
 
    .onetime-btn .join-now{
-     padding-top: 100px;
+     padding-top: 50px;
      bottom: -30px;
      position: relative;
      /* margin-top:35px; */
@@ -1527,7 +1534,7 @@ textarea.form-control {
   }
 
   .join-now{
-    margin-top: 100px;
+    margin-top: 25px;
   }
 
  }
