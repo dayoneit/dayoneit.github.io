@@ -15,12 +15,11 @@
   --popup-field-color: rgba(196,196,196,0.2);
 
   /*Font*/
-  --slogan-size: 5.653rem;
-  --heading-size: 3.998rem;
-  --subheading-size: 2.827rem;
-  --slogan-subtitle-size: 2.827rem;
-  --desc-size: 1.999rem;
-  --link-size: 1.999rem;
+  --h1: 5.653rem;
+  --h2: 3.998rem;
+  --h3: 2.827rem;
+  --h4: 1.999rem;
+  --h5: 1.414rem;
   --smaller-size: 1.4rem;
   --big-number-size: 8.6rem;
   --size-32: 3.2rem;
@@ -52,6 +51,9 @@ h4 {
   font-size: 51.999rem;
 }
 
+h5 {
+}
+
 
 body{
   width: 100%;
@@ -62,7 +64,6 @@ body{
   font-family: 'Lato', sans-serif;
   color: var(--main-color-text);
 }
-
 
 /*======= Index Page========*/
 
@@ -316,11 +317,11 @@ body{
 }
 
 .slogan{
-  font-size: var(--slogan-size);
+  font-size: var(--h1);
   font-weight: var(--light);
 }
 .slogan-subtitle{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   line-height: 40px;
 	padding-right: 0;
@@ -340,7 +341,7 @@ body{
   margin-bottom: 100px;
 }
 .block-heading{
-	font-size: var(--heading-size);
+	font-size: var(--h2);
 	color: var(--heading-color);
   font-weight: var(--bold);
 }
@@ -399,13 +400,13 @@ body{
   margin-bottom: 25px;
 }
 .block-subheading{
-	font-size: var(--subheading-size);
+	font-size: var(--h3);
   font-weight: var(--regular);
   margin-bottom: 5px;
 }
 
 .apply .block-subheading{
-	font-size: var(--subheading-size);
+	font-size: var(--h3);
   font-weight: var(--light);
   margin-bottom: 5px;
 }
@@ -442,18 +443,18 @@ body{
 .icon-text{
 	margin-top: 8px;
   color: var(--main-color-text);
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--light);
 }
 .image-footer{
   font-weight: var(--regular);
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   padding: 5px 15px;
   text-align: center;
 }
 .question-links{
   margin-top:75px;
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   color: var(--main-color);
 }
 .question-links:focus, .question-links:hover {
@@ -462,13 +463,12 @@ body{
     text-decoration: underline;
 }
 .icon-text-2{
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
-  text-transform: uppercase;
   margin-top: 15px;
 }
 .icon-text-sub{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
@@ -592,7 +592,7 @@ button a:focus, a:hover{
 }
 
 .tabs{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
 }
 .hiw-img{
@@ -600,12 +600,12 @@ button a:focus, a:hover{
   max-height: 245px;
 }
 .values-subheading{
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-bottom: 9px;
 }
 .values-desc{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   line-height: 29px;
   font-weight: var(--light);
 }
@@ -676,12 +676,12 @@ button a:focus, a:hover{
 }
 
 .review-textR{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   padding-left: 8%;
   padding-right: 20%;
 }
 .review-textL{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   padding-left: 7%;
   padding-right: 12%;
   margin-top: 20px;
@@ -696,13 +696,13 @@ button a:focus, a:hover{
 
 }
 .sub-textP{
-  font-size: var(--subheading-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   /* color: var(--heading-color); */
   margin-bottom: 15px;
 }
 .sub-textP2{
-  font-size: var(--subheading-size);
+  font-size: var(--h4 );
   font-weight: var(--light);
   /* color: var(--heading-color); */
   margin-bottom: 15px;
@@ -718,11 +718,11 @@ button a:focus, a:hover{
 }
 .sub-textC{
   margin-bottom: 40px;
-  font-size: var(--subheading-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
 }
 .contact-text{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
@@ -752,7 +752,7 @@ button a:focus, a:hover{
 .footer{
   background-color: var(--footer-color);
   color: var(--white-color);
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   padding-bottom: 65px;
   padding-top: 65px;
 }
@@ -793,8 +793,13 @@ button a:focus, a:hover{
   padding: 0px 78px;
   text-align: left;
 }
+
+.modal-body .radio-inline{
+  font-size: var(--h4);
+}
+
 .modal-title{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
@@ -814,7 +819,7 @@ button a:focus, a:hover{
 }
 
 .modal-thankYouTitle{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
@@ -825,7 +830,7 @@ button a:focus, a:hover{
   padding: 0 0px;
 }
 .modal-subTitle{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-top: 16px;
   text-align: center;
@@ -842,7 +847,7 @@ button a:focus, a:hover{
   margin-bottom: 65px;
 }
 .modal-text{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-bottom: 17px;
 }
@@ -864,12 +869,12 @@ button a:focus, a:hover{
 }
 
 .form-title{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   text-align: center;
 }
 .form-subTitle{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-top: 16px;
   margin-bottom: 25px;
@@ -883,7 +888,7 @@ button a:focus, a:hover{
 }
 
 .form-text{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-bottom: 24px;
   line-height: 30px;
@@ -1081,9 +1086,8 @@ textarea.form-control {
   padding-bottom: 100px;
 }
 .card-heading{
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--medium);
-  text-transform: uppercase;
   margin-top: 26px;
   margin-bottom: 19px;
 }
@@ -1097,11 +1101,11 @@ textarea.form-control {
 }
 
 .pricing-numb{
-  font-size: 4.5rem;
+  font-size: var(--h2);
   font-weight: var(--light);
 }
 .pricing-subNumb{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regualr);
 }
 .pricing-smallTxt{
@@ -1114,7 +1118,7 @@ textarea.form-control {
   opacity: 0.12;
 }
 .card-text{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-top: 80px;
 }
@@ -1126,7 +1130,7 @@ textarea.form-control {
   margin-bottom: 32px;
 }
 .bullet-text{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   color: var(--heading-color);
   float: left;
@@ -1664,7 +1668,7 @@ textarea.form-control {
 
 /* ======== Application Page ======== */
 .app-text{
-  font-size: var(--link-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-bottom: 30px;
 
@@ -1687,7 +1691,18 @@ textarea.form-control {
 }
 
 .apply .question-links{
-  font-size: var(--link-size);
+  font-size: var(--h4);
+}
+
+.apply label{
+  font-size: var(--h4);
+}
+
+.apply .app-ques-subtitle{
+  font-size: var(--h5);
+  font-weight: var(--regular);
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /*========= FAQ PAge =============*/
@@ -1696,6 +1711,15 @@ textarea.form-control {
     margin-bottom: 100px;
 
   }
+}
+
+.faq .subheading{
+  font-size: var(--h2);
+  font-weight: var(--light);
+}
+
+.faq .block-paragraph{
+
 }
 
 /* ======== Contact Page ======== */
@@ -1747,7 +1771,7 @@ textarea.form-control {
 }
 
 .sub-heading {
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-bottom: 20px;
 }
@@ -1781,25 +1805,25 @@ textarea.form-control {
 }
 
 .techie .sub-textP  {
-  font-size: 2.5rem;
+  font-size: var(--h4);
 
 }
 
 .techie .block-subheading {
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
 }
 
 .techie .image-footer {
-  font-size: var(--desc -size);
+  font-size: var(--h4);
 }
 
 .techie .applynow-btn {
   padding: 15px 40px;
-  font-size: var(--desc-size);
+  font-size: var(--h4);
 }
 
 .techie .question-links {
-  font-size: var(--desc-size);
+  font-size: var(--h5);
 }
 
 .row-color {
@@ -1825,7 +1849,11 @@ textarea.form-control {
 .applynow-btn{
   padding: 15px 60px;
   background-image: linear-gradient(90deg, #3700B3, #6200EE);
-  font-size: var(--desc-size);
+  font-size: var(--h4);
+}
+
+.ming{
+  font-size: var(--h4);
 }
 
 
@@ -1837,7 +1865,7 @@ textarea.form-control {
 }
 
 .app-title {
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--light);
   margin-bottom: 20px;
   padding-left: 10px;
