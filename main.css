@@ -1657,8 +1657,8 @@ textarea.form-control {
 }
 
 .plus-sign{
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin-bottom: 3px;
   margin-left: 10px;
   margin-right: 10px;
@@ -1667,6 +1667,10 @@ textarea.form-control {
 .plus-sign-row{
   padding-top: 30px;
   padding-bottom: 50px;
+}
+
+.apply .question-links{
+  font-size: var(--link-size);
 }
 
 /*========= FAQ PAge =============*/
