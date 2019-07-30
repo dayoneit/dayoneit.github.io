@@ -15,17 +15,17 @@
   --popup-field-color: rgba(196,196,196,0.2);
 
   /*Font*/
-  --heading-size: 40px;
-  --subheading-size: 28px;
-  --slogan-size: 56px;
-  --slogan-subtitle-size: 22px;
-  --link-size: 17px;
-  --desc-size: 22px;
-  --smaller-size: 14px;
-  --big-number-size: 88px;
-  --size-32: 32px;
-  --size-28: 28px;
-  --size-40: 40px;
+  --slogan-size: 5.653rem;
+  --heading-size: 3.998rem;
+  --subheading-size: 2.827rem;
+  --slogan-subtitle-size: 2.827rem;
+  --desc-size: 1.999rem;
+  --link-size: 1.999rem;
+  --smaller-size: 1.4rem;
+  --big-number-size: 8.6rem;
+  --size-32: 3.2rem;
+  --size-28: 2.8rem;
+  --size-40: 4.0rem;
   --light: 300;
   --regular: 400;
   --medium: 500;
@@ -36,11 +36,28 @@
 
 }
 
+h1 {
+  font-size: 5.654rem;
+}
+
+h2 {
+  font-size: 3.998rem;
+}
+
+h3 {
+  font-size: 2.827rem;
+}
+
+h4 {
+  font-size: 51.999rem;
+}
+
 
 body{
   width: 100%;
   margin: 0px;
   padding: 0px;
+  font-size: 62.5%;
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: var(--main-color-text);
@@ -50,7 +67,7 @@ body{
 /*======= Index Page========*/
 
 .nav-item {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .learnMore_email{
@@ -272,7 +289,7 @@ body{
   box-shadow: 0 2px 4px 0 rgba(46,62,72,.12), 0 0 2px 0 rgba(46,62,72,.12);
 }
 .logo{
-  font-size: 40px;
+  font-size: 4.0rem;
   font-weight: var(--bold);
   color: var(--main-color);
 }
@@ -340,7 +357,7 @@ body{
 }
 
 .block-link{
-  font-size: 20px;
+  font-size: 2.0rem;
   color: var(--main-color);
 }
 
@@ -404,7 +421,7 @@ body{
 
 .block-paragraph {
   margin-bottom: 3%;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 @media only screen and (max-width: 600px) {
   .block-paragraph {
@@ -430,7 +447,7 @@ body{
 }
 .image-footer{
   font-weight: var(--regular);
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
   padding: 5px 15px;
   text-align: center;
 }
@@ -451,7 +468,7 @@ body{
   margin-top: 15px;
 }
 .icon-text-sub{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--desc-size);
   font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
@@ -474,7 +491,7 @@ body{
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.42857143;
   text-align: center;
@@ -492,7 +509,7 @@ body{
 }
 
 .btn-lg {
-  font-size: 20px;
+  font-size: 2.0rem;
   line-height: 1.33;
   border-radius: 6px;
 }
@@ -588,7 +605,7 @@ button a:focus, a:hover{
   margin-bottom: 9px;
 }
 .values-desc{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--desc-size);
   line-height: 29px;
   font-weight: var(--light);
 }
@@ -673,7 +690,7 @@ button a:focus, a:hover{
   font-style: var(--italic);
 }
 .plus{
-  font-size: 100px;
+  font-size: 10.0rem;
   font-weight: var(--regular);
   opacity: 0.12;
 
@@ -696,7 +713,7 @@ button a:focus, a:hover{
   color: var(--heading-color);
 }
 .big-numb-sub{
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: var(--regular);
 }
 .sub-textC{
@@ -763,7 +780,7 @@ button a:focus, a:hover{
   margin: 25px auto 20px;
 }
 .footer-orText{
-  font-size: 25px;
+  font-size: 2.5rem;
   background-color: var(--block-color);
   padding: 0 10px;
 }
@@ -866,7 +883,7 @@ button a:focus, a:hover{
 }
 
 .form-text{
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
   font-weight: var(--regular);
   margin-bottom: 24px;
   line-height: 30px;
@@ -935,19 +952,19 @@ textarea.form-control {
 }
 
 .per-credit{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
 .credit-count {
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: 300;
 
 }
 
 .discount {
   color: #373737;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight:600;
 }
 
@@ -963,14 +980,14 @@ textarea.form-control {
 }
 
 .dollar-amount{
-  font-size: 64px;
+  font-size: 6.4rem;
   color: var(--heading-color);
   font-weight: 300;
   display: inline;
 }
 
 .per-year{
-  font-size: 40px;
+  font-size: 4.0rem;
   color: var(--heading-color);
   font-weight: var(--light);
   display: inline;
@@ -989,7 +1006,7 @@ textarea.form-control {
 
 
 .membership-details{
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 300;
 }
 
@@ -998,13 +1015,13 @@ textarea.form-control {
 }
 
 .discount-text {
-  font-size: 48px;
+  font-size: 4.6rem;
 	color: var(--heading-color);
   font-weight: var(--regualr);
 }
 
 .discount-subtext{
-  font-size: 32px;
+  font-size: 3.2rem;
   color: var(--heading-color);
   font-weight: var(--light);
 }
@@ -1071,7 +1088,7 @@ textarea.form-control {
   margin-bottom: 19px;
 }
 .subscript-numb{
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: var(--light);
   margin-bottom: 20px;
 }
@@ -1080,7 +1097,7 @@ textarea.form-control {
 }
 
 .pricing-numb{
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: var(--light);
 }
 .pricing-subNumb{
@@ -1088,16 +1105,16 @@ textarea.form-control {
   font-weight: var(--regualr);
 }
 .pricing-smallTxt{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: var(--light);
 }
 .plus-pricing{
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: var(--regular);
   opacity: 0.12;
 }
 .card-text{
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
   font-weight: var(--regular);
   margin-top: 80px;
 }
@@ -1764,25 +1781,25 @@ textarea.form-control {
 }
 
 .techie .sub-textP  {
-  font-size: 25px;
+  font-size: 2.5rem;
 
 }
 
 .techie .block-subheading {
-  font-size: var(--desc-size);
+  font-size: var(--subheading-size);
 }
 
 .techie .image-footer {
-  font-size: var(--link-size);
+  font-size: var(--desc -size);
 }
 
 .techie .applynow-btn {
   padding: 15px 40px;
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
 }
 
 .techie .question-links {
-  font-size: var(--link-size);
+  font-size: var(--desc-size);
 }
 
 .row-color {
@@ -1827,6 +1844,6 @@ textarea.form-control {
 }
 
 .pop-confirmation{
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 200px;
 }
