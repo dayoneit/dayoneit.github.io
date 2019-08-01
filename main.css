@@ -426,7 +426,7 @@ input::placeholder {
 
 .block-paragraph {
   margin-bottom: 3%;
-  font-size: 2.0rem;
+  font-size: var(--h4);
 }
 @media only screen and (max-width: 600px) {
   .block-paragraph {
