@@ -1,4 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Lato');*/
+html { font-size: 62.5%; }
 
 :root {
 	/*Colors*/
@@ -15,6 +16,7 @@
   --popup-field-color: rgba(196,196,196,0.2);
 
   /*Font*/
+
   --h1: 5.653rem;
   --h2: 3.998rem;
   --h3: 2.827rem;
@@ -983,9 +985,12 @@ textarea.form-control {
 }
 
 .pricing .btn{
-  padding: 16px 60px
+  padding: 16px 60px;
+  font-size: var(--desc-size);
 
 }
+
+
 
 .dollar-amount{
   font-size: 6.4rem;
@@ -1005,6 +1010,10 @@ textarea.form-control {
   background: linear-gradient(white, white), linear-gradient(90deg, white, rgba(255, 255, 255, 0));
   color: #7119EF;
   border: 3px solid;
+}
+
+.pricing .heading-border{
+  margin-bottom: 90px;
 }
 
 .green-check-mark{
@@ -1034,9 +1043,21 @@ textarea.form-control {
   font-weight: var(--light);
 }
 
+.pricing-tree {
+  width: 450px;
+  height: auto;
+}
+
 
 @media only screen and (max-width: 600px) {
 
+  .pricing-tree {
+    width: 300px;
+    height: auto;
+  }
+  .discount-text{
+    padding-top: 50px;
+  }
   .pricing-container {
     margin-left:15px;
 
@@ -1083,9 +1104,10 @@ textarea.form-control {
     padding: 46px 36px;
 
   }
+
 }
 .about-pricing-row{
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 .card-heading{
@@ -1144,6 +1166,12 @@ textarea.form-control {
 .box-size{
   height: 605px;
   margin-bottom: 150px;
+
+}
+
+.heading-margin{
+    margin-top: 80px;
+
 
 }
 
@@ -1242,6 +1270,13 @@ textarea.form-control {
 
   }
 
+  .left-box-size{
+
+    height: 0px;
+    width: 473.33px;
+
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -1272,7 +1307,7 @@ textarea.form-control {
 
   .credits-btn{
     bottom: 0;
-    margin-top:33px;
+    padding-top: 162px;
   }
 
   .credits-price{
@@ -1306,7 +1341,7 @@ textarea.form-control {
 
   .left-box-size{
 
-    height: 670px;
+    height: 800px;
     width: 473.33px;
 
   }
@@ -1314,7 +1349,7 @@ textarea.form-control {
 
   .center-box-size{
 
-    height: 670px;
+    height: 800px;
     width: 473.33px;
 
   }
@@ -1420,6 +1455,17 @@ textarea.form-control {
    .subscript-plan-detail{
      margin-left: 16%;
    }
+   .left-box-size{
+
+     height: 670px;
+     width: 473.33px;
+
+   }
+
+   .credits-btn{
+     bottom: 0;
+     padding-top: 112px;
+   }
 
   }
 
@@ -1431,6 +1477,7 @@ textarea.form-control {
 
    .credits-btn{
      margin-top: 32px;
+     padding-top: 45px;
    }
 
    .center-box{
@@ -1458,6 +1505,13 @@ textarea.form-control {
    }
    .horizontal-line-two{
      margin-left: -4%;
+   }
+
+   .onetime-btn .join-now{
+     padding-top: 50px;
+     bottom: -30px;
+     position: relative;
+     /* margin-top:35px; */
    }
 
 
@@ -1490,7 +1544,7 @@ textarea.form-control {
     margin-bottom: 120px;
   }
   .credits-btn {
-    margin-top: 38px;
+    margin-top: 28px;
   }
   .subscript-plan-detail{
     margin-left: 17%;
@@ -1502,6 +1556,10 @@ textarea.form-control {
 
   .center-box {
     margin-left: 5%;
+  }
+
+  .join-now{
+    margin-top: 25px;
   }
 
  }
@@ -1590,11 +1648,15 @@ textarea.form-control {
     margin-bottom: 120px;
   }
   .credits-btn{
-    margin-top: 52px;
+    margin-top: 50px;
   }
 
   .onetime-btn{
     margin-top: 20px;
+  }
+
+  .join-now{
+    margin-top: 100px;
   }
 
 }
@@ -1809,6 +1871,7 @@ textarea.form-control {
 
 .techie .sub-textP  {
   font-size: var(--h4);
+
 
 }
 
