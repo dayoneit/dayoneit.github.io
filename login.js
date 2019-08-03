@@ -26,11 +26,18 @@ form.addEventListener('submit', (event) =>{
     }
   }).then(response => response.json())
     .then(data => {
-          console.log(data);
-          localStorage.setItem('jwt', data.token );
 
 
-          window.location.href = "admin";
+          if ( data.isAuthentic ){
+            localStorage.setItem('jwt', data.token );
+            window.location.href = "admin";
+          } else {
+
+            document.getElementById("error-msg").innerHTML = data.message;
+            console.log(data);
+
+          }
+
 
     });
 
