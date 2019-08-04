@@ -990,6 +990,11 @@ textarea.form-control {
 
 }
 
+.pricing .btn .schedule-btn{
+  padding: 10px 0px;
+  font-size: var(--h4);
+}
+
 
 
 .dollar-amount{
@@ -1126,7 +1131,7 @@ textarea.form-control {
 }
 
 .pricing-numb{
-  font-size: var(--h2);
+  font-size: var(--h1);
   font-weight: var(--light);
 }
 .pricing-subNumb{
@@ -1134,7 +1139,7 @@ textarea.form-control {
   font-weight: var(--regualr);
 }
 .pricing-smallTxt{
-  font-size: 1.6rem;
+  font-size: var(--h4);
   font-weight: var(--light);
 }
 .plus-pricing{
@@ -1145,7 +1150,7 @@ textarea.form-control {
 .card-text{
   font-size: var(--h4);
   font-weight: var(--regular);
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .coming-soon{
   font-size: var(--smaller-size);
