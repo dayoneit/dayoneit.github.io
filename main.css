@@ -1196,6 +1196,13 @@ textarea.form-control {
     margin-bottom: 150px;
   }
 
+  .pricing .form-container{
+    padding: 46px 40px;
+    width: 460px;
+    height: 800px;
+    margin-bottom: 100px;
+  }
+
 }
 
 
@@ -1417,6 +1424,13 @@ textarea.form-control {
    }
    .form-container{
      padding: 46px 40px;
+   }
+
+   .pricing .form-container{
+     padding: 46px 40px;
+     width: 500px;
+     height: 700px;
+     margin-bottom: 90px;
    }
    .index .form-container{
      padding: 46px 76px;
