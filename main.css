@@ -991,7 +991,7 @@ textarea.form-control {
 }
 
 .pricing .btn .schedule-btn{
-  padding: 10px 0px;
+  padding: 10px px;
   font-size: var(--h4);
 }
 
@@ -1181,30 +1181,10 @@ textarea.form-control {
 }
 
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 
-  .horizontal-line-one{
-    margin-top: 10px;
-    margin-left: -15%;
-    position: absolute;
-    height: 80px;
-    width: 3px;
-    background-color: #DDDDDD;
-  }
-  .horizontal-line-two{
-    margin-top: 10px;
-    margin-left: -5%;
-    position: absolute;
-    height: 80px;
-    width: 3px;
-    background-color: #DDDDDD ;
-  }
-  .subscript-plan-detail{
-    margin-left: 50px;
-  }
-
-  .subscript-plan-detail{
-    margin-left: 7%;
+  .join-now{
+    margin-top: 50px;
   }
 
 
@@ -1228,6 +1208,30 @@ textarea.form-control {
     height: 700px;
     margin-bottom:  150px;
 
+  }
+
+  .horizontal-line-one{
+    margin-top: 10px;
+    margin-left: -15%;
+    position: absolute;
+    height: 80px;
+    width: 3px;
+    background-color: #DDDDDD;
+  }
+  .horizontal-line-two{
+    margin-top: 10px;
+    margin-left: -5%;
+    position: absolute;
+    height: 80px;
+    width: 3px;
+    background-color: #DDDDDD ;
+  }
+  .subscript-plan-detail{
+    margin-left: 50px;
+  }
+
+  .subscript-plan-detail{
+    margin-left: 7%;
   }
 
 
