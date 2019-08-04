@@ -295,7 +295,7 @@ body{
 }
 .logo{
   font-size: 4.0rem;
-  font-weight: var(--bold);
+  font-weight: var(--medium);
   color: var(--main-color);
 }
 
@@ -452,7 +452,7 @@ body{
 }
 .image-footer{
   font-weight: var(--regular);
-  font-size: var(--h4);
+  font-size: var(--h5);
   padding: 5px 15px;
   text-align: center;
 }
@@ -706,7 +706,7 @@ button a:focus, a:hover{
   margin-bottom: 15px;
 }
 .sub-textP2{
-  font-size: var(--h4 );
+  font-size: var(--h3);
   font-weight: var(--light);
   /* color: var(--heading-color); */
   margin-bottom: 15px;
@@ -726,7 +726,7 @@ button a:focus, a:hover{
   font-weight: var(--regular);
 }
 .contact-text{
-  font-size: var(--h4);
+  font-size: var(--h3);
   /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
@@ -756,7 +756,7 @@ button a:focus, a:hover{
 .footer{
   background-color: var(--footer-color);
   color: var(--white-color);
-  font-size: var(--h3);
+  font-size: var(--h4);
   padding-bottom: 65px;
   padding-top: 65px;
 }
@@ -998,17 +998,19 @@ textarea.form-control {
 
 
 .dollar-amount{
-  font-size: 6.4rem;
+  font-size: var(--h2);
   color: var(--heading-color);
   font-weight: 300;
   display: inline;
+  padding-top: 20px;
 }
 
 .per-year{
-  font-size: 4.0rem;
+  font-size: var(--h3);
   color: var(--heading-color);
   font-weight: var(--light);
   display: inline;
+  padding-top: 20px;
 }
 
 .pricing .learn-more .btn-primary{
@@ -1037,13 +1039,14 @@ textarea.form-control {
 }
 
 .discount-text {
-  font-size: 4.6rem;
+  font-size: var(--h1);
 	color: var(--heading-color);
   font-weight: var(--regualr);
+  padding-top:50px;
 }
 
 .discount-subtext{
-  font-size: 3.2rem;
+  font-size: var(--h3);
   color: var(--heading-color);
   font-weight: var(--light);
 }
@@ -1181,12 +1184,17 @@ textarea.form-control {
 }
 
 
+
+
 @media (max-width: 600px) {
 
   .join-now{
     margin-top: 50px;
   }
 
+  .credits-btn{
+    margin-bottom: 150px;
+  }
 
 }
 
@@ -1517,7 +1525,7 @@ textarea.form-control {
    }
 
    .onetime-btn .join-now{
-     padding-top: 50px;
+     padding-top: 75px;
      bottom: -30px;
      position: relative;
      /* margin-top:35px; */
@@ -1568,7 +1576,7 @@ textarea.form-control {
   }
 
   .join-now{
-    margin-top: 25px;
+    margin-top: 75px;
   }
 
  }
@@ -1695,6 +1703,10 @@ textarea.form-control {
     margin: 0 auto 0 0;
   }
 
+  .section-margin{
+    margin-bottom: 100px;
+  }
+
 }
 
 
@@ -1790,6 +1802,8 @@ textarea.form-control {
 .faq .subheading{
   font-size: var(--h2);
   font-weight: var(--light);
+   letter-spacing: 5px;
+
 }
 
 .faq .block-paragraph{
@@ -1798,9 +1812,10 @@ textarea.form-control {
 
 /* ======== Contact Page ======== */
 .contact-image {
-  width: 70%;
+  width: 100%;
   height: 70%;
 }
+
 @media only screen and (max-width: 1024px) {
   .contact-image {
     width: 100%;
@@ -1812,6 +1827,8 @@ textarea.form-control {
 
   .contact-image {
     margin-top: 25px;
+    width: 70%;
+    height: 70%;
   }
   .faq_content{
     margin-left: 3%;
@@ -1832,7 +1849,7 @@ textarea.form-control {
 
   .faq_content{
     margin-left: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 7.5%;
   }
 
 }
@@ -1889,7 +1906,7 @@ textarea.form-control {
 }
 
 .techie .image-footer {
-  font-size: var(--h4);
+  font-size: var(--h5);
 }
 
 .techie .applynow-btn {
@@ -1898,7 +1915,7 @@ textarea.form-control {
 }
 
 .techie .question-links {
-  font-size: var(--h5);
+  font-size: var(--h4);
 }
 
 .row-color {
