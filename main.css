@@ -82,7 +82,11 @@ body{
   margin-top:82px;
 }
 
-]
+.send{
+  width: 262px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
 
 @media only screen and (min-width: 600px) {
 
