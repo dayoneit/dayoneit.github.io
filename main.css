@@ -1,4 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Lato');*/
+html { font-size: 62.5%; }
 
 :root {
 	/*Colors*/
@@ -15,17 +16,17 @@
   --popup-field-color: rgba(196,196,196,0.2);
 
   /*Font*/
-  --heading-size: 40px;
-  --subheading-size: 28px;
-  --slogan-size: 56px;
-  --slogan-subtitle-size: 22px;
-  --link-size: 17px;
-  --desc-size: 22px;
-  --smaller-size: 14px;
-  --big-number-size: 88px;
-  --size-32: 32px;
-  --size-28: 28px;
-  --size-40: 40px;
+
+  --h1: 5.653rem;
+  --h2: 3.998rem;
+  --h3: 2.827rem;
+  --h4: 1.999rem;
+  --h5: 1.414rem;
+  --smaller-size: 1.4rem;
+  --big-number-size: 8.6rem;
+  --size-32: 3.2rem;
+  --size-28: 2.8rem;
+  --size-40: 4.0rem;
   --light: 300;
   --regular: 400;
   --medium: 500;
@@ -36,21 +37,42 @@
 
 }
 
+h1 {
+  font-size: 5.654rem;
+}
+
+h2 {
+  font-size: 3.998rem;
+}
+
+h3 {
+  font-size: 2.827rem;
+}
+
+h4 {
+  font-size: 51.999rem;
+}
+
+h5 {
+}
+
 
 body{
   width: 100%;
   margin: 0px;
   padding: 0px;
+  font-size: 62.5%;
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: var(--main-color-text);
 }
 
 
+
 /*======= Index Page========*/
 
 .nav-item {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .learnMore_email{
@@ -272,7 +294,7 @@ body{
   box-shadow: 0 2px 4px 0 rgba(46,62,72,.12), 0 0 2px 0 rgba(46,62,72,.12);
 }
 .logo{
-  font-size: 40px;
+  font-size: 4.0rem;
   font-weight: var(--bold);
   color: var(--main-color);
 }
@@ -299,11 +321,11 @@ body{
 }
 
 .slogan{
-  font-size: var(--slogan-size);
+  font-size: var(--h1);
   font-weight: var(--light);
 }
 .slogan-subtitle{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   line-height: 40px;
 	padding-right: 0;
@@ -323,7 +345,7 @@ body{
   margin-bottom: 100px;
 }
 .block-heading{
-	font-size: var(--heading-size);
+	font-size: var(--h2);
 	color: var(--heading-color);
   font-weight: var(--bold);
 }
@@ -340,7 +362,7 @@ body{
 }
 
 .block-link{
-  font-size: 20px;
+  font-size: 2.0rem;
   color: var(--main-color);
 }
 
@@ -382,13 +404,13 @@ body{
   margin-bottom: 25px;
 }
 .block-subheading{
-	font-size: var(--subheading-size);
+	font-size: var(--h3);
   font-weight: var(--regular);
   margin-bottom: 5px;
 }
 
 .apply .block-subheading{
-	font-size: var(--subheading-size);
+	font-size: var(--h3);
   font-weight: var(--light);
   margin-bottom: 5px;
 }
@@ -404,7 +426,7 @@ body{
 
 .block-paragraph {
   margin-bottom: 3%;
-  font-size: 20px;
+  font-size: var(--h4);
 }
 @media only screen and (max-width: 600px) {
   .block-paragraph {
@@ -425,18 +447,18 @@ body{
 .icon-text{
 	margin-top: 8px;
   color: var(--main-color-text);
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--light);
 }
 .image-footer{
   font-weight: var(--regular);
-  font-size: var(--link-size);
+  font-size: var(--h4);
   padding: 5px 15px;
   text-align: center;
 }
 .question-links{
   margin-top:75px;
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   color: var(--main-color);
 }
 .question-links:focus, .question-links:hover {
@@ -445,13 +467,12 @@ body{
     text-decoration: underline;
 }
 .icon-text-2{
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
-  text-transform: uppercase;
   margin-top: 15px;
 }
 .icon-text-sub{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h4);
   font-weight: var(--light);
   padding: 0 60px;
   margin-top: 7px;
@@ -474,7 +495,7 @@ body{
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.42857143;
   text-align: center;
@@ -492,7 +513,7 @@ body{
 }
 
 .btn-lg {
-  font-size: 20px;
+  font-size: 2.0rem;
   line-height: 1.33;
   border-radius: 6px;
 }
@@ -575,7 +596,7 @@ button a:focus, a:hover{
 }
 
 .tabs{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
 }
 .hiw-img{
@@ -583,12 +604,12 @@ button a:focus, a:hover{
   max-height: 245px;
 }
 .values-subheading{
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-bottom: 9px;
 }
 .values-desc{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h4);
   line-height: 29px;
   font-weight: var(--light);
 }
@@ -659,12 +680,12 @@ button a:focus, a:hover{
 }
 
 .review-textR{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   padding-left: 8%;
   padding-right: 20%;
 }
 .review-textL{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   padding-left: 7%;
   padding-right: 12%;
   margin-top: 20px;
@@ -673,19 +694,19 @@ button a:focus, a:hover{
   font-style: var(--italic);
 }
 .plus{
-  font-size: 100px;
+  font-size: 10.0rem;
   font-weight: var(--regular);
   opacity: 0.12;
 
 }
 .sub-textP{
-  font-size: var(--subheading-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   /* color: var(--heading-color); */
   margin-bottom: 15px;
 }
 .sub-textP2{
-  font-size: var(--subheading-size);
+  font-size: var(--h4 );
   font-weight: var(--light);
   /* color: var(--heading-color); */
   margin-bottom: 15px;
@@ -696,16 +717,16 @@ button a:focus, a:hover{
   color: var(--heading-color);
 }
 .big-numb-sub{
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: var(--regular);
 }
 .sub-textC{
   margin-bottom: 40px;
-  font-size: var(--subheading-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
 }
 .contact-text{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h4);
   /* font-weight: var(--regular); */
   color: var(--heading-color);
   float: left;
@@ -735,7 +756,7 @@ button a:focus, a:hover{
 .footer{
   background-color: var(--footer-color);
   color: var(--white-color);
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   padding-bottom: 65px;
   padding-top: 65px;
 }
@@ -763,7 +784,7 @@ button a:focus, a:hover{
   margin: 25px auto 20px;
 }
 .footer-orText{
-  font-size: 25px;
+  font-size: 2.5rem;
   background-color: var(--block-color);
   padding: 0 10px;
 }
@@ -776,8 +797,13 @@ button a:focus, a:hover{
   padding: 0px 78px;
   text-align: left;
 }
+
+.modal-body .radio-inline{
+  font-size: var(--h4);
+}
+
 .modal-title{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
@@ -797,7 +823,7 @@ button a:focus, a:hover{
 }
 
 .modal-thankYouTitle{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-top: 65px;
   text-align: center;
@@ -808,7 +834,7 @@ button a:focus, a:hover{
   padding: 0 0px;
 }
 .modal-subTitle{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-top: 16px;
   text-align: center;
@@ -817,6 +843,7 @@ button a:focus, a:hover{
   background-color: var(--popup-field-color);
   border: 1px solid #ffffff;
   box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+  font-size: var(--h5);
 }
 .modal-footer{
   text-align: center;
@@ -825,7 +852,7 @@ button a:focus, a:hover{
   margin-bottom: 65px;
 }
 .modal-text{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-bottom: 17px;
 }
@@ -847,12 +874,12 @@ button a:focus, a:hover{
 }
 
 .form-title{
-  font-size: var(--slogan-subtitle-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   text-align: center;
 }
 .form-subTitle{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-top: 16px;
   margin-bottom: 25px;
@@ -866,7 +893,7 @@ button a:focus, a:hover{
 }
 
 .form-text{
-  font-size: var(--link-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-bottom: 24px;
   line-height: 30px;
@@ -935,19 +962,19 @@ textarea.form-control {
 }
 
 .per-credit{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
 .credit-count {
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: 300;
 
 }
 
 .discount {
   color: #373737;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight:600;
 }
 
@@ -958,19 +985,22 @@ textarea.form-control {
 }
 
 .pricing .btn{
-  padding: 16px 60px
+  padding: 16px 60px;
+  font-size: var(--desc-size);
 
 }
 
+
+
 .dollar-amount{
-  font-size: 64px;
+  font-size: 6.4rem;
   color: var(--heading-color);
   font-weight: 300;
   display: inline;
 }
 
 .per-year{
-  font-size: 40px;
+  font-size: 4.0rem;
   color: var(--heading-color);
   font-weight: var(--light);
   display: inline;
@@ -982,6 +1012,10 @@ textarea.form-control {
   border: 3px solid;
 }
 
+.pricing .heading-border{
+  margin-bottom: 90px;
+}
+
 .green-check-mark{
   width: 45px;
   height: auto;
@@ -989,7 +1023,7 @@ textarea.form-control {
 
 
 .membership-details{
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 300;
 }
 
@@ -998,20 +1032,32 @@ textarea.form-control {
 }
 
 .discount-text {
-  font-size: 48px;
+  font-size: 4.6rem;
 	color: var(--heading-color);
   font-weight: var(--regualr);
 }
 
 .discount-subtext{
-  font-size: 32px;
+  font-size: 3.2rem;
   color: var(--heading-color);
   font-weight: var(--light);
+}
+
+.pricing-tree {
+  width: 450px;
+  height: auto;
 }
 
 
 @media only screen and (max-width: 600px) {
 
+  .pricing-tree {
+    width: 300px;
+    height: auto;
+  }
+  .discount-text{
+    padding-top: 50px;
+  }
   .pricing-container {
     margin-left:15px;
 
@@ -1058,20 +1104,20 @@ textarea.form-control {
     padding: 46px 36px;
 
   }
+
 }
 .about-pricing-row{
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 .card-heading{
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--medium);
-  text-transform: uppercase;
   margin-top: 26px;
   margin-bottom: 19px;
 }
 .subscript-numb{
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: var(--light);
   margin-bottom: 20px;
 }
@@ -1080,24 +1126,24 @@ textarea.form-control {
 }
 
 .pricing-numb{
-  font-size: 45px;
+  font-size: var(--h2);
   font-weight: var(--light);
 }
 .pricing-subNumb{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regualr);
 }
 .pricing-smallTxt{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: var(--light);
 }
 .plus-pricing{
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: var(--regular);
   opacity: 0.12;
 }
 .card-text{
-  font-size: var(--link-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-top: 80px;
 }
@@ -1109,7 +1155,7 @@ textarea.form-control {
   margin-bottom: 32px;
 }
 .bullet-text{
-  font-size: var(--desc-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   color: var(--heading-color);
   float: left;
@@ -1120,6 +1166,12 @@ textarea.form-control {
 .box-size{
   height: 605px;
   margin-bottom: 150px;
+
+}
+
+.heading-margin{
+    margin-top: 80px;
+
 
 }
 
@@ -1218,6 +1270,13 @@ textarea.form-control {
 
   }
 
+  .left-box-size{
+
+    height: 0px;
+    width: 473.33px;
+
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -1248,7 +1307,7 @@ textarea.form-control {
 
   .credits-btn{
     bottom: 0;
-    margin-top:33px;
+    padding-top: 162px;
   }
 
   .credits-price{
@@ -1282,7 +1341,7 @@ textarea.form-control {
 
   .left-box-size{
 
-    height: 670px;
+    height: 800px;
     width: 473.33px;
 
   }
@@ -1290,7 +1349,7 @@ textarea.form-control {
 
   .center-box-size{
 
-    height: 670px;
+    height: 800px;
     width: 473.33px;
 
   }
@@ -1396,6 +1455,17 @@ textarea.form-control {
    .subscript-plan-detail{
      margin-left: 16%;
    }
+   .left-box-size{
+
+     height: 670px;
+     width: 473.33px;
+
+   }
+
+   .credits-btn{
+     bottom: 0;
+     padding-top: 112px;
+   }
 
   }
 
@@ -1407,6 +1477,7 @@ textarea.form-control {
 
    .credits-btn{
      margin-top: 32px;
+     padding-top: 45px;
    }
 
    .center-box{
@@ -1434,6 +1505,13 @@ textarea.form-control {
    }
    .horizontal-line-two{
      margin-left: -4%;
+   }
+
+   .onetime-btn .join-now{
+     padding-top: 50px;
+     bottom: -30px;
+     position: relative;
+     /* margin-top:35px; */
    }
 
 
@@ -1466,7 +1544,7 @@ textarea.form-control {
     margin-bottom: 120px;
   }
   .credits-btn {
-    margin-top: 38px;
+    margin-top: 28px;
   }
   .subscript-plan-detail{
     margin-left: 17%;
@@ -1478,6 +1556,10 @@ textarea.form-control {
 
   .center-box {
     margin-left: 5%;
+  }
+
+  .join-now{
+    margin-top: 25px;
   }
 
  }
@@ -1566,11 +1648,15 @@ textarea.form-control {
     margin-bottom: 120px;
   }
   .credits-btn{
-    margin-top: 52px;
+    margin-top: 50px;
   }
 
   .onetime-btn{
     margin-top: 20px;
+  }
+
+  .join-now{
+    margin-top: 100px;
   }
 
 }
@@ -1647,7 +1733,7 @@ textarea.form-control {
 
 /* ======== Application Page ======== */
 .app-text{
-  font-size: var(--link-size);
+  font-size: var(--h4);
   font-weight: var(--regular);
   margin-bottom: 30px;
 
@@ -1670,7 +1756,18 @@ textarea.form-control {
 }
 
 .apply .question-links{
-  font-size: var(--link-size);
+  font-size: var(--h4);
+}
+
+.apply label{
+  font-size: var(--h4);
+}
+
+.apply .app-ques-subtitle{
+  font-size: var(--h5);
+  font-weight: var(--regular);
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /*========= FAQ PAge =============*/
@@ -1679,6 +1776,15 @@ textarea.form-control {
     margin-bottom: 100px;
 
   }
+}
+
+.faq .subheading{
+  font-size: var(--h2);
+  font-weight: var(--light);
+}
+
+.faq .block-paragraph{
+
 }
 
 /* ======== Contact Page ======== */
@@ -1730,7 +1836,7 @@ textarea.form-control {
 }
 
 .sub-heading {
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--regular);
   margin-bottom: 20px;
 }
@@ -1764,31 +1870,37 @@ textarea.form-control {
 }
 
 .techie .sub-textP  {
-  font-size: 25px;
+  font-size: var(--h4);
+
 
 }
 
 .techie .block-subheading {
-  font-size: var(--desc-size);
+  font-size: var(--h3);
 }
 
 .techie .image-footer {
-  font-size: var(--link-size);
+  font-size: var(--h4);
 }
 
 .techie .applynow-btn {
   padding: 15px 40px;
-  font-size: var(--link-size);
+  font-size: var(--h4);
 }
 
 .techie .question-links {
-  font-size: var(--link-size);
+  font-size: var(--h5);
 }
 
 .row-color {
     background-color: var(--block-color);
     padding-bottom: 0px;
 
+
+}
+
+.ming-quote{
+  padding-top: 50px;
 
 }
 
@@ -1808,7 +1920,11 @@ textarea.form-control {
 .applynow-btn{
   padding: 15px 60px;
   background-image: linear-gradient(90deg, #3700B3, #6200EE);
-  font-size: var(--desc-size);
+  font-size: var(--h4);
+}
+
+.ming{
+  font-size: var(--h4);
 }
 
 
@@ -1820,13 +1936,13 @@ textarea.form-control {
 }
 
 .app-title {
-  font-size: var(--subheading-size);
+  font-size: var(--h3);
   font-weight: var(--light);
   margin-bottom: 20px;
   padding-left: 10px;
 }
 
 .pop-confirmation{
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 200px;
 }
