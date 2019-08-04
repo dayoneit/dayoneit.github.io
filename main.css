@@ -447,7 +447,7 @@ body{
 .icon-text{
 	margin-top: 8px;
   color: var(--main-color-text);
-  font-size: var(--h3);
+  font-size: var(--h4);
   font-weight: var(--light);
 }
 .image-footer{
