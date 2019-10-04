@@ -205,38 +205,8 @@
       <div class="row">
         <div class="col-lg-2 col-lg-offset-5 text-center">
           <div class="join-now">
-            <button type="button" class="btn btn-primary btn-lg round" id="checkout-button-plan_abc123" style="margin-bottom: 20px;">Buy Now</button>
+            <button type="button" class="btn btn-primary btn-lg round" onclick="redirectToCheckout()"  style="margin-bottom: 20px;">Buy Now</button>
             <div id="error-message"></div>
-
-            <script>
-            var stripe = Stripe('pk_test_1xc0fE9f2HobvpJWiTI2tT4j00RZM8Ghs0');
-
-            var checkoutButton = document.getElementById('checkout-button-plan_abc123');
-            checkoutButton.addEventListener('click', function () {
-              // When the customer clicks on the button, redirect
-              // them to Checkout.
-              stripe.redirectToCheckout({
-                items: [{plan: 'plan_abc123', quantity: 1}],
-
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://orchardinfo.com/pricing.html',
-                cancelUrl: 'https://orchardinfo.com/',
-              })
-              .then(function (result) {
-                if (result.error) {
-                  // If `redirectToCheckout` fails due to a browser or network
-                  // error, display the localized error message to your customer.
-                  var displayError = document.getElementById('error-message');
-                  displayError.textContent = result.error.message;
-                }
-              });
-            });
-            </script>
-
             <div id="modal1"></div>
 
           </div>
